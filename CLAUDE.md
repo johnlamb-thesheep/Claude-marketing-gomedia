@@ -47,6 +47,11 @@ researcher (optional)
 
 ## Clients
 
+- **gomedia** — B2B, Singapore. Audience: property agents. Products: LeadX buyer leads, LeadX seller leads, telemarketer/ISA system, CRM. Ad data: Meta ad account `903306407477320`, campaigns whose name contains "trade marketing".
+- **gomedia-homes** — B2C, Singapore. Brand name used in ads: "GoAhead". Audience: new launch condo/EC buyers. Ad data: same Meta ad account `903306407477320`, campaigns whose name contains "buyer" AND does NOT contain "r&f", "sky", "jess", or "gomedia".
+
+Both clients share one Meta ad account. Every performance or tracking read against this account MUST apply the campaign-name filter above before attributing spend, leads, or results to either client — pulling the account's full campaign list without that filter will mix the two clients' data.
+
 Each client lives in `clients/<client_name>/`:
 - `brand.md` — positioning, ICP, offer, voice, proof, must/must-not (maintained by strategist, foundation mode)
 - `learnings.md` — append-only log of what worked/didn't (maintained by performance)
