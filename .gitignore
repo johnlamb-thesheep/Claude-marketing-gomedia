@@ -1,4 +1,6 @@
 .env
+*.env
 *.key
 .DS_Store
 .claude/settings.local.json
+node_modules/
