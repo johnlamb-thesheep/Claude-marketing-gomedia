@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "skills": {
+    "ad-account-diagnostic": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-account-diagnostic/SKILL.md",
+      "computedHash": "e4ae853655c60c560d9c7584fdd1448b670201435636e53c805521524fb1aaf7"
+    },
+    "ad-copy-variants": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-copy-variants/SKILL.md",
+      "computedHash": "f8380d403b7e4c74e1945f6eb31df76ff577e175ad24075441e216d0046ebf79"
+    },
+    "ad-creative": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-creative/SKILL.md",
+      "computedHash": "af273330c6d7960511955310f6854d1b177b4a027e26d502258362c6a8c8ec6e"
+    },
+    "ad-creative-brief": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-creative-brief/SKILL.md",
+      "computedHash": "960dab7ada001211ad9ae071c83f68638d9a3d18206f4b8b9bcef2eef5b4c027"
+    },
+    "ad-creative-fatigue": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-creative-fatigue/SKILL.md",
+      "computedHash": "556109c6923288fb344e123e45d6a0e83236b9b53a8ba5a60c0682ba479698e5"
+    },
+    "ad-creative-test-plan": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-creative-test-plan/SKILL.md",
+      "computedHash": "c5035262bdc80ff58e5d0f06c4c31702b88621f28b608b1a0df480bc3be2e6e8"
+    },
+    "ad-hook-analyzer": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-hook-analyzer/SKILL.md",
+      "computedHash": "687cee043affa96e7952b35812e116901058fbb9ec3fa9a10adcdfeb4e7471ae"
+    },
+    "ads": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/ads/SKILL.md",
+      "computedHash": "228fb4e7272305de287f0c635275eb1b967fa16a58e3ad76d5f61245b831eb7e"
+    },
+    "ads-competitor": {
+      "source": "agricidaniel/claude-ads",
+      "sourceType": "github",
+      "skillPath": "skills/ads-competitor/SKILL.md",
+      "computedHash": "b9b43b4ab0d4a96aeb5c83c9e34e57fda39c66282472ab880b39c4ead0bf9339"
+    },
+    "ads-creative": {
+      "source": "agricidaniel/claude-ads",
+      "sourceType": "github",
+      "skillPath": "skills/ads-creative/SKILL.md",
+      "computedHash": "b23c60404b3f03c374f11048a75a47ae39f2d9698149b8d69653f31d4b5c6b15"
+    },
+    "ads-dna": {
+      "source": "agricidaniel/claude-ads",
+      "sourceType": "github",
+      "skillPath": "skills/ads-dna/SKILL.md",
+      "computedHash": "dc4083a68eff4ca92275c2f751814052f5b33d4980e1fc5e6356b6d1a0b11fee"
+    },
+    "ads-landing": {
+      "source": "agricidaniel/claude-ads",
+      "sourceType": "github",
+      "skillPath": "skills/ads-landing/SKILL.md",
+      "computedHash": "c6774359f6b927a70837afe99e0c9b93b1d593b2f0d265c19019905a4892a7a5"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "computedHash": "8afb468ec4e184cc2c4d418148ddf32abfb9508d8712133797409acd69233638"
+    },
+    "cro": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/cro/SKILL.md",
+      "computedHash": "6245588aa1b84022456c8c0e7b7406ba3db19d5f8435111b68371f82b43ad85c"
+    },
+    "meta-ads-library": {
+      "source": "hyperfx-ai/marketing-skills",
+      "sourceType": "github",
+      "skillPath": "skills/meta-ads-library/SKILL.md",
+      "computedHash": "9a285ded18d18d3ed00376377f48fb7acc57bd6b034aea44d465d9e925a3afae"
+    },
+    "product-marketing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/product-marketing/SKILL.md",
+      "computedHash": "278a497b8ebb08533c811d48ef52a013239c2956f3021b9b8f50fb58204410c4"
+    },
+    "static-ads": {
+      "source": "alecs5am/ralphy",
+      "sourceType": "github",
+      "skillPath": "notes/skills/static-ads/SKILL.md",
+      "computedHash": "46331b76a62d1ae70b654f6c3cde20605522ef22dfe4d0a3cba487ab2a99664a"
+    },
+    "ugc-ad-scripts": {
+      "source": "mbfinotti/advertising-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ugc-ad-scripts/SKILL.md",
+      "computedHash": "5dcb58b7931616dbe9810a7797b3f7d755f2d99c361782666830ad621770fd62"
+    }
+  }
+}
