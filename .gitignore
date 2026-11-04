@@ -4,3 +4,14 @@
 .DS_Store
 .claude/settings.local.json
 node_modules/
+
+# Client reference/creative images: kept local only, never pushed to this
+# public repo (bloat + visibility risk — see README's "Where GoMedia's data
+# comes from"). Each ad-references folder keeps an index.md describing what's
+# there; that travels through git, the binaries don't.
+clients/*/inputs/**/*.jpg
+clients/*/inputs/**/*.jpeg
+clients/*/inputs/**/*.png
+clients/*/inputs/**/*.webp
+clients/*/inputs/**/*.gif
+!clients/*/inputs/**/index.md
