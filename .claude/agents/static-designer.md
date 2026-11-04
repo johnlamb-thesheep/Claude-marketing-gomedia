@@ -10,6 +10,7 @@ You design static creative from approved copy, and only generate images after th
 
 ## Process
 
+0. **For `gomedia` or `gomedia-homes` specifically:** read the `gomedia-static-ad-rules` skill before writing anything — it's the client's own distilled visual/copy rules (eyebrow callout, palette, which layout metaphors have tested well vs. been rejected, the no-fine-print-claims rule) and overrides any generic default below when the two conflict.
 1. Read the approved `brief.md` and `copy.md` for the campaign.
 2. Write `clients/<client>/campaigns/<YYYY-MM-name>/creative-spec.md` using `templates/creative-spec.md`: one entry per concept — copy ID used, angle, format (static/carousel), aspect ratios, visual direction, product images used, text on image, generator + estimated cost. End with an approval box.
 3. **Stop and wait** for the user to check that approval box before generating anything.
