@@ -1,0 +1,177 @@
+<meta charset="UTF-8">
+<title>GoMedia Agent Team</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* layout: one hub at top, nine spokes in a 3x3 grid below, SVG connectors drawn between */
+    --bg:#faf8f4; --surface:#ffffff; --line:#e3ddd0;
+    --ink:#1c2420; --ink-muted:#5c6a62; --ink-faint:#93a098;
+    --accent:#0f6e6e; --accent-2:#c9541f; --accent-soft:#e2f0ee;
+    --hub-bg:#15302e; --hub-fg:#f6efe4;
+    --mono:'IBM Plex Mono', ui-monospace, monospace;
+    --sans:'IBM Plex Sans', system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);}
+  body{font-family:var(--sans); color:var(--ink); padding:56px 40px 60px;}
+  .stage{max-width:1180px; margin:0 auto; position:relative;}
+
+  .eyebrow{
+    text-align:center; font-family:var(--mono); font-size:12px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent-2); font-weight:600; margin:0 0 10px;
+  }
+
+  /* ---- hub ---- */
+  .hub-wrap{display:flex; justify-content:center; margin-bottom:8px;}
+  .hub{
+    position:relative; z-index:3; background:var(--hub-bg); color:var(--hub-fg);
+    border-radius:26px; padding:28px 54px; text-align:center;
+    box-shadow:0 18px 40px -16px rgba(21,48,46,.45);
+  }
+  .hub-badge{
+    font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+    color:#9fd9d1; margin-bottom:8px;
+  }
+  .hub-title{
+    font-weight:700; font-size:30px; letter-spacing:-0.01em; line-height:1.1; margin:0 0 8px;
+  }
+  .hub-sub{font-family:var(--mono); font-size:12.5px; color:#bcd4cf; letter-spacing:.02em;}
+
+  /* ---- connector svg ---- */
+  .wires{position:relative; width:100%; height:92px; z-index:1;}
+  .wires svg{position:absolute; inset:0; width:100%; height:100%; overflow:visible;}
+
+  /* ---- spokes grid ---- */
+  .spokes{
+    position:relative; z-index:2; display:grid;
+    grid-template-columns:repeat(3, 1fr); gap:20px 22px;
+  }
+  .spoke{
+    background:var(--surface); border:1px solid var(--line); border-radius:16px;
+    padding:18px 18px 16px; text-align:left; position:relative;
+  }
+  .spoke::before{
+    content:""; position:absolute; left:50%; top:-20px; width:1.5px; height:20px;
+    background:var(--line); transform:translateX(-50%);
+  }
+  .icon{
+    width:38px; height:38px; border-radius:11px; background:var(--accent-soft);
+    display:flex; align-items:center; justify-content:center; color:var(--accent);
+    margin-bottom:12px;
+  }
+  .spoke.highlight .icon{background:var(--accent-2); color:#fff;}
+  .spoke-name{font-weight:700; font-size:15.5px; margin:0 0 5px; letter-spacing:-0.005em;}
+  .spoke-role{font-size:12.8px; line-height:1.5; color:var(--ink-muted); margin:0;}
+  .spoke-tag{
+    display:inline-block; margin-top:10px; font-family:var(--mono); font-size:10px;
+    letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint);
+    border:1px solid var(--line); border-radius:5px; padding:2px 7px;
+  }
+
+  .foot{
+    text-align:center; margin-top:34px; font-family:var(--mono); font-size:11.5px;
+    color:var(--ink-faint); letter-spacing:.02em;
+  }
+  .foot b{color:var(--ink-muted); font-weight:600;}
+
+  @media (max-width:860px){
+    .spokes{grid-template-columns:repeat(2,1fr);}
+  }
+</style>
+
+<div class="stage">
+  <p class="eyebrow">claude-marketing · one pipeline, nine specialists</p>
+  <div class="hub-wrap">
+    <div class="hub">
+      <div class="hub-badge">GoMedia</div>
+      <div class="hub-title">Marketing Agent Team</div>
+      <div class="hub-sub">brand.md → brief → copy → creative → qa → results</div>
+    </div>
+  </div>
+
+  <div class="wires">
+    <svg viewBox="0 0 1180 92" preserveAspectRatio="none">
+      <g fill="none" stroke="#cfc8b8" stroke-width="1.5">
+        <path d="M 590 0 C 590 28, 110 28, 110 92"/>
+        <path d="M 590 0 C 590 30, 440 30, 440 92"/>
+        <path d="M 590 0 C 590 32, 770 32, 770 92"/>
+        <path d="M 590 0 C 590 34, 1100 34, 1100 92"/>
+        <path d="M 590 0 L 590 92"/>
+        <path d="M 590 0 C 590 30, 275 30, 275 92"/>
+        <path d="M 590 0 C 590 32, 905 32, 905 92"/>
+        <path d="M 590 0 C 590 28, 30 28, 30 92" opacity=".0"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="spokes">
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="20" y1="20" x2="15.3" y2="15.3"/></svg></div>
+      <p class="spoke-name">Researcher</p>
+      <p class="spoke-role">Pulls competitor ads &amp; market patterns before strategy starts.</p>
+      <span class="spoke-tag">optional</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M15 9l-3.5 1.5L10 14l3.5-1.5z" fill="currentColor" stroke="none"/></svg></div>
+      <p class="spoke-name">Strategist</p>
+      <p class="spoke-role">Owns positioning, ICP, offer — writes the brief and test plan.</p>
+      <span class="spoke-tag">brand.md</span>
+    </div>
+
+    <div class="spoke highlight">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1-4L17 4l3 3L8 19l-4 1z"/><path d="M14 7l3 3"/></svg></div>
+      <p class="spoke-name">Copywriter</p>
+      <p class="spoke-role">Turns the approved brief into testable ad copy variants.</p>
+      <span class="spoke-tag">copy.md</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 3.5 3.5L17 11l3.3 3.3"/></svg></div>
+      <p class="spoke-name">Static Designer</p>
+      <p class="spoke-role">Specs static concepts, then generates images after approval.</p>
+      <span class="spoke-tag">creative-spec.md</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2.2"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></div>
+      <p class="spoke-name">Video Designer</p>
+      <p class="spoke-role">Writes hook-first video scripts and generator prompts.</p>
+      <span class="spoke-tag">video-script.md</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.2"/><line x1="3.5" y1="8.5" x2="20.5" y2="8.5"/><circle cx="6.3" cy="6.5" r=".6" fill="currentColor"/><circle cx="8.3" cy="6.5" r=".6" fill="currentColor"/></svg></div>
+      <p class="spoke-name">Landing Page</p>
+      <p class="spoke-role">Builds the page matching the winning ad, audits its own work.</p>
+      <span class="spoke-tag">lp-brief.md</span>
+    </div>
+
+    <div class="spoke highlight">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 3v5.3c0 4.4-3 7.3-7 8.7-4-1.4-7-4.3-7-8.7V6.5z"/><path d="M9 12l2 2 4-4.2"/></svg></div>
+      <p class="spoke-name">QA</p>
+      <p class="spoke-role">Checks every output vs brand &amp; compliance. Last gate before launch.</p>
+      <span class="spoke-tag">qa.md</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".9" fill="currentColor" stroke="none"/></svg></div>
+      <p class="spoke-name">Tracking</p>
+      <p class="spoke-role">Read-only pixel/CAPI health checks — flags issues, fixes nothing.</p>
+      <span class="spoke-tag">tracking.md</span>
+    </div>
+
+    <div class="spoke">
+      <div class="icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="20" x2="20" y2="20"/><rect x="6" y="13" width="3" height="7"/><rect x="11" y="9" width="3" height="11"/><rect x="16" y="5" width="3" height="15"/></svg></div>
+      <p class="spoke-name">Performance</p>
+      <p class="spoke-role">Reads results, renders the fatigue verdict, logs it to learnings.</p>
+      <span class="spoke-tag">results.md</span>
+    </div>
+
+  </div>
+
+  <p class="foot">2 approval gates before anything launches · results feed back into <b>learnings.md</b> for the next brief</p>
+</div>
