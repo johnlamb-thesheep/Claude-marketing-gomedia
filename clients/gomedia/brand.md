@@ -40,6 +40,17 @@
 - Never claim guaranteed sales or commissions.
 - "Guaranteed" only with T&C reference.
 - Don't name other agencies (ERA, PropNex, etc.) in a way that implies endorsement. TODO: confirm client is OK naming them at all.
+- Do NOT include "Free lead replacement" or "WhatsApp automation included" as a default fine-print/boilerplate line in ad copy or creative specs — client flagged this is overused (2026-11-04). Only include either claim when the client explicitly asks for it in that specific request, OR when WhatsApp automation is the actual hook/core concept of a specific ad (e.g. an "inbound leads + instant auto-follow-up" angle) rather than a disclaimer.
+- CONFLICT TO RESOLVE WITH CLIENT: Section 1 above lists "LeadX" as the product name (buyer leads / seller leads), but the client told us directly (2026-11-04) to remove "LeadX" from ad copy and use generic "we/us" instead, across both a seller-leads ad and a buyer-leads ad. Worth confirming whether LeadX is being retired/de-emphasized as a consumer-facing brand name, or whether this was specific to those two ads only — don't assume either way for new creative.
+
+## 5a. Ad creative layout guidelines (added 2026-11-04, from client direction during a seller/buyer leads creative session)
+- Every ad must carry a small eyebrow callout at the very top, naming the audience:
+  - Agent-facing ads (selling leads to property agents — the large majority of GoMedia's ads): **"PROPERTY AGENT"** — small, bold, red, all-caps.
+  - Homebuyer-facing ads (if GoMedia ever targets homebuyers directly rather than agents): **"SINGAPORE HOMEBUYER"** instead.
+- Headlines should be kept SHORT.
+- Default static-ad aspect ratio is **4:5 (1080×1350)**. Only produce another ratio (e.g. 1:1) if explicitly requested.
+- Visual reference for the house style: white background, black primary text, bold red accent (~#D32B2B) for the eyebrow/CTA/stat lines, light-grey panel for any data/table/supporting block, outlined CTA button. Layout METAPHOR itself can and should vary by ad (straight data table, notebook/checklist, leaderboard/ranking, listing-card stack, boarding-pass/ticket, pin-map, receipt/invoice comparison, crossed-out equation, split-screen versus, stamped-guarantee invoice, etc.) — the client wants creative variety in layout, not the same table reused every time, as long as the color system and eyebrow/CTA anchors stay consistent.
+- Concrete, real numbers land better than vague placeholders: e.g. the comparison angle ("stop paying for clicks, start paying for leads") performs better stated as "$2,000/month, no guarantee" (typical agency cost — matches Section 1's "Main alternative" line above) vs. "$500/month, 10 verified seller leads" — a specific dollar-for-dollar contrast, not an abstract "clicks vs leads" framing.
 
 ## 6. Voice
 - Tone in 3 words: direct, no-nonsense, numbers-led (draft — confirm)

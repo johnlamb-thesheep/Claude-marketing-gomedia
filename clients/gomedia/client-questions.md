@@ -18,3 +18,4 @@ Pulled from the TODOs in `brand.md`. Most important first.
 14. Is "direct, no-nonsense, numbers-led" the right way to describe GoMedia's voice, or would you put it differently?
 15. What colors, fonts, and logo files should we use, and is there a specific visual style for images?
 16. Can you share 20+ real ad examples, WhatsApp scripts, and sales messages we can use as copy reference?
+17. Is "LeadX" still the product name to use in ads going forward, or should new creative stay generic ("we/us") as directed on 2026-11-04? Two recent ads (a seller-leads comparison ad and a buyer-leads inbound ad) had the name removed per direct client instruction — want to confirm whether that's a one-off or a standing change, since brand.md Section 1 still lists LeadX as the product name.
