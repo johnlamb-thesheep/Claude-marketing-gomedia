@@ -68,6 +68,27 @@ From a Meta Ad Library check (2026-11-04, SG housing ads; full writeup with snap
 
 **Caveat:** this read is from ad titles/page names/timing only — Facebook's ad snapshot pages blocked automated visual inspection (403). It tells you what headlines/hooks are saturated, not whether competitors' actual visual execution (photo collage, benefit icons, trust footer) also converges on GoMedia's look. Don't assume visual saturation from this alone.
 
+## New-launch PROJECT ads — the 5-angle format (distinct from the custom-list format above)
+
+Separate ad type from the headline-formula/benefit-row format above: this is for promoting **one specific named new-launch project** (e.g. "One Marina Gardens," "Bagnall Haus"), not a generic bedroom-count/custom-list offer. Built and validated across 8 real projects, 2026-11.
+
+**The 5 required angles per project** (run all 5 per project; a 6th "curiosity/story" angle is optional and higher-risk — see below):
+1. **Direct** — project name front and center in the headline.
+2. **Blind** — need-led or area-led (e.g. "New Launch Condo in Marina South," "Looking for a brand-new family home?"), **not cryptic/curiosity-gap wording**, project name revealed in the subhead, not the headline. (A separate, riskier "curiosity/story" mechanic exists — e.g. "This Corner of the City Is Changing Fast" — keep it optional and clearly labeled higher-risk, never conflate it with "blind.")
+3. **Floor layout** — an actual floor-plan line-drawing graphic as the visual hero, paired with a real building photo (both required, not either/or). This is relative white space: most competitors bundle "floor plan" as a download afterthought, not a hero visual — lean into it.
+4. **MRT distance** — use only a confirmed walk-time/station fact. If none is confirmed for this project, fall back to general area/location framing ("heart of Marina South") instead of inventing a distance. When a strong confirmed fact exists (e.g. "500m / 5-min walk to Boon Keng MRT"), state it directly with no hedging.
+5. **Price/PSF** — use only confirmed figures, with "approx."/"from" qualifiers whenever sources disagree. For a pre-launch project with no released price, reframe this angle entirely as "Price Coming Soon / Be first to know" rather than guessing a number, and if any estimate exists, label it explicitly as an analyst estimate, never as a confirmed launch price.
+
+**Research before writing any of this:** (1) check newlaunches.sg's "Popular Projects This Week" for the current hot-project list, (2) web-search each project's own facts (district, tenure, developer, psf, unit mix, TOP) from PropertyGuru/EdgeProp/SRX/99.co/HomeJourney — sources frequently disagree for pre-launch projects, so note the disagreement and qualify rather than pick one silently, (3) run a Meta Ad Library check on the project name itself for live competitor examples of each angle — this is usually rich (an advertiser running the exact 5-angle split simultaneously on one project is a realistic finding, not a hypothetical).
+
+**Never invent:** price, psf, unit count, or MRT distance that isn't confirmed by research. When a project is genuinely pre-launch with no official figures, reframe the affected angle (see price/PSF above) rather than filling the gap with a guess. Real, sourced differentiators (e.g. "over 60% take-up on launch weekend," "first major Hougang launch since 2018/2019") are good to use as supporting proof — invented urgency/scarcity is not.
+
+**CTA for project ads — a third decision point beyond the base rule above:**
+- **"GET PRICE LIST & E-BROCHURE"** — for a project with a real, released price list (matches GoMedia's own live ad titles).
+- **"REGISTER YOUR INTEREST"** — for a pre-launch project with no price released yet. Promising a price list that doesn't exist is a broken first touch for the lead; this is the standard SG new-launch VIP-registration mechanic for exactly this situation. Don't default either CTA without checking which stage the project is actually at.
+
+**Real photo rule — pre-launch exception:** the base house rule ("every creative needs a real photo, no exceptions") genuinely cannot be met for a project that hasn't TOP'd — there is no completed building to photograph. For these, substitute a photoreal architectural-render-style image and label it **"*IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY*"** (distinct from the standard "*IMAGE SAMPLE ONLY*" staged-photo label, which is for a real photo of a different/similar unit — "artist's impression" is for a render standing in for a building that doesn't physically exist yet). Flag this explicitly rather than silently dropping the real-photo requirement, and note that an official developer render should replace the AI one if the client has one.
+
 ## Format and cost discipline
 
 Same as the base static-designer process: spec first with an approval box, then — only after approval — a stated cost estimate and a second go-ahead before any paid image generation.
