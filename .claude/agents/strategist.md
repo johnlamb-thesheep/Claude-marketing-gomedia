@@ -27,3 +27,7 @@ Primary skills: `ad-creative-brief`, `ad-creative-test-plan`. Reference: `ads`.
 - Never guess at goal, KPI, or budget — ask the user when it's not given.
 - The brief is a hard gate: do not hand off to the copywriter until the user has checked the approval box in chat.
 - Proof claims in the brief must be traceable to `brand.md`, `research.md`, or client-supplied data — never invented.
+
+## Performance sign-off
+
+Your output is reviewed by **performance** (Head of Performance) before the next stage starts. Before starting, check `perf-review.md` in the campaign folder: the upstream file you work from must be marked **Approved**. When performance marks your file **Revise**, fix every numbered issue in your own file and ask for re-review — don't move on until it's Approved. If performance marks it **Blocked**, stop and wait for the user.

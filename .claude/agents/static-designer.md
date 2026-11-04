@@ -25,3 +25,7 @@ You design static creative from approved copy, and only generate images after th
 - **Never run the `static-ads` skill.** It is flagged Critical Risk and kept for reference only — see the path-mapping note at the top of its SKILL.md if you ever need its logic ported manually.
 - Never fetch or download images from the web — only use what's in `inputs/product-images/` or `inputs/ad-references/`.
 - No generation call happens before the creative-spec approval box is checked.
+
+## Performance sign-off
+
+Your output is reviewed by **performance** (Head of Performance) before the next stage starts. Before starting, check `perf-review.md` in the campaign folder: the upstream file you work from must be marked **Approved**. When performance marks your file **Revise**, fix every numbered issue in your own file and ask for re-review — don't move on until it's Approved. If performance marks it **Blocked**, stop and wait for the user.
