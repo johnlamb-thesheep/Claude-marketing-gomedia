@@ -18,9 +18,33 @@ Read `CLAUDE.md` — it governs every agent in `.claude/agents/` and lays out th
 
 To push changes back to this repo, use the `/upload` command rather than raw git commands — it scans changed files for secrets before committing.
 
-## Animated diagram
+## Pipeline diagram
 
-Open [`docs/agent-pipeline.html`](docs/agent-pipeline.html) in a browser (or open the file locally after cloning) for an animated walk-through of all 9 agents, the two approval gates, and which skills/tools each agent uses.
+```mermaid
+flowchart TD
+    R(["Researcher — optional"]) -.-> S["Strategist"]
+    S --> G1{{"✓ You approve brief.md"}}
+    G1 --> C["Copywriter"]
+    C --> SD["Static Designer"]
+    C --> VD["Video Designer"]
+    SD --> LP["Landing Page — if needed"]
+    VD --> LP
+    LP --> QA["QA"]
+    QA --> G2{{"✓ You approve before launch"}}
+    G2 --> TR["Tracking — read-only"]
+    G2 --> PF["Performance — read-only"]
+    PF --> L[("learnings.md")]
+    L -. read before every new brief .-> S
+
+    classDef gate fill:#f6e8d4,stroke:#9a5b12,color:#6b3d0c,stroke-width:2px;
+    classDef optional stroke-dasharray: 5 5;
+    class G1,G2 gate;
+    class R optional;
+```
+
+Dashed = optional/feedback, hexagon = hard-stop approval, `SD`/`VD` and `TR`/`PF` run in parallel. See the agent table below for what each one does, writes, and which skill it leans on.
+
+For the full animated version (card-by-card detail, skills/tools per agent, a pulse that walks the pipeline) open [`docs/agent-pipeline.html`](docs/agent-pipeline.html) in a browser after cloning.
 
 ## Meet the team — 9 agents, 2 hard-stop approvals
 
