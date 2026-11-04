@@ -1,0 +1,88 @@
+<meta charset="UTF-8">
+<title>How To Install</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#faf8f4; --surface:#ffffff; --line:#e3ddd0;
+    --ink:#1c2420; --ink-muted:#5c6a62; --ink-faint:#93a098;
+    --accent:#0f6e6e; --accent-2:#c9541f; --accent-soft:#e2f0ee; --accent2-soft:#fbe7da;
+    --hub-bg:#15302e; --hub-fg:#f6efe4;
+    --mono:'IBM Plex Mono', ui-monospace, monospace;
+    --sans:'IBM Plex Sans', system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);}
+  body{font-family:var(--sans); color:var(--ink); padding:52px 48px;}
+  .stage{max-width:1180px; margin:0 auto;}
+
+  .eyebrow{text-align:center; font-family:var(--mono); font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent-2); font-weight:600; margin:0 0 12px;}
+  h1{text-align:center; font-weight:700; font-size:32px; letter-spacing:-0.012em; margin:0 0 38px;}
+
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:26px;}
+  .col{background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:28px 26px 24px;}
+  .col-head{display:flex; align-items:center; gap:12px; margin-bottom:6px;}
+  .col-icon{
+    width:40px; height:40px; border-radius:11px; display:flex; align-items:center; justify-content:center; flex:0 0 auto;
+  }
+  .col.code .col-icon{background:var(--accent-soft); color:var(--accent);}
+  .col.chat .col-icon{background:var(--accent2-soft); color:var(--accent-2);}
+  .col-title{font-size:18px; font-weight:700; letter-spacing:-0.005em;}
+  .col-sub{font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); margin:2px 0 18px;}
+
+  .task-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px;}
+  .task{display:flex; gap:12px; align-items:flex-start;}
+  .task .n{
+    font-family:var(--mono); font-weight:700; font-size:12px; color:var(--ink-faint);
+    width:20px; flex:0 0 auto; padding-top:1px;
+  }
+  .task .t{font-size:13.6px; line-height:1.55; color:var(--ink-muted);}
+  .task .t b{color:var(--ink); font-weight:600;}
+  .task .t code{font-family:var(--mono); font-size:12px; background:var(--bg); padding:1px 6px; border-radius:4px; color:var(--ink);}
+
+  .result{
+    margin-top:20px; padding-top:16px; border-top:1px dashed var(--line);
+    font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); display:flex; gap:7px;
+  }
+  .result b{color:var(--ink-muted); font-weight:600;}
+
+  .vs{
+    display:flex; align-items:center; justify-content:center; margin:0; position:relative;
+  }
+
+  @media (max-width:860px){ .cols{grid-template-columns:1fr;} }
+</style>
+
+<div class="stage">
+  <p class="eyebrow">getting started</p>
+  <h1>Two ways in — pick the one that fits</h1>
+
+  <div class="cols">
+    <div class="col code">
+      <div class="col-head">
+        <div class="col-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg></div>
+        <div><div class="col-title">Claude Code</div><div class="col-sub">full 9-agent pipeline</div></div>
+      </div>
+      <ul class="task-list">
+        <li class="task"><span class="n">1</span><span class="t"><b>Get Claude Code</b> — Pro / Max / Team / Enterprise, or pay-as-you-go via an Anthropic Console API key (no subscription required for that route).</span></li>
+        <li class="task"><span class="n">2</span><span class="t"><b>Clone this repo</b> and open the folder in Claude Code — <code>CLAUDE.md</code> and <code>.claude/</code> load automatically.</span></li>
+        <li class="task"><span class="n">3</span><span class="t">Say <b>"set this up"</b> — the onboarding skill places everything in <code>Documents/claude-marketing</code> and checks prerequisites.</span></li>
+      </ul>
+      <div class="result">→ <b>unlocks:</b>&nbsp;all 9 agents, file handoffs, approval gates, client data</div>
+    </div>
+
+    <div class="col chat">
+      <div class="col-head">
+        <div class="col-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 9 9 0 0 1-3.6-.8L3 20l1-4.5a8.4 8.4 0 0 1-.9-3.8A8.4 8.4 0 0 1 11.9 3a8.3 8.3 0 0 1 9.1 8.5z"/></svg></div>
+        <div><div class="col-title">claude.ai chat</div><div class="col-sub">one skill at a time, any plan</div></div>
+      </div>
+      <ul class="task-list">
+        <li class="task"><span class="n">1</span><span class="t"><b>Paste this repo's link</b> into any normal claude.ai conversation — no install, no account upgrade.</span></li>
+        <li class="task"><span class="n">2</span><span class="t"><b>Say what you're trying to do</b> — write ad copy, audit a landing page, score a video hook — or name a skill directly.</span></li>
+        <li class="task"><span class="n">3</span><span class="t">Claude fetches that one <code>SKILL.md</code> and uses it for the rest of the conversation.</span></li>
+      </ul>
+      <div class="result">→ <b>unlocks:</b>&nbsp;one skill at a time — no pipeline, no file handoffs, no approval gates</div>
+    </div>
+  </div>
+</div>
