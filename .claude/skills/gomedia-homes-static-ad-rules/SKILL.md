@@ -44,10 +44,29 @@ Real interior photos only — living room, bedroom, kitchen — arranged as a mu
 
 Red is the dominant house color (matches the reference set's majority), but **not rigidly fixed** — one reference ad runs an all-blue theme instead, likely an A/B variant. Default to red unless the brief specifically calls for a blue (or other) variant to be tested against it. White background either way; black for primary text.
 
-## CTA — two distinct funnel types, don't conflate them
+## CTA — check what the offer actually is before defaulting to "GET QUOTE"
 
-- **"GET QUOTE"** (pill-shaped button, arrow icon) — consultation funnel, used on the standard lifestyle/price listing ads.
-- **"DOWNLOAD LIST"** — a completely different format: lead-magnet ad for a specific bedroom-count/price-segment list (e.g. "List of 4 Bedder Condo, $2.3M price under"). This format drops the benefit-icon row and trust footer in favor of 3 trust *chips* specific to the list itself (No Duplicate · Real-Time Listing · No Fake Listing) and a price-under badge directly on the photo. Use this format only when the brief's offer is literally a downloadable list, not a general consultation.
+**Don't assume "GET QUOTE" by default.** The reference ad set's CTA split (GET QUOTE vs. DOWNLOAD LIST, below) describes two different ad *formats* seen in the wild — it does not mean every new brief defaults to GET QUOTE unless told otherwise. A real campaign (2-bedder from $1.2M, 2026-11) was first-drafted with GET QUOTE across the board and had to be corrected after the fact once the client clarified the actual offer was a custom/handpicked **list** request, not a consultation booking — the CTA on all 10 creatives, including the lifestyle/comparison/discovery concepts that normally read as GET QUOTE-style, had to change to list-request phrasing. **Always confirm from the brief what the reader actually does next — books a consult, or gets/downloads a list — before picking a CTA family, rather than pattern-matching to whichever concept visually resembles the lifestyle vs. list-ad examples below.**
+
+- **"GET QUOTE"** (pill-shaped button, arrow icon) — consultation funnel. Use only when the brief's offer is actually a consultation/advisory booking.
+- **"DOWNLOAD LIST" / "GET MY LIST"** — list-request funnel. Use when the offer is a list of homes (handpicked/curated, or a specific bedroom-count/price-segment list like "List of 4 Bedder Condo, $2.3M price under"). This can apply even to lifestyle- or comparison-framed concepts, not just the dedicated list-ad format below — the *visual concept* (lifestyle hook, comparison, map, etc.) and the *CTA/offer type* are independent choices, pick each from the brief separately. The dedicated list-ad format (full-bleed photo + dark overlay + trust chips + price-under badge, or a locked/teaser card stack) is one specific visual treatment for a list offer, not the only one a list offer can use.
+
+## Competitive landscape — read this before brainstorming new angles
+
+From a Meta Ad Library check (2026-11-04, SG housing ads; full writeup with snapshot links in `clients/gomedia-homes/inputs/competitors/2026-11-bedroom-price-list-format.md`). Treat this as a living section — update it when a fresh competitor check is run, don't let it go stale.
+
+**The bedroom-count + price-anchor format is saturated — it is not a differentiator on its own.** At least 8 competitors are running near-identical structural ads concurrently right now:
+- **Before You Buy** is the closest direct competitor — running 3 simultaneous bedroom-tier + price + MRT-proximity variants at once, clearly systematically testing this exact formula.
+- **Lex Lim Property** is running an ad ("Brand-New 1-Bedders From $1.1M") with near-identical price point and phrasing to our own `ref-05` ad — worth monitoring, not just noting once.
+- **SG Undervalued Developments**, **KJ Heng Real Estate**, **Judy's Property Page** all run the same bedroom+price mechanic, sometimes with urgency stacked on ("LAST CHANCE... below $2.3M!").
+- The **"DOWNLOAD LIST" lead-magnet variant** (our `ref-06` format) is equally common — Homes with Charissa, Singjia Property, Hot Properties Of SG, Vincent Chan all run close equivalents. "Hot Properties Of SG"'s ad title ("Click To Get Discounts | E-brochure | Price Lists | Floor Plans") is near-identical phrasing to our own live ad titles.
+
+**What this means for new concepts/variations:** don't default to "just another bedroom+price headline" when asked to brainstorm — that's the most crowded part of the market, not a wedge. When generating variations, deliberately include at least one angle that isn't a reskin of the bedroom/price formula. Two specific openings worth testing, pulled from this research:
+
+1. **Comparison framing — identified white space.** Only 2 competitors found doing this (Jackson B & Associates: "Same layout, $173,000 apart"; Chris Yan Property: "Side by side") vs. 8+ doing bedroom+price. A comparison mechanic (two units/prices/projects side by side) is a genuinely different structure from what's saturating the feed right now.
+2. **Evergreen "deal discovery" framing has staying power, not just urgency.** SGProperty's "Discover Top Below Market Condo Deals" ad has been relaunched repeatedly over roughly a year — that's a signal an advertiser keeps betting on, not a one-off test. Urgency framing (KJ Heng's "LAST CHANCE") is the more common lever in this market; a calmer "ongoing discovery" angle is the less-tested alternative worth a real test, not an assumption it works.
+
+**Caveat:** this read is from ad titles/page names/timing only — Facebook's ad snapshot pages blocked automated visual inspection (403). It tells you what headlines/hooks are saturated, not whether competitors' actual visual execution (photo collage, benefit icons, trust footer) also converges on GoMedia's look. Don't assume visual saturation from this alone.
 
 ## Format and cost discipline
 
