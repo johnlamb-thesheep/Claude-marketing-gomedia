@@ -1,6 +1,17 @@
 # claude-marketing
 
-A Claude Code marketing agent team: a full pipeline (researcher → strategist → copywriter → static-designer / video-designer → landing-page → qa → tracking → performance) plus the skills and client data it runs on.
+A Claude Code marketing agent team: a full pipeline (researcher → strategist → copywriter → static-designer / video-designer → landing-page → qa → tracking → performance) plus the skills and client data it runs on. Each agent is a focused specialist with its own tools and primary skill — none of them improvise outside their lane, and nothing moves to the next stage without a file being written and (at two points) your explicit approval.
+
+## Requirements — this needs Claude Code, not the regular claude.ai chat
+
+This repo only works inside **Claude Code** (the CLI, the desktop app, or an IDE extension) — not a normal claude.ai web chat conversation. The reason: `CLAUDE.md`, `.claude/agents/`, and `.claude/skills/` are Claude Code *project* conventions. Claude Code reads them automatically when it's opened with this folder as the working directory — that's what turns them into real, callable agents and skills instead of just text files.
+
+**If a teammate without Claude Code (or without a plan that includes it) pastes this GitHub link into a normal claude.ai chat:**
+- This repo is **private**, so unless that chat has a connected GitHub integration with access to it, Claude won't even be able to open the link — it'll just fail to fetch.
+- Even if it could read the files (say, the repo were public, or they pasted the raw text in), regular chat has no working directory and no local file system access. Claude could read `CLAUDE.md` and the agent files as reference material and *talk about* the pipeline, but it cannot actually dispatch the 9 agents, write files into `clients/<client>/campaigns/`, run `/upload`, or do anything the approval gates are designed to gate — there's no project for any of that to operate on.
+- So at best it becomes a one-off conversation about what the repo contains, not the working agent team.
+
+**What they actually need:** Claude Code itself (available with a Claude Pro/Max/Team/Enterprise subscription, or pay-as-you-go via an Anthropic Console API key — worth checking the current options at claude.com/code, since this changes over time) plus this repo cloned locally. Once that's true, open the folder and say "set this up" — see below.
 
 ## First time on a new computer?
 
@@ -22,9 +33,11 @@ To push changes back to this repo, use the `/upload` command rather than raw git
 
 ![GoMedia Marketing Agent Team — one hub, nine specialist agents](docs/agent-team.jpg)
 
-One hub, nine specialists, each writing one file for the next to pick up. See the table below for what each one does, writes, and which skill it leans on.
+One hub, nine specialists. Every agent below reports into the same pipeline shown at the top — `brand.md → brief → copy → creative → qa → results` — and writes a single named file (shown on each card) for the next agent to read. Two of the nine get a highlighted icon here (Copywriter and QA) because they sit right before the pipeline's two hard approval gates: nothing moves past a copy draft or a finished campaign without you signing off in chat first. The `optional` tag on Researcher means the strategist can skip straight to the brief when `brand.md` and prior `learnings.md` already give enough signal.
 
-For the full animated version (card-by-card detail, skills/tools per agent, a pulse that walks the pipeline in order) open [`docs/agent-pipeline.html`](docs/agent-pipeline.html) in a browser after cloning. The source for the hub diagram above lives at [`docs/agent-hub.html`](docs/agent-hub.html).
+See the table below for the full detail on what each agent does, which skill it leans on primarily, and which tools it's allowed to use.
+
+For the full animated version (card-by-card detail, skills/tools per agent, a pulse that walks the pipeline in order, plus the two approval gates and parallel branches shown explicitly) open [`docs/agent-pipeline.html`](docs/agent-pipeline.html) in a browser after cloning. The source for the hub diagram above lives at [`docs/agent-hub.html`](docs/agent-hub.html) if you want to edit and re-screenshot it.
 
 ## Meet the team — 9 agents, 2 hard-stop approvals
 
