@@ -7,7 +7,16 @@ const MAX_HISTORY_DAYS = 1100; // Meta keeps ~37 months of insights; stay safely
 const CHUNK_DAYS = 30;
 const FIRST_DAYS = 14; // first run: just enough for the default views, the rest backfills in the background
 const RECENT_DAYS = 3; // Meta keeps adjusting recent days, so re-fetch them each refresh
-const REFRESH_MS = 55 * 60 * 1000;
+const DAILY_HOUR_SGT = 6; // recent days re-pulled once a day, on the first run after 6am Singapore
+const SGT_MS = 8 * 60 * 60 * 1000;
+
+/** The most recent 6am Singapore time at or before `now`. */
+function lastDailyCutoff(now) {
+  const sg = new Date(now.getTime() + SGT_MS);
+  let cut = Date.UTC(sg.getUTCFullYear(), sg.getUTCMonth(), sg.getUTCDate(), DAILY_HOUR_SGT) - SGT_MS;
+  if (cut > now.getTime()) cut -= 24 * 60 * 60 * 1000;
+  return cut;
+}
 const ADS_REFRESH_MS = 20 * 60 * 60 * 1000; // thumbnails expire, refresh ad details daily
 
 export const STORE = { name: "dashboards", consistency: "strong" };
@@ -213,10 +222,8 @@ export async function syncClient(client, current, token, deadline) {
   let changed = applyFilter(d, client);
 
   // 1) recent days: first run takes 14 days so the page works immediately, then the last 3 days
-  //    hourly for agents spending in the last 14 days, every 6 hours for idle ones
-  const recentSpend = d.daily.some((r) => r.date >= addDays(today, -13));
-  const every = !d.sync.lastIncremental || recentSpend ? REFRESH_MS : 6 * REFRESH_MS;
-  const due = !d.sync.lastIncremental || now - Date.parse(d.sync.lastIncremental) > every;
+  //    once a day, on the first run after 6am Singapore (saves Netlify credits)
+  const due = !d.sync.lastIncremental || Date.parse(d.sync.lastIncremental) < lastDailyCutoff(now);
   if (due) {
     const first = !d.sync.oldest;
     const since = addDays(today, first ? -(FIRST_DAYS - 1) : -(RECENT_DAYS - 1));

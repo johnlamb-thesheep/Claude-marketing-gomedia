@@ -1,11 +1,12 @@
-// Scheduled job: every 5 minutes, keeps every client's stored data up to date
-// (full history backfill after setup, then the last 3 days hourly for active agents,
-// every 6 hours for idle ones). Client pages only read what this job saved.
+// Scheduled job: wakes hourly and keeps every client's stored data up to date
+// (full history backfill after setup, then the last 3 days once a day after 6am Singapore).
+// Most hourly wake-ups find nothing due and stop in about a second. Client pages only read
+// what this job saved.
 import { getStore } from "@netlify/blobs";
 import { CLIENTS } from "../clients.mjs";
 import { STORE, syncClient, metaToken } from "../lib/meta.mjs";
 
-export const config = { schedule: "*/5 * * * *" };
+export const config = { schedule: "20 * * * *" };
 
 const PARALLEL = 4;
 

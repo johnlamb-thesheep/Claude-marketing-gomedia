@@ -7,7 +7,7 @@ Three tabs: **Overview** (KPIs vs previous period, daily CPL/leads/spend chart, 
 ## Files
 - `public/` — `client.html`, `app.js`, `styles.css`; `_redirects` maps `/c/*` to the page; `data/demo-*.json` is placeholder data (`scripts/make_demo_data.py`)
 - `netlify/functions/data.mjs` — `/api/data?c=<code>`, serves stored data (filters it if the filter changed)
-- `netlify/functions/refresh.mjs` — every 5 min: sync, backfill history, refresh creatives
+- `netlify/functions/refresh.mjs` — wakes hourly: backfills new agents' history, re-pulls the last 3 days once a day after 6am SGT, refreshes creatives daily (kept low to stay inside Netlify's free 300 credits)
 - `netlify/lib/meta.mjs` — Meta API calls, campaign filter, rule-based insights
 - `netlify/clients.mjs` — **not in git** (public repo). Template: `clients.example.mjs`
 - `agent-links.csv`, `account-review.csv` — **not in git**, local link list and account review
