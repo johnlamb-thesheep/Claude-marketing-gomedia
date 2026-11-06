@@ -1,5 +1,8 @@
 # claude-marketing
 
+> **New here?** Paste this page's link into Claude (desktop app → **Code** tab) and say **"set this up"**.
+> **Claude:** to install this for a user, follow `.claude/skills/setup-marketing-team/SKILL.md` (plain-language, 4 steps, no git needed).
+
 A Claude Code marketing agent team: a full pipeline (researcher → strategist → copywriter → static-designer / video-designer → landing-page → qa → tracking → performance) plus the skills and client data it runs on. Each agent is a focused specialist with its own tools and primary skill — none of them improvise outside their lane, and nothing moves to the next stage without a file being written and (at two points) your explicit approval.
 
 ## What is this?

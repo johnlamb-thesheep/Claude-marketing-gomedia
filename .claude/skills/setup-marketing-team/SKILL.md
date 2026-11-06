@@ -1,62 +1,113 @@
 ---
 name: setup-marketing-team
-description: "One-time onboarding for the claude-marketing agent team on a new computer. Clones (or locates and updates) this repo into the user's Documents folder as 'claude-marketing', verifies git and the GitHub CLI are installed and authenticated, checks for per-skill prerequisites (e.g. facebook-ads needs a .env), and walks the user through connecting the MCP integrations the team uses. Use when the user says things like 'set this up', 'set up the marketing team', 'install this on my computer', 'first time setup', 'get this working here', or opens this repo for the first time and asks what to do next. Does not connect MCP integrations itself (account-specific, can't be automated) — it tells the user exactly what to connect and where."
+description: "One-time setup of GoMedia Marketing Assistance (the claude-marketing repo) on a new computer, written for non-technical users. Gets the files into Documents/claude-marketing (git or plain download, no git needed), checks the few tools that matter, shows which connections are on or missing, tells the user how to open the folder, and ends with ready-to-copy first prompts. Use when the user pastes the github.com/johnlamb-thesheep/claude-marketing link, or says 'set this up', 'download it', 'get it', 'install this', 'first time setup', 'continue setup', or 'I'm stuck with setup'."
 license: MIT
 metadata:
   author: setup-marketing-team
-  version: "1.0.0"
+  version: "2.0.0"
 ---
 
-# Set up the marketing agent team on this computer
+# Set up GoMedia Marketing Assistance
 
-Run this once per new computer/account. It gets `CLAUDE.md` + `.claude/agents/` + `.claude/skills/` + `clients/` into a stable, permanent location so the agent team works the same way everywhere, and reports what the user still has to do by hand (MCP connectors, secrets — these cannot be automated by a skill).
+The person running this is usually **not technical**. They pasted the GitHub link into Claude and said something like "set it up". Your job: get them from zero to their first useful request with as few questions as possible.
 
-Do the steps below in order. Narrate each one briefly as you go — this is a setup flow a non-technical user may be watching.
+## How to talk during setup (rules)
 
-## 1. Check whether we're already inside the repo
+- **Plain words only.** Never say git, clone, repo, MCP, CLI, env, .env, terminal, dependencies, PATH. Say "download", "folder", "connection", "app".
+- **Start with a 1-line plan:** "I'll set this up in 4 short steps: download → quick check → connections → open the folder. Takes about 5 minutes."
+- **Number every update:** "Step 1 of 4 — downloading GoMedia Marketing Assistance…", then "✓ Done".
+- **One question at a time**, only when you truly need the user. Do everything you can yourself.
+- **When the app asks them to approve something** (running a command, a permission), tell them before it pops up: "You'll see an *Allow* button — click it, this just downloads the files."
+- **Never show raw errors.** Translate: "The download was blocked — let's try another way."
+- **Skip anything optional.** Do NOT mention the facebook-ads skill, its Python packages, `.env` / `.env.example` files, the `/upload` command, or GitHub login. Those are for maintainers only.
 
-Look for `CLAUDE.md`, `.claude/agents/`, and `skills-lock.json` in the current working directory (or an ancestor of it). If found: this machine already has the repo checked out here. Skip straight to step 3 (treat this directory as the target), but still run `git pull origin main` to bring it up to date.
+## Step 1 of 4 — Download the files
 
-If not found, continue to step 2.
+Target folder: `Documents/claude-marketing` (on Windows: `C:\Users\<name>\Documents\claude-marketing`).
 
-## 2. Clone into the user's Documents folder
+Pick the first route that works, silently:
 
-Target path: `<Documents>/claude-marketing`, where `<Documents>` is the OS-appropriate Documents folder for whoever is running this (e.g. `~/Documents` resolves correctly cross-platform in a POSIX-style shell; on Windows via Git Bash this lands in `C:\Users\<user>\Documents`).
+1. **Already here?** If the current folder (or a parent) has `CLAUDE.md` and `.claude/agents/`, use it. If it's a git copy, update it (`git pull --rebase origin main`); if not, just use it as is.
+2. **Already downloaded somewhere?** If `Documents/claude-marketing` exists:
+   - git copy of this project → update it.
+   - a plain copy of this project (has `CLAUDE.md`) → keep it.
+   - anything else → **stop and ask** before touching it. Never overwrite or delete a folder.
+   - Also check `Downloads/claude-marketing-main` (a ZIP someone unpacked) → offer to move it to `Documents/claude-marketing`.
+3. **git available** → `git clone https://github.com/johnlamb-thesheep/claude-marketing.git "<Documents>/claude-marketing"`.
+4. **No git** → download the ZIP and unpack it, no install needed:
+   - Windows PowerShell: `Invoke-WebRequest https://github.com/johnlamb-thesheep/claude-marketing/archive/refs/heads/main.zip -OutFile $env:TEMP\cm.zip; Expand-Archive $env:TEMP\cm.zip $env:TEMP\cm -Force; Move-Item $env:TEMP\cm\claude-marketing-main "$HOME\Documents\claude-marketing"`
+   - Mac: `curl -L -o /tmp/cm.zip https://github.com/johnlamb-thesheep/claude-marketing/archive/refs/heads/main.zip && unzip -q /tmp/cm.zip -d /tmp/cm && mv /tmp/cm/claude-marketing-main ~/Documents/claude-marketing`
+   - Tell them: "This copy won't update itself. Later, just say 'update GoMedia Marketing Assistance' and I'll download the newest version."
 
-- If `<Documents>/claude-marketing` does not exist: clone it there.
-  - Prefer `gh repo clone johnlamb-thesheep/claude-marketing "<target>"` if the GitHub CLI is available and authenticated.
-  - Otherwise fall back to `git clone https://github.com/johnlamb-thesheep/claude-marketing.git "<target>"`.
-- If `<Documents>/claude-marketing` already exists:
-  - If it's a git repo with this same remote: `git -C "<target>" pull --rebase origin main`.
-  - If it exists but is NOT a git repo, or is a git repo with a different/no remote: **stop and ask the user** what to do — never overwrite or delete an existing folder of that name without asking.
+Say: "✓ Step 1 done — the files are in Documents › claude-marketing."
 
-Report the final path back to the user once this step is done — they'll need it to open this as their Claude Code working directory going forward.
+## Step 2 of 4 — Quick check
 
-## 3. Verify prerequisites
+Check quietly; only speak up about what's missing **and** what it affects:
 
-- `git --version` — required. If missing, tell the user to install Git and stop here.
-- `gh --version` and `gh auth status` — recommended (used by the `/upload` command and for cloning private repos). If `gh` is missing or not authenticated, note it but don't block — plain `git` still works for a public or already-authenticated remote.
-- Scan `.claude/skills/*/requirements.txt` and `.claude/skills/*/.env.example` for any skill with extra setup needs (currently: `facebook-ads` has both). For each one found:
-  - If `requirements.txt` exists, tell the user the command to install it (e.g. `pip install -r .claude/skills/facebook-ads/requirements.txt`) — do not run it yourself without asking, since it installs packages into their environment.
-  - If `.env.example` exists and no `.env` exists next to it yet, tell the user to copy it to `.env` and fill in their own credentials. Never create, fill in, or commit a real `.env` — `.gitignore` already excludes `.env` files, keep it that way.
+| Check | Needed for | If missing |
+|---|---|---|
+| Node.js (`node --version`) | Video ads, static ads, dashboards | "Video ads need one free helper app (Node.js). Want me to install it?" — Windows: `winget install OpenJS.NodeJS.LTS`; Mac: point to nodejs.org. Only install after a yes. |
+| Python (`python --version`) | Some reports | Mention only if missing; it's optional. |
 
-## 4. MCP connectors — tell the user, don't attempt to connect
+Everything else works without these. If they say no, carry on: "No problem — everything except video ads works now. Say 'install the video helper' anytime."
 
-This repo's skills assume certain integrations are connected in the user's own Claude account (Meta/Facebook Ads, Supermetrics, Canva, Google Sheets, and similar — whatever this particular user's workflow needs). These are **account-specific and cannot be cloned or installed by a skill** — each person connects their own via their Claude client's connector/integration settings.
+## Step 3 of 4 — Connections
 
-List plainly, once, what the team's skills reference (check `.claude/skills/*/SKILL.md` and any `.env.example` files for named platforms if you want the list to stay accurate rather than hard-coded), and tell the user where to go connect them. Do not guess at or fabricate connector names beyond what the skills actually reference.
+If you can check connection status, show a checklist; otherwise show the same list and ask them to look:
 
-## 5. Confirm and hand off
+```
+Connections (Claude app → Settings → Connectors):
+✓ / ✗  Meta Ads        — needed: ad results, competitor ads
+✓ / ✗  Google Drive    — recommended: read docs & sheets
+✓ / ✗  Notion          — recommended: read & update GoMedia pages
+✓ / ✗  Canva           — optional: design images
+✓ / ✗  Claude in Chrome — optional: edit Google Sheets
+```
 
-- Run `ls .claude/agents` and summarize the roles available (researcher, strategist, copywriter, static-designer, video-designer, landing-page, qa, tracking, performance).
-- Remind the user: **open `<Documents>/claude-marketing` as the Claude Code working directory for all future marketing work** — `CLAUDE.md` and the agents/skills only activate for sessions rooted in this folder.
-- Point out `clients/` holds the existing client folders (`brand.md`, `learnings.md`, `campaigns/`) so prior work and guidelines carry over — nothing needs to be redone.
-- Mention the `/upload` command for pushing future changes back safely (it scans for secrets before committing).
-- End with a short, plain summary: what's ready now vs. what the user still needs to do themselves (installing any skill's `requirements.txt`, filling in `.env` files, connecting MCP integrations).
+Tell them: "Connect the ✗ ones you need — click **Connect** and sign in with your GoMedia account. You can do this later; it doesn't block anything else." Never ask for passwords or keys in chat.
 
-## What this skill deliberately does NOT do
+## Step 4 of 4 — Open the folder (the step people miss)
 
-- Does not install MCP servers/connectors — those are per-account and live outside the repo.
-- Does not create, edit, or commit any `.env` or credential file.
-- Does not overwrite an existing, unrelated folder at the target path without asking first.
-- Does not run `pip install` or similar package installs without the user's go-ahead.
+This chat is **not** inside the folder yet, so GoMedia's rules and agents aren't loaded. Say exactly:
+
+> **Last step:** start a new session in the folder.
+> 1. Click **+ New session** (or the folder name at the top).
+> 2. Choose **Documents › claude-marketing**.
+> 3. Paste one of the prompts below.
+>
+> From now on, always open this folder — that's what turns Claude into GoMedia Marketing Assistance.
+
+## Finish — first prompts
+
+End with a short "You're set up ✓" and these copy-ready prompts (each in its own code block):
+
+```text
+What can you do for me? Give me 5 example requests for GoMedia.
+```
+```text
+Write 5 Meta ad copies for LeadX seller leads.
+```
+```text
+How did [agent name] ads do in the last 7 days vs the week before?
+```
+
+Then: "More prompts are on the Notion page *Gomedia Marketing Assistance*."
+
+## If they get stuck
+
+The user can say **"continue setup"** at any time — re-run from the first unfinished step (every step is safe to repeat).
+
+| What they see / say | What you do |
+|---|---|
+| A command was blocked or they clicked Deny | "No problem. I'll ask again — click **Allow** this time, it only [downloads / checks …]." Retry once, then offer the ZIP route. |
+| Download fails (network, company laptop) | Give them the manual way: open github.com/johnlamb-thesheep/claude-marketing → green **Code** button → **Download ZIP** → unzip into Documents → rename to `claude-marketing`. Then say "tell me when it's there". |
+| "It answers like a normal chatbot / doesn't know GoMedia" | They're not in the folder. Repeat Step 4. |
+| A connection won't connect | Try signing out/in of that connection; it's account-specific. Skip it and continue — only Meta Ads matters for ad results. |
+| Anything else after 2 tries | Stop retrying. Summarise in one line what's done and what isn't, and say: "Send this message to John Lam and he'll sort it out." |
+
+## Never
+
+- Never install anything, overwrite a folder, or change settings without a clear yes.
+- Never ask for or type passwords, API keys or tokens.
+- Never run `/upload` or push changes for a non-technical user.
