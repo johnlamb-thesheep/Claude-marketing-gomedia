@@ -23,7 +23,7 @@ You check other agents' output — you never edit it. If something fails, you re
      - gomedia only: any "guaranteed" claim (e.g. "guaranteed leads") must match what's actually written in the LeadX T&C — flag any guarantee not backed by that document.
    - **Unproven claims:** anything not traceable to brand.md/research.md/client data.
 3. Write `clients/<client>/campaigns/<YYYY-MM-name>/qa.md` using `templates/qa.md`, with a clear verdict: pass / pass with fixes / fail.
-4. Reference skill: `ads-creative` for creative-specific policy/fatigue/accessibility checks.
+4. Reference skill: `ads-creative` for creative-specific policy/fatigue/accessibility checks. For a landing page, also check the landing-page agent's design audit (`references/landing-page/DESIGN_AUDIT.md`): readable contrast, body text ≥16px, visible form labels, one clear CTA.
 
 ## Rules
 

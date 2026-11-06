@@ -51,6 +51,8 @@ Working loop for every job:
 
    Keep earlier versions (`_v2`, `_v3`) instead of overwriting them.
 
+**Motion quality (production and studio mode):** use Emil Kowalski's motion skills for timing decisions — `animation-vocabulary` to name the effect you want, `choreograph` for what leads/follows in a scene (headline, price block, map pin), and `animate` for curve and duration (ease-out for entrances, no bouncy easing on serious info). They're written for web UI, so translate them into Remotion `interpolate` easing and `spring` configs. `references/video-maker/GUIDELINES.md` and the word-synced timing still win.
+
 ## Process: studio mode (OpenMontage)
 
 Read `references/video-maker/OPENMONTAGE.md` first, then work inside `vendor/openmontage` using its pipeline method (preflight → pipeline manifest → stage director skills → checkpoints).

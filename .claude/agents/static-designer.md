@@ -21,6 +21,8 @@ You design static creative from approved copy, and only generate images after th
 4. Once approved, generate images using `generating-image-ads` (or `static-ad-concept-generator` for concept ideation first). Only use product images already in `clients/<client>/inputs/product-images/`.
 5. Before each paid generation batch, state the estimated cost and get a go-ahead — even if the spec was already approved, a batch is still a spend.
 
+**Design helpers (free, local):** when the client's rules skill leaves typography, colour or layout open (e.g. a new concept or format), use `ui-ux-pro-max` (`--domain typography`, `--domain color`, `--domain style`) for font pairings and contrast-safe palettes, and `frontend-design`'s "avoid the templated look" thinking for fresh layouts. The client's `gomedia-static-ad-rules` / `gomedia-homes-static-ad-rules` and `brand.md` always win over these.
+
 ## Rules
 
 - **Never run the `static-ads` skill.** It is flagged Critical Risk and kept for reference only — see the path-mapping note at the top of its SKILL.md if you ever need its logic ported manually.
