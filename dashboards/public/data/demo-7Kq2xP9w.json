@@ -1,0 +1,7338 @@
+{
+ "placeholder": true,
+ "client": {
+  "name": "Demo Agent",
+  "accountName": "Demo Agent \u2013 Ad Account",
+  "currency": "SGD",
+  "monthlyBudget": 1500,
+  "logoText": "GOAHEAD",
+  "tagline": "Your Next Move Begins"
+ },
+ "updatedAt": "2026-11-05T09:00:00+08:00",
+ "campaigns": [
+  {
+   "id": "c1",
+   "name": "Project A \u2013 Cold Lead Form"
+  },
+  {
+   "id": "c2",
+   "name": "Project B \u2013 Price List Offer"
+  },
+  {
+   "id": "c3",
+   "name": "New Launch Cheatsheet"
+  },
+  {
+   "id": "c4",
+   "name": "Video Awareness Retargeting"
+  }
+ ],
+ "ads": [
+  {
+   "id": "a1",
+   "campaignId": "c1",
+   "title": "Get Free Full Price List & E-brochure",
+   "primaryText": "For a limited time, selected brand-new units are available with exclusive developer pricing. Tap to get the full price list.",
+   "label": "Price List",
+   "color": "#3b4252",
+   "postUrl": "#",
+   "placeholderNo": 1
+  },
+  {
+   "id": "a2",
+   "campaignId": "c1",
+   "title": "Walk to MRT in 5 Minutes",
+   "primaryText": "Freehold living, 5 minutes to the MRT. See the floor plans and current availability.",
+   "label": "Location",
+   "color": "#5e6b7d",
+   "postUrl": "#",
+   "placeholderNo": 2
+  },
+  {
+   "id": "a3",
+   "campaignId": "c2",
+   "title": "Direct Developer Discount",
+   "primaryText": "Brand-new units, not resale. Limited units left at launch pricing.",
+   "label": "Discount",
+   "color": "#8c2f2f",
+   "postUrl": "#",
+   "placeholderNo": 3
+  },
+  {
+   "id": "a4",
+   "campaignId": "c2",
+   "title": "1BR to 5BR \u2013 See Prices",
+   "primaryText": "Compare every bedroom type side by side. Prices from $1.1m.",
+   "label": "Unit Mix",
+   "color": "#a0522d",
+   "postUrl": "#",
+   "placeholderNo": 4
+  },
+  {
+   "id": "a5",
+   "campaignId": "c3",
+   "title": "Singapore New Launch Cheatsheet",
+   "primaryText": "All current new launches in one place: prices, discounts and promotions. Free download.",
+   "label": "Cheatsheet",
+   "color": "#1f4e79",
+   "postUrl": "#",
+   "placeholderNo": 5
+  },
+  {
+   "id": "a6",
+   "campaignId": "c3",
+   "title": "Free Guide \u2013 Compare Launches",
+   "primaryText": "Save time. Compare, decide, invest smarter with our free guide.",
+   "label": "Guide",
+   "color": "#2e6f95",
+   "postUrl": "#",
+   "placeholderNo": 6
+  },
+  {
+   "id": "a7",
+   "campaignId": "c4",
+   "title": "Show Flat Walkthrough",
+   "primaryText": "Take a 30-second tour of the show flat.",
+   "label": "Video",
+   "color": "#3a5a40",
+   "postUrl": "#",
+   "placeholderNo": 7
+  },
+  {
+   "id": "a8",
+   "campaignId": "c4",
+   "title": "Facilities Tour",
+   "primaryText": "Pool, gym and sky garden \u2013 see it in 20 seconds.",
+   "label": "Video",
+   "color": "#588157",
+   "postUrl": "#",
+   "placeholderNo": 8
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-08-08",
+   "adId": "a1",
+   "spend": 10.39,
+   "impressions": 1132,
+   "reach": 796,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a2",
+   "spend": 5.99,
+   "impressions": 442,
+   "reach": 264,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a3",
+   "spend": 4.93,
+   "impressions": 509,
+   "reach": 243,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a4",
+   "spend": 9.77,
+   "impressions": 701,
+   "reach": 447,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a5",
+   "spend": 6.67,
+   "impressions": 428,
+   "reach": 206,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a6",
+   "spend": 11.76,
+   "impressions": 1109,
+   "reach": 627,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a7",
+   "spend": 9.31,
+   "impressions": 867,
+   "reach": 582,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-08",
+   "adId": "a8",
+   "spend": 14.38,
+   "impressions": 988,
+   "reach": 540,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a1",
+   "spend": 6.67,
+   "impressions": 494,
+   "reach": 301,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a2",
+   "spend": 10.39,
+   "impressions": 783,
+   "reach": 379,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a3",
+   "spend": 7.08,
+   "impressions": 752,
+   "reach": 466,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a4",
+   "spend": 12.72,
+   "impressions": 1063,
+   "reach": 672,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a5",
+   "spend": 7.38,
+   "impressions": 562,
+   "reach": 357,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a6",
+   "spend": 5.32,
+   "impressions": 342,
+   "reach": 176,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a7",
+   "spend": 19.38,
+   "impressions": 2000,
+   "reach": 1139,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-09",
+   "adId": "a8",
+   "spend": 17.66,
+   "impressions": 1374,
+   "reach": 949,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a1",
+   "spend": 7.79,
+   "impressions": 490,
+   "reach": 225,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a2",
+   "spend": 9.79,
+   "impressions": 765,
+   "reach": 394,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a3",
+   "spend": 6.35,
+   "impressions": 645,
+   "reach": 405,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a4",
+   "spend": 7.96,
+   "impressions": 580,
+   "reach": 270,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a5",
+   "spend": 12.81,
+   "impressions": 845,
+   "reach": 437,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a6",
+   "spend": 13.39,
+   "impressions": 1347,
+   "reach": 634,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a7",
+   "spend": 17.45,
+   "impressions": 1809,
+   "reach": 1238,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-10",
+   "adId": "a8",
+   "spend": 17.96,
+   "impressions": 1171,
+   "reach": 746,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a1",
+   "spend": 6.5,
+   "impressions": 668,
+   "reach": 470,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a2",
+   "spend": 11.37,
+   "impressions": 1003,
+   "reach": 488,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a3",
+   "spend": 8.6,
+   "impressions": 772,
+   "reach": 353,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a4",
+   "spend": 9.36,
+   "impressions": 600,
+   "reach": 331,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a5",
+   "spend": 7.85,
+   "impressions": 602,
+   "reach": 311,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a6",
+   "spend": 7.3,
+   "impressions": 651,
+   "reach": 335,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a7",
+   "spend": 18.24,
+   "impressions": 1370,
+   "reach": 770,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-11",
+   "adId": "a8",
+   "spend": 18.22,
+   "impressions": 1250,
+   "reach": 880,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a1",
+   "spend": 6.45,
+   "impressions": 523,
+   "reach": 261,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a2",
+   "spend": 11.7,
+   "impressions": 1200,
+   "reach": 547,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a3",
+   "spend": 9.95,
+   "impressions": 635,
+   "reach": 397,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a4",
+   "spend": 10.38,
+   "impressions": 722,
+   "reach": 369,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a5",
+   "spend": 11.06,
+   "impressions": 1170,
+   "reach": 686,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a6",
+   "spend": 4.06,
+   "impressions": 354,
+   "reach": 248,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a7",
+   "spend": 10.31,
+   "impressions": 749,
+   "reach": 496,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-12",
+   "adId": "a8",
+   "spend": 12.06,
+   "impressions": 1289,
+   "reach": 703,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a1",
+   "spend": 14.0,
+   "impressions": 1222,
+   "reach": 660,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 3
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a2",
+   "spend": 6.18,
+   "impressions": 444,
+   "reach": 228,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a3",
+   "spend": 13.58,
+   "impressions": 1153,
+   "reach": 569,
+   "clicks": 11,
+   "linkClicks": 6,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a4",
+   "spend": 7.47,
+   "impressions": 622,
+   "reach": 355,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a5",
+   "spend": 11.34,
+   "impressions": 719,
+   "reach": 341,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a6",
+   "spend": 6.44,
+   "impressions": 525,
+   "reach": 323,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a7",
+   "spend": 5.74,
+   "impressions": 367,
+   "reach": 187,
+   "clicks": 0,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-13",
+   "adId": "a8",
+   "spend": 9.89,
+   "impressions": 756,
+   "reach": 505,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a1",
+   "spend": 9.36,
+   "impressions": 652,
+   "reach": 422,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a2",
+   "spend": 4.14,
+   "impressions": 324,
+   "reach": 184,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a3",
+   "spend": 5.84,
+   "impressions": 623,
+   "reach": 283,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a4",
+   "spend": 5.18,
+   "impressions": 360,
+   "reach": 190,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a5",
+   "spend": 11.4,
+   "impressions": 729,
+   "reach": 459,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a6",
+   "spend": 11.07,
+   "impressions": 795,
+   "reach": 373,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a7",
+   "spend": 17.17,
+   "impressions": 1807,
+   "reach": 1006,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-14",
+   "adId": "a8",
+   "spend": 6.73,
+   "impressions": 725,
+   "reach": 448,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a1",
+   "spend": 4.4,
+   "impressions": 307,
+   "reach": 158,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a2",
+   "spend": 12.58,
+   "impressions": 1112,
+   "reach": 613,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a3",
+   "spend": 13.88,
+   "impressions": 1020,
+   "reach": 582,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a4",
+   "spend": 10.98,
+   "impressions": 1114,
+   "reach": 745,
+   "clicks": 13,
+   "linkClicks": 9,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a5",
+   "spend": 12.32,
+   "impressions": 986,
+   "reach": 468,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a6",
+   "spend": 12.64,
+   "impressions": 1156,
+   "reach": 761,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a7",
+   "spend": 13.14,
+   "impressions": 1151,
+   "reach": 576,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-15",
+   "adId": "a8",
+   "spend": 15.47,
+   "impressions": 1053,
+   "reach": 600,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a1",
+   "spend": 9.26,
+   "impressions": 759,
+   "reach": 364,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a2",
+   "spend": 12.59,
+   "impressions": 1079,
+   "reach": 617,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a3",
+   "spend": 4.98,
+   "impressions": 370,
+   "reach": 199,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a4",
+   "spend": 11.93,
+   "impressions": 1170,
+   "reach": 572,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a5",
+   "spend": 13.01,
+   "impressions": 946,
+   "reach": 529,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a6",
+   "spend": 6.37,
+   "impressions": 489,
+   "reach": 259,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a7",
+   "spend": 12.55,
+   "impressions": 818,
+   "reach": 429,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-16",
+   "adId": "a8",
+   "spend": 18.25,
+   "impressions": 1349,
+   "reach": 619,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a1",
+   "spend": 9.31,
+   "impressions": 604,
+   "reach": 277,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a2",
+   "spend": 12.6,
+   "impressions": 895,
+   "reach": 479,
+   "clicks": 10,
+   "linkClicks": 8,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a3",
+   "spend": 12.22,
+   "impressions": 784,
+   "reach": 477,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a4",
+   "spend": 8.08,
+   "impressions": 809,
+   "reach": 466,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a5",
+   "spend": 11.42,
+   "impressions": 1132,
+   "reach": 765,
+   "clicks": 8,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a6",
+   "spend": 10.86,
+   "impressions": 847,
+   "reach": 597,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a7",
+   "spend": 16.62,
+   "impressions": 1552,
+   "reach": 1106,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-17",
+   "adId": "a8",
+   "spend": 17.62,
+   "impressions": 1759,
+   "reach": 1219,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a1",
+   "spend": 11.42,
+   "impressions": 900,
+   "reach": 495,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a2",
+   "spend": 8.58,
+   "impressions": 544,
+   "reach": 335,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a3",
+   "spend": 10.33,
+   "impressions": 804,
+   "reach": 406,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a4",
+   "spend": 6.15,
+   "impressions": 505,
+   "reach": 347,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a5",
+   "spend": 12.32,
+   "impressions": 1276,
+   "reach": 637,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a6",
+   "spend": 12.68,
+   "impressions": 902,
+   "reach": 448,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a7",
+   "spend": 13.64,
+   "impressions": 931,
+   "reach": 474,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-18",
+   "adId": "a8",
+   "spend": 9.93,
+   "impressions": 872,
+   "reach": 521,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a1",
+   "spend": 7.7,
+   "impressions": 547,
+   "reach": 311,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a2",
+   "spend": 6.73,
+   "impressions": 471,
+   "reach": 286,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a3",
+   "spend": 6.11,
+   "impressions": 613,
+   "reach": 420,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a4",
+   "spend": 12.62,
+   "impressions": 1357,
+   "reach": 664,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a5",
+   "spend": 10.18,
+   "impressions": 686,
+   "reach": 447,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a6",
+   "spend": 9.1,
+   "impressions": 928,
+   "reach": 462,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a7",
+   "spend": 14.78,
+   "impressions": 1443,
+   "reach": 758,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-19",
+   "adId": "a8",
+   "spend": 7.71,
+   "impressions": 813,
+   "reach": 388,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a1",
+   "spend": 12.55,
+   "impressions": 943,
+   "reach": 620,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a2",
+   "spend": 4.62,
+   "impressions": 475,
+   "reach": 279,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a3",
+   "spend": 6.83,
+   "impressions": 575,
+   "reach": 270,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a4",
+   "spend": 12.73,
+   "impressions": 1123,
+   "reach": 552,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a5",
+   "spend": 12.13,
+   "impressions": 885,
+   "reach": 410,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a6",
+   "spend": 8.86,
+   "impressions": 836,
+   "reach": 555,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a7",
+   "spend": 10.87,
+   "impressions": 1072,
+   "reach": 536,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-20",
+   "adId": "a8",
+   "spend": 11.88,
+   "impressions": 932,
+   "reach": 511,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a1",
+   "spend": 13.66,
+   "impressions": 928,
+   "reach": 461,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a2",
+   "spend": 6.73,
+   "impressions": 438,
+   "reach": 199,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a3",
+   "spend": 7.75,
+   "impressions": 842,
+   "reach": 478,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a4",
+   "spend": 4.05,
+   "impressions": 423,
+   "reach": 207,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a5",
+   "spend": 8.57,
+   "impressions": 876,
+   "reach": 453,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a6",
+   "spend": 4.86,
+   "impressions": 307,
+   "reach": 217,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a7",
+   "spend": 16.64,
+   "impressions": 1457,
+   "reach": 822,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-21",
+   "adId": "a8",
+   "spend": 15.34,
+   "impressions": 1142,
+   "reach": 521,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a1",
+   "spend": 9.43,
+   "impressions": 875,
+   "reach": 413,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a2",
+   "spend": 7.87,
+   "impressions": 497,
+   "reach": 299,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a3",
+   "spend": 4.8,
+   "impressions": 352,
+   "reach": 161,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a4",
+   "spend": 13.48,
+   "impressions": 1415,
+   "reach": 699,
+   "clicks": 12,
+   "linkClicks": 8,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a5",
+   "spend": 7.66,
+   "impressions": 655,
+   "reach": 409,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a6",
+   "spend": 5.13,
+   "impressions": 362,
+   "reach": 241,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a7",
+   "spend": 17.54,
+   "impressions": 1441,
+   "reach": 692,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-22",
+   "adId": "a8",
+   "spend": 15.57,
+   "impressions": 1005,
+   "reach": 491,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a1",
+   "spend": 9.52,
+   "impressions": 716,
+   "reach": 406,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a2",
+   "spend": 10.8,
+   "impressions": 946,
+   "reach": 617,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a3",
+   "spend": 7.23,
+   "impressions": 517,
+   "reach": 286,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a4",
+   "spend": 5.69,
+   "impressions": 364,
+   "reach": 195,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a5",
+   "spend": 10.51,
+   "impressions": 731,
+   "reach": 501,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a6",
+   "spend": 4.6,
+   "impressions": 380,
+   "reach": 205,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a7",
+   "spend": 10.07,
+   "impressions": 821,
+   "reach": 440,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-23",
+   "adId": "a8",
+   "spend": 9.98,
+   "impressions": 695,
+   "reach": 482,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a1",
+   "spend": 8.95,
+   "impressions": 589,
+   "reach": 317,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a2",
+   "spend": 5.95,
+   "impressions": 462,
+   "reach": 276,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a3",
+   "spend": 13.39,
+   "impressions": 937,
+   "reach": 563,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a4",
+   "spend": 10.13,
+   "impressions": 999,
+   "reach": 515,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a5",
+   "spend": 13.8,
+   "impressions": 1054,
+   "reach": 564,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a6",
+   "spend": 5.71,
+   "impressions": 426,
+   "reach": 218,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a7",
+   "spend": 11.35,
+   "impressions": 786,
+   "reach": 510,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-24",
+   "adId": "a8",
+   "spend": 18.37,
+   "impressions": 1611,
+   "reach": 739,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a1",
+   "spend": 6.98,
+   "impressions": 633,
+   "reach": 289,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a2",
+   "spend": 12.18,
+   "impressions": 776,
+   "reach": 361,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a3",
+   "spend": 10.96,
+   "impressions": 1100,
+   "reach": 545,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a4",
+   "spend": 4.05,
+   "impressions": 315,
+   "reach": 214,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a5",
+   "spend": 9.74,
+   "impressions": 764,
+   "reach": 355,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a6",
+   "spend": 13.62,
+   "impressions": 879,
+   "reach": 422,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a7",
+   "spend": 12.15,
+   "impressions": 1173,
+   "reach": 562,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-25",
+   "adId": "a8",
+   "spend": 18.16,
+   "impressions": 1227,
+   "reach": 567,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a1",
+   "spend": 7.02,
+   "impressions": 499,
+   "reach": 302,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a2",
+   "spend": 5.17,
+   "impressions": 335,
+   "reach": 183,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a3",
+   "spend": 10.64,
+   "impressions": 1010,
+   "reach": 559,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 3
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a4",
+   "spend": 9.73,
+   "impressions": 968,
+   "reach": 548,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a5",
+   "spend": 4.58,
+   "impressions": 374,
+   "reach": 174,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a6",
+   "spend": 4.69,
+   "impressions": 301,
+   "reach": 141,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a7",
+   "spend": 10.86,
+   "impressions": 788,
+   "reach": 555,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-26",
+   "adId": "a8",
+   "spend": 9.78,
+   "impressions": 713,
+   "reach": 410,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a1",
+   "spend": 11.66,
+   "impressions": 767,
+   "reach": 487,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 3
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a2",
+   "spend": 12.64,
+   "impressions": 1345,
+   "reach": 697,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a3",
+   "spend": 6.21,
+   "impressions": 559,
+   "reach": 275,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a4",
+   "spend": 7.19,
+   "impressions": 603,
+   "reach": 277,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a5",
+   "spend": 9.57,
+   "impressions": 962,
+   "reach": 511,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a6",
+   "spend": 12.74,
+   "impressions": 1234,
+   "reach": 826,
+   "clicks": 12,
+   "linkClicks": 9,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a7",
+   "spend": 19.59,
+   "impressions": 1585,
+   "reach": 875,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-27",
+   "adId": "a8",
+   "spend": 12.56,
+   "impressions": 1296,
+   "reach": 603,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a1",
+   "spend": 9.79,
+   "impressions": 821,
+   "reach": 429,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a2",
+   "spend": 8.91,
+   "impressions": 875,
+   "reach": 405,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a3",
+   "spend": 10.68,
+   "impressions": 744,
+   "reach": 416,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a4",
+   "spend": 8.88,
+   "impressions": 981,
+   "reach": 660,
+   "clicks": 8,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a5",
+   "spend": 4.96,
+   "impressions": 493,
+   "reach": 253,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a6",
+   "spend": 12.48,
+   "impressions": 919,
+   "reach": 453,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a7",
+   "spend": 13.52,
+   "impressions": 900,
+   "reach": 424,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-28",
+   "adId": "a8",
+   "spend": 13.49,
+   "impressions": 1461,
+   "reach": 706,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a1",
+   "spend": 7.89,
+   "impressions": 516,
+   "reach": 308,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a2",
+   "spend": 11.69,
+   "impressions": 745,
+   "reach": 386,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a3",
+   "spend": 4.86,
+   "impressions": 364,
+   "reach": 221,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a4",
+   "spend": 7.6,
+   "impressions": 697,
+   "reach": 408,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a5",
+   "spend": 6.92,
+   "impressions": 590,
+   "reach": 406,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a6",
+   "spend": 8.35,
+   "impressions": 698,
+   "reach": 419,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a7",
+   "spend": 14.28,
+   "impressions": 976,
+   "reach": 449,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-29",
+   "adId": "a8",
+   "spend": 19.16,
+   "impressions": 1735,
+   "reach": 944,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a1",
+   "spend": 10.82,
+   "impressions": 841,
+   "reach": 441,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a2",
+   "spend": 6.42,
+   "impressions": 471,
+   "reach": 231,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a3",
+   "spend": 7.6,
+   "impressions": 497,
+   "reach": 289,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a4",
+   "spend": 11.53,
+   "impressions": 731,
+   "reach": 390,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a5",
+   "spend": 9.0,
+   "impressions": 788,
+   "reach": 441,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a6",
+   "spend": 8.76,
+   "impressions": 725,
+   "reach": 454,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a7",
+   "spend": 8.04,
+   "impressions": 794,
+   "reach": 423,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-30",
+   "adId": "a8",
+   "spend": 11.04,
+   "impressions": 792,
+   "reach": 378,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a1",
+   "spend": 9.28,
+   "impressions": 688,
+   "reach": 468,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a2",
+   "spend": 5.34,
+   "impressions": 543,
+   "reach": 283,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a3",
+   "spend": 14.0,
+   "impressions": 1086,
+   "reach": 601,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 3
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a4",
+   "spend": 8.95,
+   "impressions": 648,
+   "reach": 366,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a5",
+   "spend": 11.43,
+   "impressions": 795,
+   "reach": 362,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a6",
+   "spend": 5.02,
+   "impressions": 338,
+   "reach": 164,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a7",
+   "spend": 13.83,
+   "impressions": 1207,
+   "reach": 727,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-08-31",
+   "adId": "a8",
+   "spend": 15.46,
+   "impressions": 1402,
+   "reach": 933,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a1",
+   "spend": 12.66,
+   "impressions": 1177,
+   "reach": 559,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a2",
+   "spend": 4.93,
+   "impressions": 390,
+   "reach": 201,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a3",
+   "spend": 7.58,
+   "impressions": 802,
+   "reach": 478,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a4",
+   "spend": 10.83,
+   "impressions": 1159,
+   "reach": 769,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a5",
+   "spend": 10.5,
+   "impressions": 1038,
+   "reach": 653,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a6",
+   "spend": 10.55,
+   "impressions": 757,
+   "reach": 502,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a7",
+   "spend": 6.59,
+   "impressions": 564,
+   "reach": 309,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-01",
+   "adId": "a8",
+   "spend": 5.72,
+   "impressions": 422,
+   "reach": 225,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a1",
+   "spend": 7.84,
+   "impressions": 498,
+   "reach": 258,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a2",
+   "spend": 7.02,
+   "impressions": 556,
+   "reach": 305,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a3",
+   "spend": 13.78,
+   "impressions": 866,
+   "reach": 595,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a4",
+   "spend": 6.62,
+   "impressions": 713,
+   "reach": 439,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a5",
+   "spend": 7.1,
+   "impressions": 564,
+   "reach": 271,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a6",
+   "spend": 4.58,
+   "impressions": 476,
+   "reach": 220,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a7",
+   "spend": 12.92,
+   "impressions": 892,
+   "reach": 614,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-02",
+   "adId": "a8",
+   "spend": 15.57,
+   "impressions": 1194,
+   "reach": 754,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a1",
+   "spend": 9.09,
+   "impressions": 976,
+   "reach": 562,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a2",
+   "spend": 7.22,
+   "impressions": 606,
+   "reach": 416,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a3",
+   "spend": 8.65,
+   "impressions": 788,
+   "reach": 439,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a4",
+   "spend": 11.73,
+   "impressions": 1131,
+   "reach": 807,
+   "clicks": 12,
+   "linkClicks": 9,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a5",
+   "spend": 10.57,
+   "impressions": 707,
+   "reach": 333,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a6",
+   "spend": 9.2,
+   "impressions": 661,
+   "reach": 415,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a7",
+   "spend": 9.25,
+   "impressions": 825,
+   "reach": 538,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-03",
+   "adId": "a8",
+   "spend": 12.12,
+   "impressions": 1023,
+   "reach": 714,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a1",
+   "spend": 12.36,
+   "impressions": 1094,
+   "reach": 547,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a2",
+   "spend": 6.5,
+   "impressions": 531,
+   "reach": 284,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a3",
+   "spend": 6.59,
+   "impressions": 448,
+   "reach": 291,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a4",
+   "spend": 9.74,
+   "impressions": 660,
+   "reach": 413,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a5",
+   "spend": 6.95,
+   "impressions": 584,
+   "reach": 266,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a6",
+   "spend": 11.82,
+   "impressions": 1026,
+   "reach": 709,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a7",
+   "spend": 19.48,
+   "impressions": 1533,
+   "reach": 973,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-04",
+   "adId": "a8",
+   "spend": 17.45,
+   "impressions": 1196,
+   "reach": 554,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a1",
+   "spend": 9.64,
+   "impressions": 744,
+   "reach": 531,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a2",
+   "spend": 13.18,
+   "impressions": 1266,
+   "reach": 606,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a3",
+   "spend": 13.61,
+   "impressions": 1171,
+   "reach": 760,
+   "clicks": 13,
+   "linkClicks": 9,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a4",
+   "spend": 13.69,
+   "impressions": 988,
+   "reach": 457,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a5",
+   "spend": 7.92,
+   "impressions": 496,
+   "reach": 311,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a6",
+   "spend": 13.82,
+   "impressions": 1358,
+   "reach": 913,
+   "clicks": 15,
+   "linkClicks": 9,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a7",
+   "spend": 5.62,
+   "impressions": 480,
+   "reach": 246,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-05",
+   "adId": "a8",
+   "spend": 7.88,
+   "impressions": 828,
+   "reach": 561,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a1",
+   "spend": 9.94,
+   "impressions": 747,
+   "reach": 377,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a2",
+   "spend": 11.3,
+   "impressions": 1040,
+   "reach": 553,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a3",
+   "spend": 6.0,
+   "impressions": 653,
+   "reach": 421,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a4",
+   "spend": 12.85,
+   "impressions": 1109,
+   "reach": 604,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a5",
+   "spend": 13.71,
+   "impressions": 1044,
+   "reach": 491,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a6",
+   "spend": 11.14,
+   "impressions": 890,
+   "reach": 592,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a7",
+   "spend": 11.53,
+   "impressions": 724,
+   "reach": 435,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-06",
+   "adId": "a8",
+   "spend": 9.47,
+   "impressions": 775,
+   "reach": 362,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a1",
+   "spend": 9.63,
+   "impressions": 992,
+   "reach": 525,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a2",
+   "spend": 10.94,
+   "impressions": 1179,
+   "reach": 657,
+   "clicks": 13,
+   "linkClicks": 8,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a3",
+   "spend": 10.96,
+   "impressions": 1131,
+   "reach": 549,
+   "clicks": 12,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a4",
+   "spend": 11.41,
+   "impressions": 796,
+   "reach": 512,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a5",
+   "spend": 12.33,
+   "impressions": 829,
+   "reach": 488,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a6",
+   "spend": 9.94,
+   "impressions": 970,
+   "reach": 522,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a7",
+   "spend": 19.11,
+   "impressions": 1274,
+   "reach": 677,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-07",
+   "adId": "a8",
+   "spend": 5.72,
+   "impressions": 531,
+   "reach": 257,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a1",
+   "spend": 7.97,
+   "impressions": 820,
+   "reach": 428,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a2",
+   "spend": 12.61,
+   "impressions": 1164,
+   "reach": 598,
+   "clicks": 11,
+   "linkClicks": 9,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a3",
+   "spend": 11.21,
+   "impressions": 825,
+   "reach": 451,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a4",
+   "spend": 11.85,
+   "impressions": 772,
+   "reach": 384,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a5",
+   "spend": 5.83,
+   "impressions": 423,
+   "reach": 238,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a6",
+   "spend": 12.66,
+   "impressions": 967,
+   "reach": 619,
+   "clicks": 11,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a7",
+   "spend": 11.33,
+   "impressions": 872,
+   "reach": 538,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-08",
+   "adId": "a8",
+   "spend": 16.26,
+   "impressions": 1597,
+   "reach": 1024,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a1",
+   "spend": 7.73,
+   "impressions": 849,
+   "reach": 453,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a2",
+   "spend": 5.67,
+   "impressions": 383,
+   "reach": 246,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a3",
+   "spend": 13.48,
+   "impressions": 873,
+   "reach": 415,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a4",
+   "spend": 6.56,
+   "impressions": 514,
+   "reach": 337,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a5",
+   "spend": 10.95,
+   "impressions": 816,
+   "reach": 547,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a6",
+   "spend": 5.06,
+   "impressions": 486,
+   "reach": 291,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a7",
+   "spend": 5.64,
+   "impressions": 411,
+   "reach": 187,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-09",
+   "adId": "a8",
+   "spend": 9.74,
+   "impressions": 795,
+   "reach": 381,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a1",
+   "spend": 10.63,
+   "impressions": 1042,
+   "reach": 609,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a2",
+   "spend": 12.51,
+   "impressions": 856,
+   "reach": 440,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a3",
+   "spend": 5.81,
+   "impressions": 498,
+   "reach": 309,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a4",
+   "spend": 7.14,
+   "impressions": 512,
+   "reach": 265,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a5",
+   "spend": 6.49,
+   "impressions": 568,
+   "reach": 271,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a6",
+   "spend": 4.75,
+   "impressions": 381,
+   "reach": 182,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a7",
+   "spend": 11.86,
+   "impressions": 1206,
+   "reach": 667,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-10",
+   "adId": "a8",
+   "spend": 8.5,
+   "impressions": 620,
+   "reach": 415,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a1",
+   "spend": 11.59,
+   "impressions": 1098,
+   "reach": 555,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a2",
+   "spend": 5.07,
+   "impressions": 381,
+   "reach": 203,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a3",
+   "spend": 11.72,
+   "impressions": 964,
+   "reach": 451,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a4",
+   "spend": 5.77,
+   "impressions": 442,
+   "reach": 273,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a5",
+   "spend": 13.64,
+   "impressions": 863,
+   "reach": 452,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a6",
+   "spend": 6.01,
+   "impressions": 449,
+   "reach": 266,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a7",
+   "spend": 12.33,
+   "impressions": 948,
+   "reach": 489,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-11",
+   "adId": "a8",
+   "spend": 8.4,
+   "impressions": 589,
+   "reach": 281,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a1",
+   "spend": 11.39,
+   "impressions": 756,
+   "reach": 346,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a2",
+   "spend": 7.13,
+   "impressions": 554,
+   "reach": 301,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a3",
+   "spend": 10.03,
+   "impressions": 694,
+   "reach": 461,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a4",
+   "spend": 9.84,
+   "impressions": 912,
+   "reach": 490,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a5",
+   "spend": 7.58,
+   "impressions": 523,
+   "reach": 314,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a6",
+   "spend": 7.61,
+   "impressions": 722,
+   "reach": 380,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a7",
+   "spend": 19.02,
+   "impressions": 1380,
+   "reach": 785,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-12",
+   "adId": "a8",
+   "spend": 6.21,
+   "impressions": 406,
+   "reach": 194,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a1",
+   "spend": 8.24,
+   "impressions": 847,
+   "reach": 576,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a2",
+   "spend": 4.54,
+   "impressions": 311,
+   "reach": 162,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a3",
+   "spend": 10.18,
+   "impressions": 712,
+   "reach": 414,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 3
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a4",
+   "spend": 10.61,
+   "impressions": 861,
+   "reach": 434,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a5",
+   "spend": 7.73,
+   "impressions": 494,
+   "reach": 294,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a6",
+   "spend": 8.13,
+   "impressions": 601,
+   "reach": 273,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a7",
+   "spend": 12.06,
+   "impressions": 938,
+   "reach": 442,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-13",
+   "adId": "a8",
+   "spend": 10.05,
+   "impressions": 826,
+   "reach": 414,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a1",
+   "spend": 8.36,
+   "impressions": 561,
+   "reach": 268,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a2",
+   "spend": 5.4,
+   "impressions": 422,
+   "reach": 198,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a3",
+   "spend": 9.52,
+   "impressions": 743,
+   "reach": 432,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a4",
+   "spend": 9.02,
+   "impressions": 661,
+   "reach": 332,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a5",
+   "spend": 8.84,
+   "impressions": 767,
+   "reach": 533,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a6",
+   "spend": 13.81,
+   "impressions": 1225,
+   "reach": 592,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a7",
+   "spend": 12.83,
+   "impressions": 1102,
+   "reach": 753,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-14",
+   "adId": "a8",
+   "spend": 14.61,
+   "impressions": 1394,
+   "reach": 911,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a1",
+   "spend": 12.33,
+   "impressions": 1346,
+   "reach": 716,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 3
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a2",
+   "spend": 9.64,
+   "impressions": 1055,
+   "reach": 518,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a3",
+   "spend": 12.2,
+   "impressions": 1187,
+   "reach": 568,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a4",
+   "spend": 9.04,
+   "impressions": 757,
+   "reach": 402,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a5",
+   "spend": 12.28,
+   "impressions": 803,
+   "reach": 429,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a6",
+   "spend": 11.41,
+   "impressions": 796,
+   "reach": 404,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a7",
+   "spend": 16.65,
+   "impressions": 1276,
+   "reach": 733,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-15",
+   "adId": "a8",
+   "spend": 10.72,
+   "impressions": 980,
+   "reach": 498,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a1",
+   "spend": 11.36,
+   "impressions": 758,
+   "reach": 385,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a2",
+   "spend": 5.61,
+   "impressions": 356,
+   "reach": 162,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a3",
+   "spend": 10.14,
+   "impressions": 801,
+   "reach": 561,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a4",
+   "spend": 10.0,
+   "impressions": 792,
+   "reach": 423,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a5",
+   "spend": 9.18,
+   "impressions": 648,
+   "reach": 302,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a6",
+   "spend": 9.75,
+   "impressions": 900,
+   "reach": 460,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a7",
+   "spend": 19.12,
+   "impressions": 1477,
+   "reach": 672,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-16",
+   "adId": "a8",
+   "spend": 15.08,
+   "impressions": 1421,
+   "reach": 662,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a1",
+   "spend": 8.77,
+   "impressions": 764,
+   "reach": 489,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a2",
+   "spend": 6.5,
+   "impressions": 487,
+   "reach": 256,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a3",
+   "spend": 8.92,
+   "impressions": 561,
+   "reach": 314,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a4",
+   "spend": 9.41,
+   "impressions": 751,
+   "reach": 452,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a5",
+   "spend": 10.13,
+   "impressions": 936,
+   "reach": 576,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a6",
+   "spend": 5.8,
+   "impressions": 584,
+   "reach": 285,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a7",
+   "spend": 8.07,
+   "impressions": 645,
+   "reach": 445,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-17",
+   "adId": "a8",
+   "spend": 16.99,
+   "impressions": 1377,
+   "reach": 634,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a1",
+   "spend": 5.99,
+   "impressions": 459,
+   "reach": 240,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a2",
+   "spend": 5.45,
+   "impressions": 535,
+   "reach": 331,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a3",
+   "spend": 10.45,
+   "impressions": 958,
+   "reach": 445,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a4",
+   "spend": 11.01,
+   "impressions": 1151,
+   "reach": 755,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a5",
+   "spend": 10.55,
+   "impressions": 694,
+   "reach": 389,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a6",
+   "spend": 13.75,
+   "impressions": 1075,
+   "reach": 562,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a7",
+   "spend": 9.94,
+   "impressions": 869,
+   "reach": 489,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-18",
+   "adId": "a8",
+   "spend": 5.72,
+   "impressions": 370,
+   "reach": 215,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a1",
+   "spend": 5.63,
+   "impressions": 397,
+   "reach": 199,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a2",
+   "spend": 12.09,
+   "impressions": 1016,
+   "reach": 555,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a3",
+   "spend": 5.86,
+   "impressions": 603,
+   "reach": 340,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a4",
+   "spend": 11.91,
+   "impressions": 1052,
+   "reach": 702,
+   "clicks": 11,
+   "linkClicks": 9,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a5",
+   "spend": 11.68,
+   "impressions": 1087,
+   "reach": 658,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a6",
+   "spend": 7.23,
+   "impressions": 539,
+   "reach": 282,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a7",
+   "spend": 10.14,
+   "impressions": 996,
+   "reach": 652,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-19",
+   "adId": "a8",
+   "spend": 6.88,
+   "impressions": 516,
+   "reach": 254,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a1",
+   "spend": 11.57,
+   "impressions": 790,
+   "reach": 509,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a2",
+   "spend": 5.87,
+   "impressions": 513,
+   "reach": 366,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a3",
+   "spend": 10.38,
+   "impressions": 890,
+   "reach": 494,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a4",
+   "spend": 9.51,
+   "impressions": 715,
+   "reach": 483,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a5",
+   "spend": 9.71,
+   "impressions": 653,
+   "reach": 309,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a6",
+   "spend": 4.8,
+   "impressions": 328,
+   "reach": 199,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a7",
+   "spend": 18.82,
+   "impressions": 1196,
+   "reach": 805,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-20",
+   "adId": "a8",
+   "spend": 14.54,
+   "impressions": 1263,
+   "reach": 750,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a1",
+   "spend": 7.15,
+   "impressions": 448,
+   "reach": 279,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a2",
+   "spend": 13.62,
+   "impressions": 1122,
+   "reach": 791,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a3",
+   "spend": 12.22,
+   "impressions": 883,
+   "reach": 556,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a4",
+   "spend": 12.11,
+   "impressions": 1255,
+   "reach": 668,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a5",
+   "spend": 7.0,
+   "impressions": 495,
+   "reach": 257,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a6",
+   "spend": 10.02,
+   "impressions": 1103,
+   "reach": 643,
+   "clicks": 11,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a7",
+   "spend": 11.84,
+   "impressions": 899,
+   "reach": 499,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-21",
+   "adId": "a8",
+   "spend": 16.43,
+   "impressions": 1657,
+   "reach": 998,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a1",
+   "spend": 13.24,
+   "impressions": 1375,
+   "reach": 784,
+   "clicks": 12,
+   "linkClicks": 8,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a2",
+   "spend": 5.46,
+   "impressions": 586,
+   "reach": 285,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a3",
+   "spend": 4.14,
+   "impressions": 298,
+   "reach": 196,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a4",
+   "spend": 10.99,
+   "impressions": 1203,
+   "reach": 703,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 3
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a5",
+   "spend": 6.71,
+   "impressions": 448,
+   "reach": 214,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a6",
+   "spend": 9.32,
+   "impressions": 904,
+   "reach": 537,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a7",
+   "spend": 14.35,
+   "impressions": 1346,
+   "reach": 884,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-22",
+   "adId": "a8",
+   "spend": 18.16,
+   "impressions": 1335,
+   "reach": 802,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a1",
+   "spend": 9.42,
+   "impressions": 901,
+   "reach": 594,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a2",
+   "spend": 13.33,
+   "impressions": 864,
+   "reach": 499,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a3",
+   "spend": 8.43,
+   "impressions": 542,
+   "reach": 342,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a4",
+   "spend": 6.32,
+   "impressions": 457,
+   "reach": 293,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a5",
+   "spend": 4.32,
+   "impressions": 301,
+   "reach": 167,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a6",
+   "spend": 7.25,
+   "impressions": 594,
+   "reach": 282,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a7",
+   "spend": 16.62,
+   "impressions": 1314,
+   "reach": 912,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-23",
+   "adId": "a8",
+   "spend": 9.68,
+   "impressions": 821,
+   "reach": 415,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a1",
+   "spend": 5.13,
+   "impressions": 354,
+   "reach": 221,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a2",
+   "spend": 10.92,
+   "impressions": 711,
+   "reach": 329,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a3",
+   "spend": 7.79,
+   "impressions": 667,
+   "reach": 331,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a4",
+   "spend": 8.46,
+   "impressions": 632,
+   "reach": 397,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a5",
+   "spend": 9.89,
+   "impressions": 802,
+   "reach": 417,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a6",
+   "spend": 4.37,
+   "impressions": 291,
+   "reach": 155,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a7",
+   "spend": 16.62,
+   "impressions": 1622,
+   "reach": 992,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-24",
+   "adId": "a8",
+   "spend": 7.48,
+   "impressions": 539,
+   "reach": 276,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a1",
+   "spend": 13.34,
+   "impressions": 838,
+   "reach": 467,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a2",
+   "spend": 5.8,
+   "impressions": 437,
+   "reach": 262,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a3",
+   "spend": 9.6,
+   "impressions": 713,
+   "reach": 360,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a4",
+   "spend": 10.16,
+   "impressions": 1103,
+   "reach": 602,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a5",
+   "spend": 7.35,
+   "impressions": 507,
+   "reach": 240,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a6",
+   "spend": 7.54,
+   "impressions": 477,
+   "reach": 242,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a7",
+   "spend": 10.0,
+   "impressions": 1084,
+   "reach": 508,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-25",
+   "adId": "a8",
+   "spend": 11.81,
+   "impressions": 1287,
+   "reach": 598,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a1",
+   "spend": 10.77,
+   "impressions": 1084,
+   "reach": 754,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a2",
+   "spend": 9.21,
+   "impressions": 676,
+   "reach": 444,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a3",
+   "spend": 6.74,
+   "impressions": 740,
+   "reach": 391,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a4",
+   "spend": 7.39,
+   "impressions": 610,
+   "reach": 311,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a5",
+   "spend": 10.16,
+   "impressions": 908,
+   "reach": 511,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a6",
+   "spend": 8.56,
+   "impressions": 620,
+   "reach": 305,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a7",
+   "spend": 17.95,
+   "impressions": 1474,
+   "reach": 723,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-26",
+   "adId": "a8",
+   "spend": 10.16,
+   "impressions": 750,
+   "reach": 400,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a1",
+   "spend": 11.84,
+   "impressions": 982,
+   "reach": 532,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a2",
+   "spend": 12.22,
+   "impressions": 1194,
+   "reach": 565,
+   "clicks": 13,
+   "linkClicks": 8,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a3",
+   "spend": 13.03,
+   "impressions": 968,
+   "reach": 454,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a4",
+   "spend": 7.05,
+   "impressions": 451,
+   "reach": 245,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a5",
+   "spend": 4.53,
+   "impressions": 325,
+   "reach": 177,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a6",
+   "spend": 10.62,
+   "impressions": 861,
+   "reach": 435,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a7",
+   "spend": 12.41,
+   "impressions": 1029,
+   "reach": 558,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-27",
+   "adId": "a8",
+   "spend": 11.9,
+   "impressions": 1035,
+   "reach": 558,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a1",
+   "spend": 11.05,
+   "impressions": 1128,
+   "reach": 766,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a2",
+   "spend": 8.72,
+   "impressions": 614,
+   "reach": 345,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a3",
+   "spend": 11.34,
+   "impressions": 949,
+   "reach": 618,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a4",
+   "spend": 4.52,
+   "impressions": 283,
+   "reach": 200,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a5",
+   "spend": 5.12,
+   "impressions": 500,
+   "reach": 340,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a6",
+   "spend": 5.45,
+   "impressions": 350,
+   "reach": 182,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a7",
+   "spend": 16.18,
+   "impressions": 1649,
+   "reach": 786,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-28",
+   "adId": "a8",
+   "spend": 5.77,
+   "impressions": 372,
+   "reach": 178,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a1",
+   "spend": 7.35,
+   "impressions": 676,
+   "reach": 437,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a2",
+   "spend": 9.48,
+   "impressions": 691,
+   "reach": 321,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a3",
+   "spend": 10.57,
+   "impressions": 711,
+   "reach": 335,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a4",
+   "spend": 10.96,
+   "impressions": 1017,
+   "reach": 696,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a5",
+   "spend": 11.77,
+   "impressions": 1007,
+   "reach": 664,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a6",
+   "spend": 11.69,
+   "impressions": 1110,
+   "reach": 580,
+   "clicks": 10,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a7",
+   "spend": 18.66,
+   "impressions": 1366,
+   "reach": 673,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-29",
+   "adId": "a8",
+   "spend": 13.16,
+   "impressions": 1458,
+   "reach": 990,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a1",
+   "spend": 9.35,
+   "impressions": 594,
+   "reach": 311,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a2",
+   "spend": 7.59,
+   "impressions": 791,
+   "reach": 432,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a3",
+   "spend": 12.34,
+   "impressions": 1016,
+   "reach": 483,
+   "clicks": 12,
+   "linkClicks": 7,
+   "leads": 3
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a4",
+   "spend": 5.49,
+   "impressions": 420,
+   "reach": 291,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a5",
+   "spend": 7.07,
+   "impressions": 485,
+   "reach": 236,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a6",
+   "spend": 13.82,
+   "impressions": 1005,
+   "reach": 664,
+   "clicks": 6,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a7",
+   "spend": 11.41,
+   "impressions": 822,
+   "reach": 585,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-09-30",
+   "adId": "a8",
+   "spend": 8.11,
+   "impressions": 842,
+   "reach": 391,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a1",
+   "spend": 10.11,
+   "impressions": 1091,
+   "reach": 738,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a2",
+   "spend": 7.62,
+   "impressions": 531,
+   "reach": 344,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a3",
+   "spend": 10.7,
+   "impressions": 1150,
+   "reach": 566,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a4",
+   "spend": 8.85,
+   "impressions": 901,
+   "reach": 452,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a5",
+   "spend": 12.7,
+   "impressions": 1092,
+   "reach": 573,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a6",
+   "spend": 13.76,
+   "impressions": 1321,
+   "reach": 650,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a7",
+   "spend": 14.53,
+   "impressions": 1094,
+   "reach": 551,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "adId": "a8",
+   "spend": 15.91,
+   "impressions": 1483,
+   "reach": 736,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a1",
+   "spend": 4.34,
+   "impressions": 341,
+   "reach": 208,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a2",
+   "spend": 10.48,
+   "impressions": 1087,
+   "reach": 534,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a3",
+   "spend": 7.7,
+   "impressions": 628,
+   "reach": 308,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a4",
+   "spend": 11.88,
+   "impressions": 1241,
+   "reach": 805,
+   "clicks": 13,
+   "linkClicks": 10,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a5",
+   "spend": 9.59,
+   "impressions": 1012,
+   "reach": 507,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a6",
+   "spend": 6.25,
+   "impressions": 544,
+   "reach": 297,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a7",
+   "spend": 9.69,
+   "impressions": 726,
+   "reach": 335,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-02",
+   "adId": "a8",
+   "spend": 7.13,
+   "impressions": 652,
+   "reach": 371,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a1",
+   "spend": 10.45,
+   "impressions": 946,
+   "reach": 483,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a2",
+   "spend": 12.42,
+   "impressions": 1025,
+   "reach": 580,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a3",
+   "spend": 5.66,
+   "impressions": 365,
+   "reach": 243,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a4",
+   "spend": 6.6,
+   "impressions": 641,
+   "reach": 356,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a5",
+   "spend": 5.45,
+   "impressions": 446,
+   "reach": 239,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a6",
+   "spend": 5.47,
+   "impressions": 422,
+   "reach": 240,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a7",
+   "spend": 6.89,
+   "impressions": 734,
+   "reach": 405,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "adId": "a8",
+   "spend": 8.32,
+   "impressions": 741,
+   "reach": 339,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a1",
+   "spend": 12.74,
+   "impressions": 1325,
+   "reach": 708,
+   "clicks": 13,
+   "linkClicks": 9,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a2",
+   "spend": 4.86,
+   "impressions": 464,
+   "reach": 251,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a3",
+   "spend": 11.1,
+   "impressions": 776,
+   "reach": 545,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a4",
+   "spend": 4.02,
+   "impressions": 370,
+   "reach": 228,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a5",
+   "spend": 13.94,
+   "impressions": 1472,
+   "reach": 708,
+   "clicks": 14,
+   "linkClicks": 10,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a6",
+   "spend": 5.63,
+   "impressions": 598,
+   "reach": 278,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a7",
+   "spend": 12.79,
+   "impressions": 890,
+   "reach": 602,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "adId": "a8",
+   "spend": 13.72,
+   "impressions": 929,
+   "reach": 438,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a1",
+   "spend": 10.13,
+   "impressions": 683,
+   "reach": 414,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a2",
+   "spend": 7.63,
+   "impressions": 518,
+   "reach": 327,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a3",
+   "spend": 5.25,
+   "impressions": 529,
+   "reach": 365,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a4",
+   "spend": 5.19,
+   "impressions": 481,
+   "reach": 231,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a5",
+   "spend": 13.42,
+   "impressions": 857,
+   "reach": 551,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a6",
+   "spend": 6.82,
+   "impressions": 445,
+   "reach": 288,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a7",
+   "spend": 10.57,
+   "impressions": 906,
+   "reach": 632,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-05",
+   "adId": "a8",
+   "spend": 10.19,
+   "impressions": 1038,
+   "reach": 500,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a1",
+   "spend": 8.76,
+   "impressions": 636,
+   "reach": 429,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a2",
+   "spend": 13.25,
+   "impressions": 836,
+   "reach": 448,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a3",
+   "spend": 6.73,
+   "impressions": 463,
+   "reach": 257,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a4",
+   "spend": 10.28,
+   "impressions": 1033,
+   "reach": 706,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a5",
+   "spend": 11.52,
+   "impressions": 801,
+   "reach": 459,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a6",
+   "spend": 13.15,
+   "impressions": 1125,
+   "reach": 570,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a7",
+   "spend": 12.42,
+   "impressions": 1271,
+   "reach": 671,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-06",
+   "adId": "a8",
+   "spend": 10.54,
+   "impressions": 665,
+   "reach": 396,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a1",
+   "spend": 7.57,
+   "impressions": 660,
+   "reach": 373,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a2",
+   "spend": 12.63,
+   "impressions": 973,
+   "reach": 501,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a3",
+   "spend": 7.36,
+   "impressions": 587,
+   "reach": 360,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a4",
+   "spend": 4.48,
+   "impressions": 280,
+   "reach": 178,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a5",
+   "spend": 11.96,
+   "impressions": 881,
+   "reach": 622,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a6",
+   "spend": 11.03,
+   "impressions": 733,
+   "reach": 395,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a7",
+   "spend": 14.37,
+   "impressions": 1135,
+   "reach": 656,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "adId": "a8",
+   "spend": 17.13,
+   "impressions": 1266,
+   "reach": 660,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a1",
+   "spend": 4.37,
+   "impressions": 432,
+   "reach": 294,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a2",
+   "spend": 10.02,
+   "impressions": 664,
+   "reach": 309,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a3",
+   "spend": 9.22,
+   "impressions": 622,
+   "reach": 311,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a4",
+   "spend": 6.36,
+   "impressions": 531,
+   "reach": 305,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a5",
+   "spend": 10.83,
+   "impressions": 687,
+   "reach": 319,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a6",
+   "spend": 10.91,
+   "impressions": 751,
+   "reach": 352,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a7",
+   "spend": 11.1,
+   "impressions": 700,
+   "reach": 405,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "adId": "a8",
+   "spend": 6.07,
+   "impressions": 402,
+   "reach": 222,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a1",
+   "spend": 7.52,
+   "impressions": 569,
+   "reach": 299,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a2",
+   "spend": 7.14,
+   "impressions": 745,
+   "reach": 374,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a3",
+   "spend": 6.61,
+   "impressions": 478,
+   "reach": 223,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a4",
+   "spend": 10.47,
+   "impressions": 782,
+   "reach": 362,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a5",
+   "spend": 5.17,
+   "impressions": 368,
+   "reach": 204,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a6",
+   "spend": 5.3,
+   "impressions": 353,
+   "reach": 166,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a7",
+   "spend": 10.77,
+   "impressions": 781,
+   "reach": 529,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "adId": "a8",
+   "spend": 6.42,
+   "impressions": 566,
+   "reach": 344,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a1",
+   "spend": 7.95,
+   "impressions": 685,
+   "reach": 452,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a2",
+   "spend": 5.17,
+   "impressions": 555,
+   "reach": 336,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a3",
+   "spend": 12.93,
+   "impressions": 1153,
+   "reach": 716,
+   "clicks": 13,
+   "linkClicks": 10,
+   "leads": 4
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a4",
+   "spend": 11.06,
+   "impressions": 917,
+   "reach": 621,
+   "clicks": 10,
+   "linkClicks": 8,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a5",
+   "spend": 12.68,
+   "impressions": 1235,
+   "reach": 845,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a6",
+   "spend": 11.68,
+   "impressions": 850,
+   "reach": 411,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a7",
+   "spend": 14.83,
+   "impressions": 1217,
+   "reach": 655,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-10",
+   "adId": "a8",
+   "spend": 8.56,
+   "impressions": 916,
+   "reach": 622,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a1",
+   "spend": 12.52,
+   "impressions": 1234,
+   "reach": 819,
+   "clicks": 12,
+   "linkClicks": 8,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a2",
+   "spend": 10.66,
+   "impressions": 719,
+   "reach": 413,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a3",
+   "spend": 4.4,
+   "impressions": 386,
+   "reach": 216,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a4",
+   "spend": 5.49,
+   "impressions": 554,
+   "reach": 287,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a5",
+   "spend": 9.68,
+   "impressions": 898,
+   "reach": 548,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a6",
+   "spend": 9.87,
+   "impressions": 810,
+   "reach": 545,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a7",
+   "spend": 13.08,
+   "impressions": 1446,
+   "reach": 856,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "adId": "a8",
+   "spend": 15.03,
+   "impressions": 1086,
+   "reach": 565,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a1",
+   "spend": 8.36,
+   "impressions": 624,
+   "reach": 351,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a2",
+   "spend": 12.6,
+   "impressions": 962,
+   "reach": 512,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a3",
+   "spend": 9.54,
+   "impressions": 864,
+   "reach": 522,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a4",
+   "spend": 4.64,
+   "impressions": 304,
+   "reach": 191,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a5",
+   "spend": 6.2,
+   "impressions": 403,
+   "reach": 202,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a6",
+   "spend": 11.96,
+   "impressions": 819,
+   "reach": 373,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a7",
+   "spend": 9.85,
+   "impressions": 941,
+   "reach": 496,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-12",
+   "adId": "a8",
+   "spend": 7.29,
+   "impressions": 689,
+   "reach": 350,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a1",
+   "spend": 13.27,
+   "impressions": 1099,
+   "reach": 577,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 4
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a2",
+   "spend": 12.71,
+   "impressions": 826,
+   "reach": 471,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a3",
+   "spend": 8.16,
+   "impressions": 567,
+   "reach": 283,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a4",
+   "spend": 8.22,
+   "impressions": 775,
+   "reach": 378,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a5",
+   "spend": 13.44,
+   "impressions": 1400,
+   "reach": 710,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a6",
+   "spend": 10.6,
+   "impressions": 838,
+   "reach": 392,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a7",
+   "spend": 15.4,
+   "impressions": 1270,
+   "reach": 888,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-13",
+   "adId": "a8",
+   "spend": 10.28,
+   "impressions": 730,
+   "reach": 358,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a1",
+   "spend": 9.93,
+   "impressions": 928,
+   "reach": 618,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 3
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a2",
+   "spend": 6.98,
+   "impressions": 493,
+   "reach": 302,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a3",
+   "spend": 11.85,
+   "impressions": 846,
+   "reach": 410,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a4",
+   "spend": 4.82,
+   "impressions": 510,
+   "reach": 293,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a5",
+   "spend": 8.4,
+   "impressions": 541,
+   "reach": 344,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a6",
+   "spend": 8.73,
+   "impressions": 613,
+   "reach": 279,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a7",
+   "spend": 9.85,
+   "impressions": 794,
+   "reach": 472,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-14",
+   "adId": "a8",
+   "spend": 17.79,
+   "impressions": 1492,
+   "reach": 847,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a1",
+   "spend": 8.49,
+   "impressions": 563,
+   "reach": 293,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a2",
+   "spend": 12.66,
+   "impressions": 907,
+   "reach": 488,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a3",
+   "spend": 5.89,
+   "impressions": 477,
+   "reach": 233,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a4",
+   "spend": 10.07,
+   "impressions": 852,
+   "reach": 555,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a5",
+   "spend": 5.44,
+   "impressions": 504,
+   "reach": 291,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a6",
+   "spend": 7.24,
+   "impressions": 622,
+   "reach": 351,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a7",
+   "spend": 11.3,
+   "impressions": 912,
+   "reach": 528,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-15",
+   "adId": "a8",
+   "spend": 6.77,
+   "impressions": 503,
+   "reach": 283,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a1",
+   "spend": 12.29,
+   "impressions": 1114,
+   "reach": 616,
+   "clicks": 13,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a2",
+   "spend": 4.45,
+   "impressions": 313,
+   "reach": 189,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a3",
+   "spend": 10.82,
+   "impressions": 949,
+   "reach": 495,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a4",
+   "spend": 4.02,
+   "impressions": 325,
+   "reach": 228,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a5",
+   "spend": 12.32,
+   "impressions": 899,
+   "reach": 418,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a6",
+   "spend": 8.45,
+   "impressions": 800,
+   "reach": 473,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a7",
+   "spend": 9.53,
+   "impressions": 621,
+   "reach": 335,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-16",
+   "adId": "a8",
+   "spend": 15.15,
+   "impressions": 1169,
+   "reach": 532,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a1",
+   "spend": 10.93,
+   "impressions": 858,
+   "reach": 529,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a2",
+   "spend": 10.8,
+   "impressions": 880,
+   "reach": 473,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a3",
+   "spend": 4.25,
+   "impressions": 300,
+   "reach": 160,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a4",
+   "spend": 10.26,
+   "impressions": 904,
+   "reach": 449,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a5",
+   "spend": 10.25,
+   "impressions": 785,
+   "reach": 412,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a6",
+   "spend": 4.66,
+   "impressions": 339,
+   "reach": 166,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a7",
+   "spend": 17.92,
+   "impressions": 1343,
+   "reach": 863,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-17",
+   "adId": "a8",
+   "spend": 13.62,
+   "impressions": 1011,
+   "reach": 504,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a1",
+   "spend": 7.11,
+   "impressions": 467,
+   "reach": 225,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a2",
+   "spend": 12.59,
+   "impressions": 1053,
+   "reach": 565,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a3",
+   "spend": 13.63,
+   "impressions": 1023,
+   "reach": 642,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a4",
+   "spend": 11.35,
+   "impressions": 724,
+   "reach": 465,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a5",
+   "spend": 9.86,
+   "impressions": 686,
+   "reach": 330,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a6",
+   "spend": 13.11,
+   "impressions": 1433,
+   "reach": 656,
+   "clicks": 13,
+   "linkClicks": 9,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a7",
+   "spend": 19.57,
+   "impressions": 1289,
+   "reach": 807,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-18",
+   "adId": "a8",
+   "spend": 6.25,
+   "impressions": 469,
+   "reach": 299,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a1",
+   "spend": 4.81,
+   "impressions": 391,
+   "reach": 199,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a2",
+   "spend": 11.16,
+   "impressions": 895,
+   "reach": 423,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a3",
+   "spend": 9.71,
+   "impressions": 624,
+   "reach": 351,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a4",
+   "spend": 8.09,
+   "impressions": 552,
+   "reach": 272,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a5",
+   "spend": 13.27,
+   "impressions": 1369,
+   "reach": 622,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a6",
+   "spend": 13.98,
+   "impressions": 979,
+   "reach": 550,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a7",
+   "spend": 12.78,
+   "impressions": 891,
+   "reach": 438,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-19",
+   "adId": "a8",
+   "spend": 9.98,
+   "impressions": 967,
+   "reach": 472,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a1",
+   "spend": 12.34,
+   "impressions": 1084,
+   "reach": 501,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a2",
+   "spend": 7.3,
+   "impressions": 544,
+   "reach": 308,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a3",
+   "spend": 12.95,
+   "impressions": 1341,
+   "reach": 695,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a4",
+   "spend": 4.7,
+   "impressions": 499,
+   "reach": 238,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a5",
+   "spend": 5.3,
+   "impressions": 507,
+   "reach": 334,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a6",
+   "spend": 4.64,
+   "impressions": 393,
+   "reach": 200,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a7",
+   "spend": 15.56,
+   "impressions": 1404,
+   "reach": 818,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-20",
+   "adId": "a8",
+   "spend": 18.84,
+   "impressions": 1764,
+   "reach": 957,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a1",
+   "spend": 13.95,
+   "impressions": 1462,
+   "reach": 857,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a2",
+   "spend": 11.46,
+   "impressions": 764,
+   "reach": 353,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a3",
+   "spend": 5.4,
+   "impressions": 366,
+   "reach": 240,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a4",
+   "spend": 7.58,
+   "impressions": 720,
+   "reach": 437,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a5",
+   "spend": 4.52,
+   "impressions": 500,
+   "reach": 258,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a6",
+   "spend": 6.21,
+   "impressions": 409,
+   "reach": 223,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a7",
+   "spend": 18.74,
+   "impressions": 1903,
+   "reach": 1122,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "adId": "a8",
+   "spend": 6.54,
+   "impressions": 621,
+   "reach": 284,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a1",
+   "spend": 10.96,
+   "impressions": 797,
+   "reach": 426,
+   "clicks": 9,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a2",
+   "spend": 7.82,
+   "impressions": 579,
+   "reach": 399,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a3",
+   "spend": 7.75,
+   "impressions": 699,
+   "reach": 348,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a4",
+   "spend": 9.21,
+   "impressions": 581,
+   "reach": 297,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a5",
+   "spend": 11.2,
+   "impressions": 844,
+   "reach": 572,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a6",
+   "spend": 9.93,
+   "impressions": 670,
+   "reach": 380,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a7",
+   "spend": 14.5,
+   "impressions": 1329,
+   "reach": 653,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "adId": "a8",
+   "spend": 5.88,
+   "impressions": 503,
+   "reach": 266,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a1",
+   "spend": 4.72,
+   "impressions": 474,
+   "reach": 279,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a2",
+   "spend": 8.9,
+   "impressions": 659,
+   "reach": 333,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a3",
+   "spend": 9.1,
+   "impressions": 732,
+   "reach": 373,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a4",
+   "spend": 10.45,
+   "impressions": 964,
+   "reach": 561,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a5",
+   "spend": 9.86,
+   "impressions": 644,
+   "reach": 372,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a6",
+   "spend": 12.76,
+   "impressions": 905,
+   "reach": 440,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a7",
+   "spend": 5.62,
+   "impressions": 592,
+   "reach": 336,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-23",
+   "adId": "a8",
+   "spend": 17.0,
+   "impressions": 1650,
+   "reach": 1009,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a1",
+   "spend": 7.78,
+   "impressions": 711,
+   "reach": 481,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 3
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a2",
+   "spend": 9.22,
+   "impressions": 1018,
+   "reach": 495,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a3",
+   "spend": 13.41,
+   "impressions": 982,
+   "reach": 521,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a4",
+   "spend": 12.69,
+   "impressions": 1158,
+   "reach": 564,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a5",
+   "spend": 4.17,
+   "impressions": 361,
+   "reach": 168,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a6",
+   "spend": 13.87,
+   "impressions": 924,
+   "reach": 453,
+   "clicks": 10,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a7",
+   "spend": 9.82,
+   "impressions": 716,
+   "reach": 486,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "adId": "a8",
+   "spend": 11.69,
+   "impressions": 834,
+   "reach": 456,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a1",
+   "spend": 11.25,
+   "impressions": 1167,
+   "reach": 609,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a2",
+   "spend": 9.62,
+   "impressions": 641,
+   "reach": 307,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a3",
+   "spend": 13.54,
+   "impressions": 1038,
+   "reach": 551,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a4",
+   "spend": 6.22,
+   "impressions": 528,
+   "reach": 258,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a5",
+   "spend": 11.03,
+   "impressions": 836,
+   "reach": 382,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a6",
+   "spend": 7.33,
+   "impressions": 495,
+   "reach": 256,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a7",
+   "spend": 17.48,
+   "impressions": 1096,
+   "reach": 525,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "adId": "a8",
+   "spend": 11.11,
+   "impressions": 1120,
+   "reach": 738,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a1",
+   "spend": 6.18,
+   "impressions": 434,
+   "reach": 202,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a2",
+   "spend": 4.96,
+   "impressions": 313,
+   "reach": 174,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a3",
+   "spend": 10.88,
+   "impressions": 693,
+   "reach": 409,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a4",
+   "spend": 5.2,
+   "impressions": 542,
+   "reach": 303,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a5",
+   "spend": 10.45,
+   "impressions": 868,
+   "reach": 423,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a6",
+   "spend": 8.89,
+   "impressions": 703,
+   "reach": 381,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a7",
+   "spend": 16.81,
+   "impressions": 1704,
+   "reach": 980,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-26",
+   "adId": "a8",
+   "spend": 18.83,
+   "impressions": 2092,
+   "reach": 1243,
+   "clicks": 6,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a1",
+   "spend": 9.38,
+   "impressions": 895,
+   "reach": 595,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a2",
+   "spend": 10.22,
+   "impressions": 1073,
+   "reach": 540,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a3",
+   "spend": 13.95,
+   "impressions": 1005,
+   "reach": 533,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a4",
+   "spend": 4.78,
+   "impressions": 484,
+   "reach": 284,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a5",
+   "spend": 13.69,
+   "impressions": 1175,
+   "reach": 638,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a6",
+   "spend": 10.07,
+   "impressions": 659,
+   "reach": 438,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a7",
+   "spend": 5.73,
+   "impressions": 454,
+   "reach": 230,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "adId": "a8",
+   "spend": 8.16,
+   "impressions": 513,
+   "reach": 297,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a1",
+   "spend": 7.13,
+   "impressions": 740,
+   "reach": 425,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a2",
+   "spend": 9.09,
+   "impressions": 643,
+   "reach": 327,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a3",
+   "spend": 11.5,
+   "impressions": 1073,
+   "reach": 589,
+   "clicks": 10,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a4",
+   "spend": 6.25,
+   "impressions": 656,
+   "reach": 325,
+   "clicks": 7,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a5",
+   "spend": 5.18,
+   "impressions": 466,
+   "reach": 263,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a6",
+   "spend": 10.18,
+   "impressions": 819,
+   "reach": 557,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a7",
+   "spend": 12.8,
+   "impressions": 1270,
+   "reach": 854,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "adId": "a8",
+   "spend": 11.74,
+   "impressions": 789,
+   "reach": 372,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a1",
+   "spend": 5.6,
+   "impressions": 538,
+   "reach": 298,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a2",
+   "spend": 13.24,
+   "impressions": 888,
+   "reach": 407,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a3",
+   "spend": 11.37,
+   "impressions": 944,
+   "reach": 590,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a4",
+   "spend": 12.21,
+   "impressions": 1175,
+   "reach": 821,
+   "clicks": 11,
+   "linkClicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a5",
+   "spend": 13.9,
+   "impressions": 896,
+   "reach": 495,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a6",
+   "spend": 10.44,
+   "impressions": 938,
+   "reach": 527,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 3
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a7",
+   "spend": 18.32,
+   "impressions": 1887,
+   "reach": 1117,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-29",
+   "adId": "a8",
+   "spend": 16.5,
+   "impressions": 1299,
+   "reach": 675,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a1",
+   "spend": 5.9,
+   "impressions": 423,
+   "reach": 229,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a2",
+   "spend": 6.53,
+   "impressions": 431,
+   "reach": 239,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a3",
+   "spend": 4.22,
+   "impressions": 319,
+   "reach": 146,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a4",
+   "spend": 5.66,
+   "impressions": 397,
+   "reach": 225,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a5",
+   "spend": 11.08,
+   "impressions": 874,
+   "reach": 408,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 3
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a6",
+   "spend": 6.7,
+   "impressions": 460,
+   "reach": 250,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a7",
+   "spend": 15.71,
+   "impressions": 1324,
+   "reach": 606,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-30",
+   "adId": "a8",
+   "spend": 16.49,
+   "impressions": 1140,
+   "reach": 611,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a1",
+   "spend": 12.08,
+   "impressions": 846,
+   "reach": 471,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 4
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a2",
+   "spend": 11.29,
+   "impressions": 834,
+   "reach": 563,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a3",
+   "spend": 9.27,
+   "impressions": 658,
+   "reach": 434,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 3
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a4",
+   "spend": 10.27,
+   "impressions": 1129,
+   "reach": 737,
+   "clicks": 13,
+   "linkClicks": 10,
+   "leads": 1
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a5",
+   "spend": 7.32,
+   "impressions": 726,
+   "reach": 340,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a6",
+   "spend": 4.24,
+   "impressions": 353,
+   "reach": 238,
+   "clicks": 1,
+   "linkClicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a7",
+   "spend": 18.98,
+   "impressions": 1650,
+   "reach": 1085,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-31",
+   "adId": "a8",
+   "spend": 14.94,
+   "impressions": 1344,
+   "reach": 626,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a1",
+   "spend": 5.49,
+   "impressions": 403,
+   "reach": 183,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a2",
+   "spend": 5.82,
+   "impressions": 497,
+   "reach": 276,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a3",
+   "spend": 9.34,
+   "impressions": 733,
+   "reach": 333,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a4",
+   "spend": 4.17,
+   "impressions": 323,
+   "reach": 148,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a5",
+   "spend": 13.13,
+   "impressions": 1227,
+   "reach": 635,
+   "clicks": 13,
+   "linkClicks": 7,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a6",
+   "spend": 4.74,
+   "impressions": 318,
+   "reach": 159,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a7",
+   "spend": 15.38,
+   "impressions": 1386,
+   "reach": 983,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-01",
+   "adId": "a8",
+   "spend": 17.26,
+   "impressions": 1254,
+   "reach": 574,
+   "clicks": 6,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a1",
+   "spend": 5.25,
+   "impressions": 500,
+   "reach": 242,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a2",
+   "spend": 5.65,
+   "impressions": 386,
+   "reach": 205,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a3",
+   "spend": 11.57,
+   "impressions": 1036,
+   "reach": 480,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a4",
+   "spend": 4.08,
+   "impressions": 354,
+   "reach": 239,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a5",
+   "spend": 12.07,
+   "impressions": 1200,
+   "reach": 569,
+   "clicks": 10,
+   "linkClicks": 6,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a6",
+   "spend": 12.07,
+   "impressions": 888,
+   "reach": 525,
+   "clicks": 9,
+   "linkClicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a7",
+   "spend": 17.58,
+   "impressions": 1463,
+   "reach": 966,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-02",
+   "adId": "a8",
+   "spend": 17.79,
+   "impressions": 1386,
+   "reach": 898,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a1",
+   "spend": 11.72,
+   "impressions": 1084,
+   "reach": 519,
+   "clicks": 8,
+   "linkClicks": 5,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a2",
+   "spend": 13.17,
+   "impressions": 1329,
+   "reach": 693,
+   "clicks": 9,
+   "linkClicks": 7,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a3",
+   "spend": 11.41,
+   "impressions": 1064,
+   "reach": 600,
+   "clicks": 11,
+   "linkClicks": 6,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a4",
+   "spend": 10.42,
+   "impressions": 681,
+   "reach": 380,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a5",
+   "spend": 11.02,
+   "impressions": 893,
+   "reach": 528,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a6",
+   "spend": 8.3,
+   "impressions": 674,
+   "reach": 342,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a7",
+   "spend": 17.8,
+   "impressions": 1404,
+   "reach": 788,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "adId": "a8",
+   "spend": 15.24,
+   "impressions": 1505,
+   "reach": 907,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a1",
+   "spend": 13.86,
+   "impressions": 890,
+   "reach": 489,
+   "clicks": 8,
+   "linkClicks": 6,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a2",
+   "spend": 4.04,
+   "impressions": 332,
+   "reach": 195,
+   "clicks": 3,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a3",
+   "spend": 7.48,
+   "impressions": 477,
+   "reach": 270,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a4",
+   "spend": 8.1,
+   "impressions": 706,
+   "reach": 340,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a5",
+   "spend": 10.89,
+   "impressions": 902,
+   "reach": 501,
+   "clicks": 5,
+   "linkClicks": 3,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a6",
+   "spend": 11.52,
+   "impressions": 743,
+   "reach": 418,
+   "clicks": 3,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a7",
+   "spend": 7.34,
+   "impressions": 465,
+   "reach": 288,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-04",
+   "adId": "a8",
+   "spend": 17.34,
+   "impressions": 1190,
+   "reach": 713,
+   "clicks": 4,
+   "linkClicks": 2,
+   "leads": 1
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a1",
+   "spend": 13.59,
+   "impressions": 852,
+   "reach": 553,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a2",
+   "spend": 13.04,
+   "impressions": 1033,
+   "reach": 478,
+   "clicks": 7,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a3",
+   "spend": 6.04,
+   "impressions": 625,
+   "reach": 354,
+   "clicks": 4,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a4",
+   "spend": 10.32,
+   "impressions": 896,
+   "reach": 417,
+   "clicks": 5,
+   "linkClicks": 4,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a5",
+   "spend": 10.27,
+   "impressions": 762,
+   "reach": 367,
+   "clicks": 6,
+   "linkClicks": 3,
+   "leads": 2
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a6",
+   "spend": 7.91,
+   "impressions": 635,
+   "reach": 450,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a7",
+   "spend": 8.1,
+   "impressions": 624,
+   "reach": 401,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-05",
+   "adId": "a8",
+   "spend": 6.01,
+   "impressions": 656,
+   "reach": 367,
+   "clicks": 2,
+   "linkClicks": 1,
+   "leads": 0
+  }
+ ],
+ "insights": {
+  "generatedAt": "2026-11-05T09:00:00+08:00",
+  "period": "Last 7 days vs previous 7 days",
+  "summary": "PLACEHOLDER \u2013 this text will be written by AI from the real numbers. Lead volume rose versus the previous week while cost per lead came down, driven mainly by the Price List offer. Click-through rate softened slightly, a first sign the top creatives are being seen too often.",
+  "byCampaign": [
+   {
+    "name": "Project A \u2013 Cold Lead Form",
+    "text": "Top volume contributor; the Price List creative carries most leads at the lowest CPL."
+   },
+   {
+    "name": "Project B \u2013 Price List Offer",
+    "text": "Steady leads, but CPL is climbing on the unit-mix creative."
+   },
+   {
+    "name": "Video Awareness Retargeting",
+    "text": "Reaching people cheaply but not producing direct leads, as expected for awareness."
+   }
+  ],
+  "actions": [
+   "Move budget toward the Price List creative in Project A.",
+   "Refresh the unit-mix creative in Project B with a new hook.",
+   "Add one 9:16 Reels version of the best static to test placements."
+  ]
+ }
+}

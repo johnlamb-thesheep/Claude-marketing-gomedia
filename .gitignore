@@ -15,3 +15,11 @@ clients/*/inputs/**/*.png
 clients/*/inputs/**/*.webp
 clients/*/inputs/**/*.gif
 !clients/*/inputs/**/index.md
+
+# Local Netlify folder
+.netlify
+
+# Dashboard secrets (links to private client data) - keep local, repo is public
+dashboards/netlify/clients.mjs
+dashboards/agent-links.csv
+dashboards/account-review.csv
