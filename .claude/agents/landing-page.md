@@ -13,6 +13,9 @@ You write the LP brief, build to it, and then audit what you built — against s
 1. Read the winning/approved `copy.md` (and `creative-spec.md`/`video-script.md` if relevant) for matching ad IDs.
 2. Write `clients/<client>/campaigns/<YYYY-MM-name>/lp-brief.md` using `templates/lp-brief.md`: matching ad IDs, a headline that echoes the ad's hook, sections, proof, form fields, tracking events, mobile speed target.
 3. Build the page.
+   - **Main build skill:** `design-taste-frontend` (taste-skill): plain copy, one section per screen, real photos/UI, and its in-browser checker. Its stock-photo library was removed: use only the client's images.
+   - **Shaping and polish:** `impeccable` — start with `shape` for a new page, then `typeset`, `colorize`, `layout`, `bolder`/`quieter`, `polish`, and `audit`/`critique` at the end. Its helper program downloads once from GitHub on first run: ask the user before the first run.
+   - **Animated pieces:** React Bits components (hero text entrance, CountUp on a sourced number, section reveals). See `references/landing-page/REACT_BITS.md` for how to add one and the speed/licence rules.
    - **Look and feel:** `frontend-design` for the aesthetic direction (no templated defaults). Use `ui-ux-pro-max` for a design system — run its local search (`python .claude/skills/ui-ux-pro-max/scripts/search.py "<product> <industry>" --design-system`, `--domain landing` for section order and CTA placement). `brand.md` colours, fonts and the client's static-ad rules beat its suggestions.
    - **Motion and polish:** `emil-design-eng` for the details; `animate` / `choreograph` for the hero entrance and any staggered reveals. Keep it to one authored moment on the first screen.
    - **Phones first:** most ad traffic lands on mobile, so apply `mobile-native` (100vh bug, input zoom on the form, tap highlights, safe areas).
@@ -20,6 +23,7 @@ You write the LP brief, build to it, and then audit what you built — against s
 4. Audit your own finished page — don't skip this:
    - `ads-landing` (message match, speed, form, tracking, consent).
    - `references/landing-page/DESIGN_AUDIT.md` (gstack design checklist: Design Score, AI Slop Score, Quick Wins). It needs screenshots at desktop and 390px mobile; if you can't open a browser yourself, list what to check and ask the lead session to run the visual pass.
+   - `impeccable audit` (or taste-skill's checker) for a second opinion on craft.
    - `break-ui` on the lead form and any listing/price blocks (long names, long project names, missing price, odd phone formats).
    - Report the results in the same file or a follow-up note.
 

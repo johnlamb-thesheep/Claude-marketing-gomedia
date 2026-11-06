@@ -51,7 +51,9 @@ Working loop for every job:
 
    Keep earlier versions (`_v2`, `_v3`) instead of overwriting them.
 
-**Motion quality (production and studio mode):** use Emil Kowalski's motion skills for timing decisions — `animation-vocabulary` to name the effect you want, `choreograph` for what leads/follows in a scene (headline, price block, map pin), and `animate` for curve and duration (ease-out for entrances, no bouncy easing on serious info). They're written for web UI, so translate them into Remotion `interpolate` easing and `spring` configs. `references/video-maker/GUIDELINES.md` and the word-synced timing still win.
+**Motion quality (production and studio mode):** use Emil Kowalski's motion skills for timing decisions — `animation-vocabulary` to name the effect you want, `choreograph` for what leads/follows in a scene (headline, price block, map pin), and `animate` for curve and duration (ease-out for entrances, no bouncy easing on serious info). They're written for web UI, so translate them into Remotion `interpolate` easing and `spring` configs. `references/video-maker/GUIDELINES.md` and the word-synced timing still win. For text effects (split-text, blur-in, shiny text, count-up, rotating words), pick one on React Bits and rebuild it frame-based in Remotion (`references/landing-page/REACT_BITS.md`, "Video and statics").
+
+**"Make one like this viral Reel" + many variants:** use Hypit, following `references/video-maker/HYPIT.md` (it has the table of which video tool fits which job). Ask before installing its program; our approval, cost and image-rights rules beat the Hypit skill.
 
 ## Process: studio mode (OpenMontage)
 

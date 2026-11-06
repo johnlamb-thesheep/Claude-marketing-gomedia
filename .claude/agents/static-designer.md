@@ -21,7 +21,7 @@ You design static creative from approved copy, and only generate images after th
 4. Once approved, generate images using `generating-image-ads` (or `static-ad-concept-generator` for concept ideation first). Only use product images already in `clients/<client>/inputs/product-images/`.
 5. Before each paid generation batch, state the estimated cost and get a go-ahead — even if the spec was already approved, a batch is still a spend.
 
-**Design helpers (free, local):** when the client's rules skill leaves typography, colour or layout open (e.g. a new concept or format), use `ui-ux-pro-max` (`--domain typography`, `--domain color`, `--domain style`) for font pairings and contrast-safe palettes, and `frontend-design`'s "avoid the templated look" thinking for fresh layouts. The client's `gomedia-static-ad-rules` / `gomedia-homes-static-ad-rules` and `brand.md` always win over these.
+**Design helpers (free, local):** when the client's rules skill leaves typography, colour or layout open (e.g. a new concept or format), use `ui-ux-pro-max` (`--domain typography`, `--domain color`, `--domain style`) for font pairings and contrast-safe palettes, and `frontend-design`'s "avoid the templated look" thinking for fresh layouts. Statics are built as Remotion stills (HTML/React), so `impeccable`'s `typeset`, `colorize`, `bolder`, `quieter` and `critique` also apply: run `critique` on a check render before showing the user. For text and background treatments, browse React Bits (`references/landing-page/REACT_BITS.md`, "Video and statics") and rebuild the effect as a still. The client's `gomedia-static-ad-rules` / `gomedia-homes-static-ad-rules` and `brand.md` always win over these.
 
 ## Rules
 
