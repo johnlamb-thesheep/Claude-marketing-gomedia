@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ad Alerts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/alerts.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">GOAHEAD</div>
+    <div class="tagline">AD ALERTS · GOMEDIA CAMPAIGNS</div>
+  </div>
+  <div class="controls">
+    <label class="pill">
+      <span class="sr">Client</span>
+      <select id="group"><option value="all">All clients</option></select>
+    </label>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Alert type">
+  <a href="#all" data-kind="all">All</a>
+  <a href="#opp" data-kind="opp">🟢 Opportunities <span class="count" id="n-opp"></span></a>
+  <a href="#fatigue" data-kind="fatigue">⚠️ Fatigue <span class="count" id="n-fatigue"></span></a>
+  <a href="#lowctr" data-kind="lowctr">🔻 Low CTR <span class="count" id="n-lowctr"></span></a>
+</nav>
+
+<main>
+  <p class="meta" id="meta"></p>
+  <div id="groups"></div>
+
+  <details class="card how">
+    <summary>How the alerts are worked out</summary>
+    <div id="rules"></div>
+  </details>
+</main>
+
+<div class="error" id="error" hidden></div>
+<script src="/alerts.js"></script>
+</body>
+</html>

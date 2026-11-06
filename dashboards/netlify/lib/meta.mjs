@@ -16,11 +16,11 @@ export const metaToken = () => process.env.META_ACCESS_TOKEN || process.env.Meta
 // ---------- dates ----------
 export const ymd = (d) =>
   new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(d);
-const addDays = (s, n) => new Date(Date.parse(s + "T00:00:00Z") + n * 86400000).toISOString().slice(0, 10);
+export const addDays = (s, n) => new Date(Date.parse(s + "T00:00:00Z") + n * 86400000).toISOString().slice(0, 10);
 const maxStr = (a, b) => (a > b ? a : b);
 
 // ---------- Graph API ----------
-async function graph(path, params, token) {
+export async function graph(path, params, token) {
   const url = new URL(`${API}/${path}`);
   for (const [k, v] of Object.entries(params || {})) url.searchParams.set(k, typeof v === "string" ? v : JSON.stringify(v));
   url.searchParams.set("access_token", token);
@@ -30,7 +30,7 @@ async function graph(path, params, token) {
   return body;
 }
 
-async function graphAll(path, params, token, maxPages = 40) {
+export async function graphAll(path, params, token, maxPages = 40) {
   let page = await graph(path, params, token);
   const out = [...(page.data || [])];
   for (let n = 0; page.paging?.next && n < maxPages; n++) {
@@ -42,7 +42,7 @@ async function graphAll(path, params, token, maxPages = 40) {
   return out;
 }
 
-const action = (actions, ...types) => {
+export const action = (actions, ...types) => {
   for (const t of types) {
     const a = (actions || []).find((x) => x.action_type === t);
     if (a) return Number(a.value) || 0;
