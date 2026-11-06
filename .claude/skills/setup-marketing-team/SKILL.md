@@ -52,6 +52,8 @@ Check quietly; only speak up about what's missing **and** what it affects:
 
 Everything else works without these. If they say no, carry on: "No problem — everything except video ads works now. Say 'install the video helper' anytime."
 
+Don't set up the big video studio (OpenMontage, `vendor/openmontage`) during first-time setup. It's only needed for long or special videos; the video-designer offers it when a job needs it ("install the video studio" — steps in `references/video-maker/OPENMONTAGE.md`).
+
 ## Step 3 of 4 — Connections
 
 If you can check connection status, show a checklist; otherwise show the same list and ask them to look:
