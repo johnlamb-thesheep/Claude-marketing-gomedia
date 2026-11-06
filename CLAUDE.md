@@ -43,6 +43,7 @@ researcher (optional) [P]
 | Why ads won/lost, comments | performance | `offer-angle-extraction-meta-ads`, `comment-objection-mining-meta-ads` | Feeds strategist + copywriter via learnings.md |
 | Weekly readout | performance | `weekly-performance-readout-meta-ads` | `scripts/wow_delta.py` for the arithmetic |
 | Pixel / CAPI / lead quality | tracking | `pixel-capi-signal-quality-audit-meta-ads`, manual checks | `facebook-ads` and `click-to-session-gap-meta-ads` as reference |
+| Client ads dashboards (Netlify) | dashboard | `client-ads-dashboard` | Outside the campaign pipeline. Never handles tokens; link lists stay out of git |
 | Brand + policy check | qa | brand-review (manual, vs `brand.md`), `ads-creative` | |
 
 ## Hard rules
@@ -69,4 +70,4 @@ Each client lives in `clients/<client_name>/`:
 
 ## Agents
 
-See `.claude/agents/` — one file per role: `researcher`, `strategist`, `copywriter`, `static-designer`, `video-designer`, `landing-page`, `qa`, `performance`, `tracking`.
+See `.claude/agents/` — one file per role: `researcher`, `strategist`, `copywriter`, `static-designer`, `video-designer`, `landing-page`, `qa`, `performance`, `tracking`, `dashboard` (client ads dashboards, outside the campaign pipeline).
