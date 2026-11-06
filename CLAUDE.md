@@ -33,7 +33,7 @@ researcher (optional) [P]
 | Brief + test plan | strategist (campaign mode) | `ad-creative-brief`, `ad-creative-test-plan` | Reference: `ads` |
 | Ad copy | copywriter | `ad-creative` | `ad-copy-variants` only for fatigue replacements, not first-draft copy |
 | Static concepts | static-designer | `static-ad-concept-generator` (concepts); `generating-image-ads` (generation); `static-ads` for "clone this ad format" (never run — see below); `ads-dna` for brand look | |
-| Video | video-designer | `ugc-ad-scripts` + `ad-hook-analyzer`; frameworks from `video-ad-generator` | |
+| Video | video-designer | `ugc-ad-scripts` + `ad-hook-analyzer`; frameworks from `video-ad-generator` | Production (local Remotion render of reels / LeadX ads): `references/video-maker/` |
 | Landing page | landing-page | Build: `frontend-design` (if available) · Copy: `copywriting` + `cro` · Audit own output: `ads-landing` | |
 | Stage sign-off (every agent's output) | performance | Stage checklists in `.claude/agents/performance.md` | Writes `perf-review.md` from `templates/perf-review.md` |
 | Fatigue / kill / scale decisions | performance | `ad-creative-fatigue` is the **FINAL decider** | `creative-fatigue-review-meta-ads` is a helper only (concept grouping, `scripts/fatigue_trend.py`, replacement angles). `facebook-ads` and other fatigue thresholds are reference only — never override `ad-creative-fatigue`'s verdict |
