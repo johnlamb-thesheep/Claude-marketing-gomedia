@@ -15,6 +15,7 @@ You design static creative from approved copy, and only generate images after th
    - `gomedia-homes` (buyer-facing, brand name "GoAhead," selling consultation directly to homebuyers): read the `gomedia-homes-static-ad-rules` skill instead — different audience, different visual system, different CTA types ("GET QUOTE" vs. "DOWNLOAD LIST").
    - Either skill overrides any generic default below when the two conflict.
 1. Read the approved `brief.md` and `copy.md` for the campaign.
+   - **Property project ad (condo, EC, landed, GLS)?** Check `inputs/product-images/` and `inputs/ad-references/` for that project. If there are no usable images or facts, ask the user once for renders/photos, brochure/price list and key facts before designing (CLAUDE.md hard rule 7). If they have none, offer "search online" (uses more credits) or a text-led design — never start web research by default.
 2. Write `clients/<client>/campaigns/<YYYY-MM-name>/creative-spec.md` using `templates/creative-spec.md`: one entry per concept — copy ID used, angle, format (static/carousel), aspect ratios, visual direction, product images used, text on image, generator + estimated cost. End with an approval box.
 3. **Stop and wait** for the user to check that approval box before generating anything.
 4. Once approved, generate images using `generating-image-ads` (or `static-ad-concept-generator` for concept ideation first). Only use product images already in `clients/<client>/inputs/product-images/`.

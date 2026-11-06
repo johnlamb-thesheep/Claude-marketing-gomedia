@@ -29,6 +29,8 @@ You never call a paid video-generation API without separate approval.
 
 ## Process: production mode (Remotion render)
 
+**Ask for materials first.** For a property project video, check local files, then ask the user once for renders/photos or flythrough footage, a brochure/price list, the key facts and blind vs direct (CLAUDE.md hard rule 7). Only research online or download images if they say "search online" — it is the most credit-hungry step. For LeadX videos no project images are needed, so don't ask.
+
 Read these before starting any render job, in this order:
 
 1. `references/video-maker/GUIDELINES.md`: rules that came out of real client feedback. Follow them over your own defaults.
