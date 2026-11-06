@@ -1,0 +1,133 @@
+# Ad Copy: Amber House (gomedia-homes / "GoAhead"), 5-angle project set
+
+## Revision 4 changes (2026-11-04, copywriter)
+
+Prompted by the user's own chat feedback: "change number 3 to Rare freehold condo 4 minute to MRT, then subheadline mention the amenities. idea 4 and 5 kinda bad, hmm consult with the copywriter any other idea, for hook, or additional info in it like real listing, or something else".
+
+1. **C3 rewritten.** Headline A is now the user's line: "Rare Freehold Condo, 4-Min Walk to MRT". "Walk" is added because the developer's figure is a walk time, and "4 minutes to MRT" with no mode could be read as a drive. The user's exact wording, "Rare Freehold Condo, 4 Minutes to MRT" (7 words), also fits if the client prefers it. Headline B is "Rare Freehold Condo Between Two MRT Stations". The subhead now names amenities only and does not repeat the MRT. The primary text drops the "How far is your MRT today?" opener so it matches the new factual headline.
+2. **C4 (Katong heritage) and C5 (Design / rooftop) were rejected by the user** and are now **pending user pick**. Six new options are in "## C4/C5 idea options (Revision 4)" below. The user picks 2, and full primary text and descriptions get written after that.
+3. C1 and C2 are unchanged.
+4. Flag 4 (old C4 headline wording) is retired. Flags 3 and 9 are updated.
+
+## Revision 3 changes (2026-11-04, copywriter)
+
+Prompted by the user's own chat feedback: "right now it all kinda the same, like no design variation, also if price over $1.4M, no need to mention it, find what is hot on the project... where's the 'looking for a home for your family', or more creative stuff like that". Also follows the updated "Client copy rules (feedback 2026-11-04)" in `.claude/skills/gomedia-homes-static-ad-rules/SKILL.md`.
+
+1. **All price removed.** No $2.1M, no psf, no per-type prices, no price fine print, no "as at" price date. Amber House's cheapest unit (2BR, S$2.1M) is over the $1.4M cap, so the rule is "don't mention price anywhere".
+2. **Price angle (old C5) retired** and replaced by Katong heritage / food (U4). *(Rejected by the user in rev 4.)*
+3. **Floor-layout angle (old C3) and Blind-lifestyle angle (old C2) replaced** by Family (U5) and Design / rooftop (U6 + U7). *(Design / rooftop rejected in rev 4.)*
+4. **Each ad has its own voice, hook type, buyer and design layout.**
+5. **Only C1 Direct names "Amber House".** C2 onwards also leave out "Far East" and "ADDP" so the project can't be guessed from them.
+6. **Not cryptic.** Every blind ad says "rare freehold condo" on the image and "new rare freehold condo in East Coast" in the primary text.
+7. **MRT figure:** the developer's 4-min walk is used throughout and attributed in the fine print ("Walk times per developer").
+8. Removed from rev 2: "% sold", "final units", every stock-based price line, and the price-as-pre-qualifier role. Pre-qualifying now has to happen in the lead form (see Flag 1).
+
+---
+
+**Fact source:** `research-amber-house.md`. Round 1 is Approved in `perf-review.md`. **Round 2 ("Hot USPs") has not been reviewed by performance yet.** Claims that appear only in round 2 are marked **(R2)** below. Performance needs to sign them off along with this copy.
+**Copy rules:** SKILL.md "Client copy rules (feedback 2026-11-04)" and brand.md (voice: informative, aspirational, location-led; no projected returns).
+**Process:** there is still no `brief.md`. The user picked a shortened flow and asked for this revision directly in chat.
+**newlaunches.sg check (re-checked 2026-11-04):** https://www.newlaunches.sg/, "Popular Projects This Week". 12 projects are listed and Amber House is not one of them. No hot-project framing is used.
+
+**Fixed on every ad:** eyebrow `SINGAPORE HOMEBUYER` · CTA `GET PRICE LIST & E-BROCHURE` (a price list exists, per [OFF-HOUSE]. The price is sent after the form, never shown in the ad) · fine print `Walk/drive times per developer. *IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY*` (est. TOP Q2 2029, so no completed building exists) · no district codes or street address · no price · no % sold.
+
+## Source key
+- **[OFF-HOME]** https://www.amberhouse.com.sg/: freehold, "limited edition, freehold boutique development", "in the heart of the coveted East Coast".
+- **[OFF-INSP]** https://www.amberhouse.com.sg/en/the-inspiration (R2): ADDP Architects; "modern reinterpretation of East Coast grandeur"; "raised on columns that recall seaside villas"; Far East Organization is "the largest private property developer in Singapore".
+- **[OFF-HOUSE]** https://www.amberhouse.com.sg/en/the-house: 105 units, one 16-storey tower, unit types/sizes (2BR 635 sqft; 2BR+Study 732–753; 3BR 980; 3BR+Study 1,216; 3BR Premium 1,238; 4BR Premium 1,744 sqft); 2BR+Study and 3BR Premium "FULLY SOLD"; (R2) "premium residences featuring private lift access", "full-height windows", "consciously planned to maximise space".
+- **[OFF-FAC]** https://www.amberhouse.com.sg/en/the-facilities: Sky Verandah on the roof (35m lap pool, spa pool, sun deck, sky pavilion, fitness deck, fitness room); ground level (wading pool, pets corner, garden lounge).
+- **[OFF-LOC]** https://www.amberhouse.com.sg/en/the-locale (developer claims): Tanjong Katong MRT 4-min walk; Marine Parade MRT 7-min walk; "between two MRT stations"; Katong V 6-min walk; i12 Katong and Parkway Parade 9-min walk; East Coast Park 4-min drive; MBFC 10 min by car; Tanjong Katong Primary 6-min walk; CHIJ (Katong) Primary 3-min drive; Tao Nan 3-min drive; Ngee Ann Primary 4-min drive; (R2) Dunman High and Victoria School listed; MOE footnote; "a few minutes' walk or cycle brings you to … the Katong-Joo Chiat and Marine Parade enclaves".
+- **[EP]** https://www.edgeprop.sg/new-launches/amber-house: 105 units; Katong Shopping Centre 439m, Roxy Square 492m.
+- **[PN]** https://www.propnex.com/new-launch/amber-house (R2): undated availability snapshot showing 2BR and 4BR units unsold. For stock checks only, never printed in ads.
+- **[WK-TKT]** https://en.wikipedia.org/wiki/Tanjong_Katong_MRT_station (R2): Thomson-East Coast Line, opened 23 Jun 2024.
+- **[WK-KAT]** https://en.wikipedia.org/wiki/Katong (R2): Peranakan food, Katong laksa, Joo Chiat conservation area.
+- **[RULE]** SKILL.md client copy rules. **[USER]** the user's chat feedback of 2026-11-04.
+
+Word counts: "4-min", "6-min", "i12", "2-", "4-bedroom", "1,744", "99-Year" and "Katong–Joo" each count as one word, and "&" counts as a word. All headlines are 8 words or fewer and all subheads 14 or fewer.
+
+## Summary table
+
+| ID | Angle | Target buyer | Hook type | Voice | Headline A (rec) | Headline B (alt) | Subhead (on image) | Design layout |
+|---|---|---|---|---|---|---|---|---|
+| C1 | Direct (named) | Project-aware upgraders and downsizers comparing named East-side launches | Factual: name + boutique freehold | Calm, confident, premium-understated | Amber House: Rare Freehold Condo, Just 105 Homes (8) | Only 105 Homes. Rare Freehold Condo. Amber House. (8) | By Far East Organization. 4-min walk to MRT, near Katong V & Parkway Parade. (14) | **Split-screen**: facade render plus a solid panel of big fact numbers |
+| C2 | Family (blind) | Young families and HDB upgraders with kids at or near primary-school age | Emotional need-led question | Warm, parent-to-parent | Looking for a home for your family? (7) | Primary school, a 6-min walk from home (7) | Rare freehold condo. 6-min walk to Tanjong Katong Primary, 4-min walk to MRT. (13) | **Big-type question on a solid colour block**, family photo strip below |
+| C3 | MRT (blind) | Working professionals, couples and small households who commute daily | Hard fact: tenure + walk time (user's line) | Punchy, direct | Rare Freehold Condo, 4-Min Walk to MRT (7) | Rare Freehold Condo Between Two MRT Stations (7) | Near Katong V, i12 Katong, Parkway Parade, East Coast Park & Katong food. (13) · alt: Walk to Katong V, i12 Katong & Parkway Parade. East Coast Park 4-min drive. (14) | **Map / walking-route graphic** as the hero, amenity pins matching the subhead |
+| C4 | **Pending user pick** (see options below) | — | — | — | — | — | — | — |
+| C5 | **Pending user pick** (see options below) | — | — | — | — | — | — | — |
+
+## Full copy table
+
+| ID | Primary text | Description | CTA | Source (per claim) |
+|----|--------------|-------------|-----|--------------------|
+| C1 | Amber House by Far East Organization is a rare freehold condo of just 105 homes in a single 16-storey tower, in the heart of East Coast. Designed by ADDP Architects as a modern take on East Coast's early seaside villas, it is raised on grand columns, has a 35m lap pool on the roof, and offers private lift access in select premium homes. Tanjong Katong MRT is a 4-min walk, Katong V a 6-min walk, and Parkway Parade and i12 Katong are 9 minutes away on foot. 2- to 4-bedroom layouts. Get the latest price list and e-brochure. *Walk times per developer. Artist's impression. Est. TOP Q2 2029.* | Price list, floor plans & e-brochure | GET PRICE LIST & E-BROCHURE | Name, freehold, "heart of the coveted East Coast": [OFF-HOME] · 105 units, 16-storey tower, 2–4BR types: [OFF-HOUSE], [EP] · Far East Organization: [OFF-HOME] footer, round 1 · ADDP, seaside villas, columns: [OFF-INSP] (R2) · 35m rooftop lap pool: [OFF-FAC] · private lift in select premium homes: [OFF-HOUSE] (R2) · MRT 4 min, Katong V 6, Parkway Parade/i12 9: [OFF-LOC] · TOP Q2 2029: round 1 · wording: [RULE] |
+| C2 | Looking for a home your family can grow into? This new rare freehold condo in East Coast is a 6-min walk to Tanjong Katong Primary. CHIJ (Katong) Primary and Tao Nan School are a 3-min drive away, and Ngee Ann Primary a 4-min drive. Dunman High and Victoria School are also close by. Downstairs there's a kids' wading pool, a pets corner and a garden lounge. Weekends at East Coast Park are a 4-min drive, and Tanjong Katong MRT is a 4-min walk. Layouts go up to 4-bedroom premium homes of 1,744 sqft. Get the price list and e-brochure. *School admission is subject to prevailing MOE regulations, vacancies and balloting outcomes. Living near a school does not guarantee a place. Walk/drive times per developer. Artist's impression.* | Family layouts, price list & e-brochure | GET PRICE LIST & E-BROCHURE | Freehold, East Coast: [OFF-HOME] · schools and walk/drive times, MOE footnote: [OFF-LOC] (Dunman High, Victoria School: R2) · wading pool, pets corner, garden lounge: [OFF-FAC] · ECP 4-min drive, MRT 4-min walk: [OFF-LOC] · 4BR Premium 1,744 sqft: [OFF-HOUSE] · hook: [USER], [RULE] |
+| C3 | A rare freehold condo in East Coast, just a 4-min walk to Tanjong Katong MRT. Marine Parade MRT is a 7-min walk, so you sit between two Thomson-East Coast Line stations, and the line is already running. Katong V is a 6-min walk, i12 Katong and Parkway Parade are a 9-min walk, and East Coast Park is a 4-min drive. The Katong–Joo Chiat enclave, home of Katong laksa and Peranakan food, is a few minutes' walk or cycle away. Marina Bay Financial Centre is about 10 minutes by car. Get the price list and e-brochure. *Walk/drive times per developer. Illustrative map, not to scale.* | Price list, floor plans & e-brochure | GET PRICE LIST & E-BROCHURE | Headline A wording: [USER] · freehold, East Coast: [OFF-HOME] · 4 / 7-min walks, "between two MRT stations" (Headline B): [OFF-LOC] · TEL, open since Jun 2024: [WK-TKT] (R2) · Katong V, i12 Katong, Parkway Parade, ECP drive, MBFC: [OFF-LOC] · "few minutes' walk or cycle" to Katong–Joo Chiat: [OFF-LOC] (R2) · Katong laksa, Peranakan food: [WK-KAT] (R2) · "Katong food" in the subhead rests on the same two sources |
+| C4 | Pending user pick | — | GET PRICE LIST & E-BROCHURE | — |
+| C5 | Pending user pick | — | GET PRICE LIST & E-BROCHURE | — |
+
+## C4/C5 idea options (Revision 4)
+
+The user picks 2. These are ranked by how well I expect each to do on **cost per qualified lead**, thinking as a Meta performance copywriter. All are blind: no project name, no Far East, no price, no % sold, no district code, and "rare freehold" on the image. Every subhead pairs the MRT minutes with amenities, as the client rule requires. None of the layouts repeats C1 (split-screen), C2 (big-type colour block) or C3 (map), and none reuses the rejected collage or magazine-cover looks.
+
+| Rank | Option | Target buyer | Hook type | Headline A | Headline B | Subhead (≤14) | Layout (new) | Sources | Strength (1–5) and reason |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **O1 Real-unit listing card** | A: big upgrader families (4BR). B: couples, small households, investors (2BR) | Concrete spec / "real listing" | 4-Bedroom Premium, 1,744 sqft, Rare Freehold (6) | 2-Bedroom, 635 sqft, Rare Freehold Condo (6) | 4-min walk to MRT. Walk to Katong V, i12 Katong & Parkway Parade. (13) | **Property-portal listing card**: render photo on top, then spec rows with icons (Tenure: Freehold · Size · Bedrooms · Est. TOP Q2 2029 · 35m rooftop lap pool), and a small "AVAILABLE TYPE" tag | Sizes, types, freehold: [OFF-HOUSE], [EP] · 4BR Premium still available (3BR Premium sold out): [OFF-HOUSE] · 2BR/4BR unsold: [PN] undated · TOP: round 1 · MRT and malls: [OFF-LOC] | **4.** Real numbers stop the thumb, and it reads like a listing, so clicks come from people already shopping. The unit type self-qualifies the lead (a 4BR reader expects a big budget). Risk: it sits near the saturated bedroom formula, though no competitor shows size plus freehold without a price. Stock must be confirmed within 48h of launch (perf S4). |
+| 2 | **O4 Freehold vs leasehold** | Long-stay owner-occupiers, downsizers, parents thinking about passing a home on | Comparison / contrast | Freehold or Leasehold? Only One Never Expires. (7) | No 99-Year Countdown. Rare Freehold Condo, East Coast. (8) | 4-min walk to MRT. Near Katong V, i12 Katong & East Coast Park. (13) | **Two-column comparison table**: grey "99-year leasehold" column vs highlighted "This condo: freehold" column. Rows: lease length / lease clock / what passes to the next generation. Small render badge in a corner | Freehold, "rare": [OFF-HOME], [RULE] · comparison white space: SKILL.md competitive landscape · MRT, malls, ECP: [OFF-LOC] · leasehold-side facts: **general SG tenure definitions, not yet sourced in research (see note a)** | **4.** Comparison is identified white space (2 competitors vs 8+ on bedroom+price). It makes "rare freehold" mean something instead of being a label. Risk: this is the most compliance-sensitive option. It must stay purely about tenure, with no "holds value better" or any implied gain. No competitor is named. |
+| 3 | **O3 Checklist / tick list** | Broad: upgraders comparing several launches | Self-scoring checklist | Freehold? MRT? Schools? Tick, Tick, Tick. (6) | Your New-Home Checklist, Ticked: Rare Freehold Condo (7) | Rare freehold condo. 4-min walk to MRT, near Katong V & Parkway Parade. (13) | **Notepad / clipboard checklist** on cream paper with big red ticks: Rare freehold · 4-min walk to MRT · Walk to Katong V & Parkway Parade · 6-min walk to a primary school · East Coast Park, 4-min drive · Only 105 homes. Thin render strip at the bottom | Freehold: [OFF-HOME] · 105 homes: [OFF-HOUSE], [EP] · MRT, malls, school walk, ECP: [OFF-LOC] · MOE line: [OFF-LOC] | **4 (ranked below O4).** Very skimmable, and each tick hooks a different buyer, so it gets broad reach. It is the safest pick. But it repeats USPs already in C1–C3, so it teaches us less in the test. The schools tick needs the on-image MOE line. Keep it to 6 ticks of 3–5 words each or it gets too text-heavy for a phone. The headline must not claim why buyers pick it, because we have no data on that. |
+| 4 | **O2 Real floor-plan hero** | Space-conscious upgraders, families checking room sizes | "See inside" / proof | See the Real 2-Bedroom Layout, 635 sqft (7) | Every Square Foot Planned: 4-Bedroom, 1,744 sqft (7) | Rare freehold condo. 4-min walk to MRT, near i12 Katong & Parkway Parade. (13) | **Full-width official floor plan** as the hero with room labels, a small render inset in one corner, and 3 spec chips (sqft · bedrooms · freehold) | Sizes: [OFF-HOUSE], [EP] · "consciously planned to maximise space": [OFF-HOUSE] (R2) · MRT, malls: [OFF-LOC] · plan-as-hero white space: SKILL.md | **3 (4 if the official plan is cleared).** Plan-as-hero is white space and very useful to serious buyers. But it only works with the **official plan** (perf C3-1: a generic plan is a misrepresentation risk, and S7 rights are still open), and plans read small on phones (perf C3-3). It overlaps O1, so picking both gives two unit-led ads. |
+| 5 | **O6 Day-in-the-life timeline** | Working couples, young professionals | Relatable routine | MRT by 8am. East Coast Park by 6pm. (8) | Your Weekday, Sorted Within Minutes of Home (7) | Rare freehold condo. 4-min walk to MRT, near Katong V & East Coast Park. (13) | **Vertical timeline** with clock nodes down the left and a small photo per node: 7:45am 4-min walk to MRT · 6:30pm groceries at Katong V (6-min walk) · 7:30pm dinner at i12 Katong (9-min walk) · Sat East Coast Park (4-min drive) | Walk/drive times: [OFF-LOC] · clock times are illustrative, not claims (label "Illustrative day") | **3.** Relatable and easy to picture, and it turns distances into lifestyle. But its message overlaps the new C3 (MRT + amenities) heavily, so the two would compete for the same reader and the test learns little. Text-heavy, so it needs strict design restraint. |
+| 6 | **O5 HDB upgrader** | HDB owners in the East thinking about their next move | Self-identification question | Upgrading From HDB? Start With Rare Freehold. (7) | Your Next Home After HDB: Rare Freehold Condo (8) | 2- to 4-bedroom homes. 4-min walk to MRT, near Parkway Parade. (11) | **Key-handover photo** (hand holding keys, stock, IMAGE SAMPLE ONLY) with a torn-paper "NEXT STOP" sticker carrying the headline | Freehold: [OFF-HOME] · 2–4BR types: [OFF-HOUSE] · MRT, Parkway Parade: [OFF-LOC] · HDB-upgrader segment: brand.md ICP | **2.** Clear self-ID hook and likely cheap leads. But the entry price is S$2.1M+, above most HDB upgraders' budgets, so it would pull many leads that fail perf's qualified-lead test (budget S$2.1M+). It only makes sense if the lead form has the budget question (Flag 1). |
+
+**Notes on the options**
+
+a. **O4 source gap.** "99-year leasehold" and "freehold has no lease expiry" are standard Singapore tenure definitions, not project claims, but research hasn't cited a source for them yet. Before O4 goes to design, the researcher (or QA) should attach one official source (e.g. SLA/URA tenure guidance). The rows must stay factual. Allowed: "Lease: 99 years / No expiry". Not allowed: anything about value, resale or appreciation (brand.md section 5).
+
+b. **Pairing overlaps, for the user's choice.** O1 and O2 are both unit-led. O6 overlaps C3. O3 restates C1–C3's USPs. O4 is the only one with no overlap with C1–C3. This is information, not a pick.
+
+c. **Stock-dependent options (O1, O2).** Only print a unit type the developer or client confirms is available within 48h of launch (perf S4). The 3BR (980 sqft) was left out on purpose: the official site says "Final 2 Three-Bedroom Homes", so it may sell out mid-flight. The private lift stays off the image even on the 4BR Premium, because which units have it is unconfirmed (Flag 6).
+
+**Directions considered and not offered**
+
+- **Showflat / viewing invitation:** neither research round confirms a showflat or preview is open now. The project launched in June 2025 and is about 85% sold. It would also need a different CTA from the fixed "GET PRICE LIST & E-BROCHURE". If the client confirms a showflat is open, I can write it as an option.
+- **Developer trust (Far East track record):** naming Far East in a blind ad gives the project away, so it can only go in C1. If the user wants it, C1's primary text can add "Singapore's largest private property developer" [OFF-INSP] (R2). C1 is unchanged for now.
+- **Quiz / "guess the condo":** this is curiosity-gap wording. The skill rates it optional and higher-risk, and says it must never be treated as blind. Poll-style hooks tend to get comments, not form leads. Dropped.
+
+## Suggested design layouts (for static-designer)
+
+Every layout keeps the fixed elements: red `SINGAPORE HOMEBUYER` eyebrow, red pill CTA `GET PRICE LIST & E-BROCHURE`, fine print, and the artist's-impression label. All text is set in Figma/Canva, not rendered by the image model (perf S2). Every ad also needs a 9:16 version (perf S1).
+
+| ID | Layout | Composition (4:5) | Visual source | Palette / type |
+|---|---|---|---|---|
+| C1 | **Split-screen** | Left 55%: tall facade render, cropped to show the columns at the base. Right 45%: solid panel holding "AMBER HOUSE", the headline, then 3 stacked big numerals: **105** HOMES · **4 MIN** TO MRT · **FREEHOLD**. Subhead under the numerals, CTA at the bottom. | **Official developer render only** (perf C1-1 and S7). Do not put an AI tower next to the real name. | Deep bronze/amber panel echoing the facade, white serif numerals. Quiet and premium. |
+| C2 | **Big-type question on a solid colour block** | Top 55%: "Looking for a home for your family?" in very large type over 3 lines on a flat warm colour. Bottom 45%: a warm photo strip (parent and child in a bright living room, or at a wading pool). A round badge where the two halves meet: "6-MIN WALK TO TANJONG KATONG PRIMARY". | Staged interior or family stock the client has rights to, labelled IMAGE SAMPLE ONLY. No real school building or logo. | Soft coral or warm cream block, dark type. The friendliest-looking ad in the set. |
+| C3 | **Map / walking-route graphic** | Top band: "RARE FREEHOLD CONDO, 4-MIN WALK TO MRT" in bold, with "4-MIN" as the largest element. Hero: a simple illustrated map with an unnamed "Home" pin, a thick dotted route marked **4 MIN** to "Tanjong Katong MRT" and a thinner one marked **7 MIN** to "Marine Parade MRT". Amenity pins carry the subhead: Katong V (6), i12 Katong (9), Parkway Parade (9), East Coast Park (4-min drive, car icon), and a bowl icon for "Katong food". Subhead under the map. For Headline B, give both stations equal weight with the home pin between them. | Drawn graphic, no photo needed. No LTA logos, no official TEL line colour, no real street grid (perf C4-1 fallback). "Illustrative map, not to scale." | White background, one accent colour for routes, a big numeric "4 MIN". Infographic feel. |
+| C4 | Pending user pick | Layout comes from the chosen option above | — | — |
+| C5 | Pending user pick | Layout comes from the chosen option above | — | — |
+
+## What we highlight and why
+
+| Ad | Lead USP (research rank) | Why this hook for this buyer |
+|---|---|---|
+| C1 Direct | U1 boutique rare freehold, 105 homes (rank 1, strength 5) | Price is out, so the strongest fact that can carry the name is rarity of tenure plus small scale. |
+| C2 Family | U5 schools (rank 3) | This is the user's own example hook. It leads with the emotional need and uses the one walkable school as proof. |
+| C3 MRT | U1 + U2 + U3: rare freehold, 4-min MRT, Katong's malls (ranks 1–2, strength 5) | The user's own line puts the two strongest sourced facts in one headline. The subhead turns the location into named places East-side buyers already know. |
+| C4 / C5 | Pending user pick | See the options table. |
+| (not used) | U11 future plans; U12 sea views; U13 rental | U11 risks implied gains, U12 is unconfirmed and U13 has no data. |
+
+## Flags (resolve before launch)
+
+1. **The lead form needs a budget question (owner: landing-page / strategist).** No ad shows a price, so nothing in the creative pre-qualifies the click. The form should (a) reveal "Amber House" on the first screen (C2–C5 hide it), (b) state that 2BR prices start from about S$2.1M, with the date, on the form or thank-you screen and not in the ad, and (c) ask: **budget band** (e.g. below S$2M / S$2–3M / S$3–4M / above S$4M), buying timeline, and own-stay or investment. This matters most if O5 (HDB upgrader) is picked.
+2. **Research round 2 is not performance-approved yet.** The (R2) claims used here are the TEL opening date, Katong–Joo Chiat walk/cycle and Katong food (C3), "planned to maximise space" (O2), private lift and the ADDP design (C1), Dunman High / Victoria School (C2), and the PropNex stock snapshot (O1). Performance should review the round-2 section together with this file.
+3. **Angle set differs from the skill's standard 5.** It is now Direct / Family / MRT plus two user-picked options. If the user picks O1 or O2, the skill's Floor-layout / unit angle comes back into the set.
+4. *(Retired in rev 4: old C4 headline wording.)*
+5. **Schools (C2, and O3 if picked):** the MOE disclaimer is in the primary text. I also recommend a short on-image line, "School admission subject to MOE regulations and balloting." No Phase 2C or P1 priority is implied. P1 address eligibility for a 2029-TOP home is unverified (research gap).
+6. **Private lift** appears only as "select premium homes" (C1 primary text). Which units have one is unconfirmed, so it stays off every image, O1 and O2 included.
+7. **"Only/just 105 homes"** is a size (boutique) fact, not a stock or urgency claim. No "units left" wording is used anywhere.
+8. **"In the heart of East Coast" (C1)** is the developer's own phrase. Blind ads say "in East Coast" or name nearby places only. None uses a district code or the street address.
+9. **Images:** C1 depends on official renders (perf S7). O1 and O2 would also need official renders/plans. All of these need rights confirmed by the client. No images were fetched.
+10. **Still open from rev 2:** CEA particulars and authorisation (S3, could Block C1), 9:16 versions (S1), set-in-post text (S2), lead-quality tagging (S6). The form's price line (Flag 1) still needs a date.
+11. **ICP labels** are copy direction only. They must not become age/gender/postcode targeting (Housing special ad category). This includes O5: "HDB upgrader" is a message, not a targeting setting.
+12. **C3 vs Home Haven Hub (new):** the agent ad "Rare Freehold Near MRT" (research round 1) is close to the new C3 headline. Ours is set apart by the exact "4-Min Walk" figure and the named amenities, so keep the number as the biggest element on the image.
+
+## Re-review request
+Revision 4: C3 rewritten to the user's line, and C4/C5 are pending the user's pick from the six options above. C1–C3 are ready for performance re-review now. C4/C5 will be written in full and sent for re-review once the user picks. Please also review research round 2 (Flag 2) and note the O4 source gap (options note a).
