@@ -1,0 +1,10 @@
+{
+  "name": "c1-custom-list-kinetic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.9.19 preview",
+    "check": "npx --yes hyperframes@0.9.19 lint && npx --yes hyperframes@0.9.19 validate && npx --yes hyperframes@0.9.19 inspect",
+    "draft": "npx --yes hyperframes@0.9.19 render --quality draft --workers 1 --output out/draft.mp4"
+  }
+}

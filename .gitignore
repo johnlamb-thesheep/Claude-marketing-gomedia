@@ -16,6 +16,30 @@ clients/*/inputs/**/*.webp
 clients/*/inputs/**/*.gif
 !clients/*/inputs/**/index.md
 
+# Generated / downloaded creative (images, video, audio) in campaign and
+# project folders: local only, same reason as above. The .md prompts, copy and
+# SOURCES.md files travel through git.
+clients/*/campaigns/**/*.png
+clients/*/campaigns/**/*.jpg
+clients/*/campaigns/**/*.jpeg
+clients/*/campaigns/**/*.webp
+clients/*/campaigns/**/*.mp4
+clients/*/campaigns/**/*.mp3
+clients/*/campaigns/**/*.wav
+clients/*/projects/**/*.png
+clients/*/projects/**/*.jpg
+clients/*/projects/**/*.jpeg
+clients/*/projects/**/*.webp
+clients/*/projects/**/*.mp4
+clients/*/projects/**/*.mp3
+# Large example videos bundled with vendored skills
+.claude/skills/**/*.mp4
+
+# My Office (3D office for Claude Code sessions): local tool only, never
+# commit or push it — too heavy for this repo and for teammates to install.
+# Source: https://github.com/khanh020905/my-office
+vendor/my-office/
+
 # Local Netlify folder
 .netlify
 

@@ -40,6 +40,8 @@ Real interior photos only — living room, bedroom, kitchen — arranged as a mu
 
 **Compliance:** if a photo is a staged/sample unit rather than the actual listed unit, mark it explicitly — "*IMAGE SAMPLE ONLY*" — as seen in the condo-list reference ad. This lines up with the CEA advertising-guideline caution already flagged in `clients/gomedia-homes/brand.md`.
 
+**CEA authorisation (standing fact, user 2026-11-07):** GoAhead is always CEA-authorised to market any new-launch project, so naming the project and developer in the Direct ad is fine. Never raise CEA authorisation as a blocker, gate or open question. Image/floor-plan rights are a separate check.
+
 ## Color
 
 Red is the dominant house color (matches the reference set's majority), but **not rigidly fixed** — one reference ad runs an all-blue theme instead, likely an A/B variant. Default to red unless the brief specifically calls for a blue (or other) variant to be tested against it. White background either way; black for primary text.

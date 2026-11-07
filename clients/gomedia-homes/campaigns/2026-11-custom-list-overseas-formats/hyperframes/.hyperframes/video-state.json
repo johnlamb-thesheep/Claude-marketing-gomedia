@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "historyId": "e6ec811e-20f9-430c-97b3-87d8cf65e975",
+  "currentRevision": "ec4d396f-e23f-4a4b-8b17-d33bd324c1c6",
+  "pendingChanges": false,
+  "files": {
+    "CLAUDE.md": {
+      "hash": "d3f7633fa9677843cb6274ac3232e0ea034737d15c24bf64a95b2da2b71679de",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\d3\\d3f7633fa9677843cb6274ac3232e0ea034737d15c24bf64a95b2da2b71679de"
+    },
+    "assets/fonts/league-gothic-latin-400-normal.woff2": {
+      "hash": "44dceee4d918f5928d05ad0711d17e1edd421ce7fd7bed91d05642d8d693a8b1",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\44\\44dceee4d918f5928d05ad0711d17e1edd421ce7fd7bed91d05642d8d693a8b1"
+    },
+    "assets/fonts/roboto-latin-400-normal.woff2": {
+      "hash": "425c0713a8176f92273d378599c7eac57de7fafabd4bd0ed457b70eb8f80d371",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\42\\425c0713a8176f92273d378599c7eac57de7fafabd4bd0ed457b70eb8f80d371"
+    },
+    "assets/fonts/roboto-latin-500-italic.woff2": {
+      "hash": "b5843bdfcb8683f34fb44444cf15d2a03ad93d6b11934a55d059aae2b650bbfe",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\b5\\b5843bdfcb8683f34fb44444cf15d2a03ad93d6b11934a55d059aae2b650bbfe"
+    },
+    "assets/fonts/roboto-latin-500-normal.woff2": {
+      "hash": "5bcc3aa180e7f26f643cd5b2621cd7c2de193d0661d913a94afd3d4881a7a34b",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\5b\\5bcc3aa180e7f26f643cd5b2621cd7c2de193d0661d913a94afd3d4881a7a34b"
+    },
+    "assets/fonts/roboto-latin-700-normal.woff2": {
+      "hash": "b9d66d1708156f765ada51939bc24ed259dafa69eb631b36e443680fe9e15879",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\b9\\b9d66d1708156f765ada51939bc24ed259dafa69eb631b36e443680fe9e15879"
+    },
+    "assets/fonts/roboto-latin-900-normal.woff2": {
+      "hash": "7523c0cc7f5c088ab663be51e111b9429a4f15681802a7e027eb658f497a26a8",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\75\\7523c0cc7f5c088ab663be51e111b9429a4f15681802a7e027eb658f497a26a8"
+    },
+    "assets/img/bg-pool.jpg": {
+      "hash": "ef68985711e6da6232f2300d1e66f383c2598d6c4f0d97564750ee91368a3709",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\ef\\ef68985711e6da6232f2300d1e66f383c2598d6c4f0d97564750ee91368a3709"
+    },
+    "assets/img/card1.jpg": {
+      "hash": "95033f7d2b7fa3520331941f5d7e3de961407a86fdc049fd244cce9a8687efad",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\95\\95033f7d2b7fa3520331941f5d7e3de961407a86fdc049fd244cce9a8687efad"
+    },
+    "assets/img/card2.jpg": {
+      "hash": "261374e1693f02b3625cdd01abae93fd6628a093dcd54e2f9e0d5e1165b4c075",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\26\\261374e1693f02b3625cdd01abae93fd6628a093dcd54e2f9e0d5e1165b4c075"
+    },
+    "assets/img/card3.jpg": {
+      "hash": "5e826c85b4e4f7f4b0adb13de9b420b0f972cb99b759d001fd4cceb901257a6a",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\5e\\5e826c85b4e4f7f4b0adb13de9b420b0f972cb99b759d001fd4cceb901257a6a"
+    },
+    "assets/img/card4.jpg": {
+      "hash": "0b8649776af80eada88cd265dad9ea0f6f75019b76f0d171d54acbc267a99c6e",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\0b\\0b8649776af80eada88cd265dad9ea0f6f75019b76f0d171d54acbc267a99c6e"
+    },
+    "assets/img/floorplan.png": {
+      "hash": "993c7552ee27f762b4e3f7573c2d6532f33100583828684c55f6d990346afd42",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\99\\993c7552ee27f762b4e3f7573c2d6532f33100583828684c55f6d990346afd42"
+    },
+    "assets/sfx/CREDITS.md": {
+      "hash": "b17b904190325c838b0ecb0d8ad11862ce794ed25a23e2d5340f07f90d25db6f",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\b1\\b17b904190325c838b0ecb0d8ad11862ce794ed25a23e2d5340f07f90d25db6f"
+    },
+    "assets/sfx/click-soft.mp3": {
+      "hash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\07\\075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+    },
+    "assets/sfx/impact-bass-1.mp3": {
+      "hash": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\63\\634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7"
+    },
+    "assets/sfx/pop.mp3": {
+      "hash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\19\\19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+    },
+    "assets/sfx/whoosh-short.mp3": {
+      "hash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\c2\\c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "assets/voice.mp3": {
+      "hash": "ed9b45bfde9bef5a8c336a8abeccf4b66b4bc2add1aa27b95f7683be6694c74c",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\ed\\ed9b45bfde9bef5a8c336a8abeccf4b66b4bc2add1aa27b95f7683be6694c74c"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "b3266f6b297b48f55f110b998e110f9a543f79b6bb5cb823ab89b33c2cd8ed4d",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\b3\\b3266f6b297b48f55f110b998e110f9a543f79b6bb5cb823ab89b33c2cd8ed4d"
+    },
+    "meta.json": {
+      "hash": "d2380ae353ec7689d4d287f447c5e3fa2f0bbf517a3d73a44a6202cd9756d697",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\d2\\d2380ae353ec7689d4d287f447c5e3fa2f0bbf517a3d73a44a6202cd9756d697"
+    },
+    "package.json": {
+      "hash": "ef2fa7c385d86364b42fa0cd09742e6baf26815e4a09da9388657aac7ce805f9",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\ef\\ef2fa7c385d86364b42fa0cd09742e6baf26815e4a09da9388657aac7ce805f9"
+    },
+    "tools/build.sh": {
+      "hash": "2bf26cfcc3cc8791741d7702edd5b360a7cf4e0bc6f4a801ef3ec905c5a3fe42",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\2b\\2bf26cfcc3cc8791741d7702edd5b360a7cf4e0bc6f4a801ef3ec905c5a3fe42"
+    },
+    "tools/sheet.py": {
+      "hash": "40015cc71c62cbde95f6bbca1b1b0ec984551d776e324c7495829d48296a6ae6",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\40\\40015cc71c62cbde95f6bbca1b1b0ec984551d776e324c7495829d48296a6ae6"
+    },
+    "out/c1-custom-list-15s-kinetic_contact-sheet.png": {
+      "hash": "301e94329fca6ad63fc3043846bf1323fd1159e5d940489f1bc8810be9cfc7a0",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\30\\301e94329fca6ad63fc3043846bf1323fd1159e5d940489f1bc8810be9cfc7a0"
+    },
+    "assets/img/bg-aerial.jpg": {
+      "hash": "80218bfe9a9eaeca76093db9a25d17edb0ff7b2963de4c67f5783458332239ef",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\80\\80218bfe9a9eaeca76093db9a25d17edb0ff7b2963de4c67f5783458332239ef"
+    },
+    "assets/voice-v2.mp3": {
+      "hash": "12331c0c94b53b53dc431d823fec52f8d810b8f5ee3b2f7346a7822cb38391a6",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\12\\12331c0c94b53b53dc431d823fec52f8d810b8f5ee3b2f7346a7822cb38391a6"
+    },
+    "tools/make_v2_html.py": {
+      "hash": "f023babfa65f8c32b79aa6ae3c10e402c502488c9648d291fd2351f3915d98b7",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\f0\\f023babfa65f8c32b79aa6ae3c10e402c502488c9648d291fd2351f3915d98b7"
+    },
+    "tools/v2_timeline.js": {
+      "hash": "8b60f29ce9795026c6012f20817021ac4d337bcdaa6c1ccd5fd71696b8bbed06",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\8b\\8b60f29ce9795026c6012f20817021ac4d337bcdaa6c1ccd5fd71696b8bbed06"
+    },
+    "versions/index-v1.html": {
+      "hash": "19e9396524c32631264fc95a4757a08e7c84865d15d95816b96dd2d83f2a46a8",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\19\\19e9396524c32631264fc95a4757a08e7c84865d15d95816b96dd2d83f2a46a8"
+    },
+    "out/c1-custom-list-15s-kinetic-v2_contact-sheet.png": {
+      "hash": "32eac5af2a22c7cfbe6eda573e7afee4247b99b522b61d137186ea278bbc4828",
+      "content": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\32\\32eac5af2a22c7cfbe6eda573e7afee4247b99b522b61d137186ea278bbc4828"
+    }
+  },
+  "revisions": {
+    "138b1822-4ab8-4ada-b79c-99488f440abf": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794027665063,
+      "endedAt": 1794027665064,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\cd\\cd737513af74b567d2ad32f2ede676dd1bae28e46a82b67998a20664678ccbef",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\3f\\3f0cb41c67ad4634289e979d4f7d65f0118c08711cccf6189ce3fdca02ec5916"
+        }
+      }
+    },
+    "bcabaf50-9d74-41d5-aab8-8ced503437cc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794027720378,
+      "endedAt": 1794027720395,
+      "files": {
+        "render-silent.html": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\e4\\e42e14fb3085c6cf978599d28ec5042bf1d015ea9782c6eace42df95dc7fdb3b"
+        },
+        "tools/build.sh": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\a2\\a2dccae5e1ba4446b499338b6bdcdb9b345edc7d9aa64b17a25e92fd48cc40d8"
+        }
+      }
+    },
+    "3ec4ad07-e8ee-4b91-bb29-d4f820431da9": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794027781716,
+      "endedAt": 1794027781728,
+      "files": {
+        "render-silent.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\e4\\e42e14fb3085c6cf978599d28ec5042bf1d015ea9782c6eace42df95dc7fdb3b",
+          "after": null
+        },
+        "tools/build.sh": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\a2\\a2dccae5e1ba4446b499338b6bdcdb9b345edc7d9aa64b17a25e92fd48cc40d8",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\2b\\2bf26cfcc3cc8791741d7702edd5b360a7cf4e0bc6f4a801ef3ec905c5a3fe42"
+        }
+      }
+    },
+    "9c7dbd89-96dd-4f4f-a10f-1684a9c30c66": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794027859035,
+      "endedAt": 1794027859058,
+      "files": {
+        "out/draft_sheet.png": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\f0\\f0f985eb786aea825eaa3d023dc9474a3bb56331d69c1c15a08d72d423636dfb"
+        },
+        "tools/sheet.py": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\40\\40015cc71c62cbde95f6bbca1b1b0ec984551d776e324c7495829d48296a6ae6"
+        }
+      }
+    },
+    "5e6440ad-f356-4738-9337-cf90780c71cb": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794028086184,
+      "endedAt": 1794028086208,
+      "files": {
+        "CLAUDE.md": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\83\\8303b9a48fd502321ec4ed61f05aadef18402d08c6948e90f7e32426003af3bd",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\16\\163602528ad4e99d42d7357b99400fa2e36c21270839f8cb22c48d9e0934e27a"
+        },
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\3f\\3f0cb41c67ad4634289e979d4f7d65f0118c08711cccf6189ce3fdca02ec5916",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\19\\19e9396524c32631264fc95a4757a08e7c84865d15d95816b96dd2d83f2a46a8"
+        },
+        "out/c1-custom-list-15s-kinetic_contact-sheet.png": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\38\\3816fee4e4097762464c84dde052d5e6d4f707610ec35b767e84ed8018234f60"
+        },
+        "out/draft_sheet.png": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\f0\\f0f985eb786aea825eaa3d023dc9474a3bb56331d69c1c15a08d72d423636dfb",
+          "after": null
+        }
+      }
+    },
+    "60323eb6-66db-4ca9-96b6-e1cff35d5962": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794029177978,
+      "endedAt": 1794029178024,
+      "files": {
+        "assets/img/bg-aerial.jpg": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\80\\80218bfe9a9eaeca76093db9a25d17edb0ff7b2963de4c67f5783458332239ef"
+        },
+        "assets/voice-v2.mp3": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\12\\12331c0c94b53b53dc431d823fec52f8d810b8f5ee3b2f7346a7822cb38391a6"
+        },
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\19\\19e9396524c32631264fc95a4757a08e7c84865d15d95816b96dd2d83f2a46a8",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\99\\99428744395e8132bb3f6dd1afd153091c0157776d1180b3a705ceaa98878265"
+        },
+        "out/c1-custom-list-15s-kinetic_contact-sheet.png": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\38\\3816fee4e4097762464c84dde052d5e6d4f707610ec35b767e84ed8018234f60",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\30\\301e94329fca6ad63fc3043846bf1323fd1159e5d940489f1bc8810be9cfc7a0"
+        },
+        "tools/make_v2_html.py": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\1b\\1b42306791320988d158d87cabc97aafc9b8cdf8edae0696b39a3c679740d227"
+        },
+        "tools/v2_timeline.js": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\8b\\8b60f29ce9795026c6012f20817021ac4d337bcdaa6c1ccd5fd71696b8bbed06"
+        },
+        "versions/index-v1.html": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\19\\19e9396524c32631264fc95a4757a08e7c84865d15d95816b96dd2d83f2a46a8"
+        }
+      }
+    },
+    "ad4a3122-538a-4f67-afda-ee52b0ef5720": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794029232620,
+      "endedAt": 1794029232635,
+      "files": {
+        "CLAUDE.md": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\16\\163602528ad4e99d42d7357b99400fa2e36c21270839f8cb22c48d9e0934e27a",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\d3\\d3f7633fa9677843cb6274ac3232e0ea034737d15c24bf64a95b2da2b71679de"
+        },
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\99\\99428744395e8132bb3f6dd1afd153091c0157776d1180b3a705ceaa98878265",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\11\\11a3583e61f941a7e4b418246da9e555e94d9571a9460697139f14d841c37bdd"
+        }
+      }
+    },
+    "8fc7c941-603b-41fd-aff5-305541c41ed6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794029422108,
+      "endedAt": 1794029422141,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\11\\11a3583e61f941a7e4b418246da9e555e94d9571a9460697139f14d841c37bdd",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\04\\048cad3e2e81b72ade179ac78ad79af812626c3e0f1c0d9b9c83f29e976367ff"
+        },
+        "out/c1-custom-list-15s-kinetic-v2_contact-sheet.png": {
+          "before": null,
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\90\\90b2fe1c5fc225648ed27953b8ca3924b4c9da86b157c72d299dd8c3dddcc205"
+        },
+        "tools/make_v2_html.py": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\1b\\1b42306791320988d158d87cabc97aafc9b8cdf8edae0696b39a3c679740d227",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\f0\\f023babfa65f8c32b79aa6ae3c10e402c502488c9648d291fd2351f3915d98b7"
+        }
+      }
+    },
+    "ec4d396f-e23f-4a4b-8b17-d33bd324c1c6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794029982361,
+      "endedAt": 1794029982393,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\04\\048cad3e2e81b72ade179ac78ad79af812626c3e0f1c0d9b9c83f29e976367ff",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\b3\\b3266f6b297b48f55f110b998e110f9a543f79b6bb5cb823ab89b33c2cd8ed4d"
+        },
+        "out/c1-custom-list-15s-kinetic-v2_contact-sheet.png": {
+          "before": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\90\\90b2fe1c5fc225648ed27953b8ca3924b4c9da86b157c72d299dd8c3dddcc205",
+          "after": "C:\\Users\\asus\\.cache\\hyperframes\\history\\e6ec811e-20f9-430c-97b3-87d8cf65e975\\blobs\\32\\32eac5af2a22c7cfbe6eda573e7afee4247b99b522b61d137186ea278bbc4828"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {
+      "60323eb6-66db-4ca9-96b6-e1cff35d5962": [
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-0",
+          "time": 0.05,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190012,
+          "contentHash": "6be4ce6d3d4edf77ae259c0fb379bf2a95757de7c25797325e5657b2175ddd7a",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-1",
+          "time": 0.9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190012,
+          "contentHash": "4ef7edf68fbc1ad90124d50305b4887f08da523beeaaf28abf6413e75f9da744",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-2",
+          "time": 2.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190012,
+          "contentHash": "63b5112ef15a50b152fc0c6f33fd77840c90518ba03ba30bbd316d8a15977634",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-3",
+          "time": 4.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190012,
+          "contentHash": "0fb51f3ca59acaf4836c205310ee23ac145fd08f8bd770e266c571d0515d78ce",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-4",
+          "time": 6.9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190012,
+          "contentHash": "b0677b048d8e40de12822fc580c6aa583c3f9d8b34147f6f972d95f706ef06cb",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-5",
+          "time": 8.4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190013,
+          "contentHash": "884baa166d0c9e97b0f9e104e521b3f474232654ddd0a2308feb1df311ef9181",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-6",
+          "time": 9.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190013,
+          "contentHash": "e3c3be8e67b4a23ba3f526c96988cdf58fd353d6b6afd25270e2562cc1cba17e",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-7",
+          "time": 10.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190013,
+          "contentHash": "a504d8f2980b95eae56aaaebacea7ef27910301a6c489518443aeaba9991bad9",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-8",
+          "time": 11,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190013,
+          "contentHash": "f783c3199e87fe1f2ad93f94c761a363bf4f4e75f9bd0cca9f6b11e5013c5017",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-9",
+          "time": 12.1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190014,
+          "contentHash": "c5bb190ffad1ecbee4f05dcd5dd2cbf9ab26427eec1b4a5d6a827ac631f078ea",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-10",
+          "time": 13,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190014,
+          "contentHash": "8aa579b581d7f728c8ae0935ce65f751d3dbad219488f5e9aa3aba081469238a",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-11",
+          "time": 14.9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190015,
+          "contentHash": "a5466e55d2c0ba96a66bf6546ad12443b81b8496f6de6654e64dfcd351eb10f3",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        },
+        {
+          "scope": "full",
+          "id": "2899c17c-c53b-455b-bfc4-100b4b8f61cb-12",
+          "time": 14.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794029190015,
+          "contentHash": "b6d9b777351dc71f0eebb36e7129da28aa0e7ae2b97c54b1f37ea95f1d0ed4e8",
+          "revision": "60323eb6-66db-4ca9-96b6-e1cff35d5962",
+          "inputFingerprint": "4fba7f482309412032b832f365393dd5a3dbafeab224f061d2c41caa8e4302f1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2f8c0af5-d1a0-48c2-bc51-d461e8ef1a84"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "226f47c9-af19-4093-a636-ff04406d7f56",
+      "completedAt": 1794030048559,
+      "output": "C:\\Users\\asus\\Documents\\claude-marketing\\clients\\gomedia-homes\\campaigns\\2026-11-custom-list-overseas-formats\\hyperframes\\out\\c1-custom-list-15s-kinetic-v2.mp4",
+      "status": "completed",
+      "revision": "ec4d396f-e23f-4a4b-8b17-d33bd324c1c6"
+    },
+    "retainedRevisions": [
+      "ec4d396f-e23f-4a4b-8b17-d33bd324c1c6",
+      "8fc7c941-603b-41fd-aff5-305541c41ed6"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

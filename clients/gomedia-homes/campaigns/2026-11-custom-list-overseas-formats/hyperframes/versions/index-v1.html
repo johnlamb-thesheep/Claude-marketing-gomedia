@@ -1,0 +1,410 @@
+<!doctype html>
+<!-- GoAhead C1 "Custom List" – 15s 9:16 kinetic-type reel (HyperFrames).
+     Voice: assets/voice.mp3 = video-assets/voice-adam.mp3 at 1.0x (13.95 s, md5 850a920c…).
+     Every cue reads from W (pocketsphinx word starts measured for the Remotion build). -->
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "League Gothic"; font-weight: 400; src: url("assets/fonts/league-gothic-latin-400-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Roboto"; font-weight: 400; src: url("assets/fonts/roboto-latin-400-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Roboto"; font-weight: 500; src: url("assets/fonts/roboto-latin-500-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Roboto"; font-weight: 500; font-style: italic; src: url("assets/fonts/roboto-latin-500-italic.woff2") format("woff2"); }
+      @font-face { font-family: "Roboto"; font-weight: 700; src: url("assets/fonts/roboto-latin-700-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Roboto"; font-weight: 900; src: url("assets/fonts/roboto-latin-900-normal.woff2") format("woff2"); }
+      :root {
+        --blue: #1e88e5;
+        --blue-lt: #7cc0f4;
+        --eyebrow: #4f5fe0;
+        --ink: #0a0a0a;
+        --navy: #13233d;
+        --head: "League Gothic", sans-serif;
+        --body: "Roboto", sans-serif;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #dcebf9; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--body); }
+
+      /* shared background (not a clip) */
+      #bg { position: absolute; inset: 0; overflow: hidden; }
+      #bg-img { position: absolute; left: -110px; top: -190px; width: 1300px; height: 2300px; object-fit: cover; display: block; }
+      #bg-tint { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(234,244,253,0.92) 0%, rgba(219,236,251,0.86) 48%, rgba(190,222,247,0.82) 100%); }
+
+      .scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; }
+      .in { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 540px 900px; }
+      .abs { position: absolute; display: block; }
+      .lg { font-family: var(--head); font-weight: 400; line-height: 0.9; color: var(--ink); white-space: nowrap; }
+      .blk { position: absolute; display: block; background: var(--blue); border-radius: 10px; transform-origin: left center; }
+      .wht { color: #fff; }
+      .mask { position: absolute; overflow: hidden; display: block; }
+      .chip { position: absolute; display: flex; align-items: center; gap: 16px; height: 64px; padding: 0 30px 0 24px; border-radius: 32px; background: #0b0b0b; color: #fff; font-family: var(--body); font-weight: 700; font-size: 30px; letter-spacing: 1px; white-space: nowrap; }
+      .chip .dot { display: block; width: 18px; height: 18px; border-radius: 9px; background: var(--blue); flex-shrink: 0; }
+      .chip.big { height: 104px; padding: 0 44px 0 34px; border-radius: 52px; font-size: 54px; gap: 22px; }
+      .chip.big .dot { width: 28px; height: 28px; border-radius: 14px; }
+      .pill { position: absolute; display: flex; align-items: center; height: 46px; padding: 0 20px; border-radius: 23px; background: #fff; color: #111; font-family: var(--body); font-weight: 500; font-size: 26px; box-shadow: 0 3px 10px rgba(0,0,0,0.18); white-space: nowrap; }
+
+      /* S2 ring */
+      #s2-ring { position: absolute; left: 100px; top: 1000px; width: 400px; height: 400px; display: block; }
+
+      /* cards */
+      .card { position: absolute; width: 232px; height: 400px; border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 14px 30px rgba(15,50,95,0.28); display: block; }
+      .card img { position: absolute; left: 0; top: 0; width: 232px; height: 400px; object-fit: cover; display: block; }
+      .card .pill { left: 14px; bottom: 16px; }
+      .mini { position: absolute; width: 170px; height: 290px; border-radius: 14px; overflow: hidden; background: #fff; box-shadow: 0 10px 22px rgba(15,50,95,0.28); display: block; }
+      .mini img { position: absolute; left: 0; top: 0; width: 170px; height: 290px; object-fit: cover; display: block; }
+
+      .note { position: absolute; left: 0; width: 1080px; text-align: center; font-family: var(--body); font-style: italic; font-weight: 500; font-size: 26px; color: var(--navy); display: block; }
+      .note span { background: rgba(235,244,253,0.9); padding: 3px 14px; border-radius: 14px; }
+
+      /* plan card */
+      #plan { position: absolute; left: 90px; top: 680px; width: 900px; height: 640px; border-radius: 24px; background: #fff; box-shadow: 0 16px 36px rgba(20,60,110,0.28); overflow: hidden; display: block; }
+      #plan-img { position: absolute; left: 20px; top: 18px; width: 860px; height: 470px; object-fit: contain; display: block; }
+
+      /* price */
+      #price-blk { position: absolute; left: 80px; top: 378px; width: 920px; height: 250px; display: block; transform-origin: left center; }
+      #price-bg { position: absolute; inset: 0; background: var(--blue); clip-path: polygon(0 0, calc(100% - 64px) 0, 100% 64px, 100% 100%, 0 100%); }
+      #price-ear { position: absolute; right: 0; top: 0; width: 64px; height: 64px; background: var(--blue-lt); clip-path: polygon(0 0, 0 100%, 100% 100%); }
+      #price-row { position: absolute; left: 0; top: 18px; width: 920px; height: 214px; display: flex; justify-content: center; align-items: flex-start; font-family: var(--body); font-weight: 900; font-size: 200px; line-height: 214px; color: #fff; letter-spacing: -4px; }
+      .g { display: block; position: relative; }
+      .col { display: block; position: relative; height: 214px; overflow: hidden; }
+      .col .strip { display: block; position: relative; }
+      .col .strip b { display: block; height: 214px; font-weight: 900; }
+      #p-star { font-size: 110px; line-height: 120px; }
+
+      /* CTA */
+      #cta { position: absolute; left: 130px; top: 1080px; width: 820px; height: 124px; border-radius: 62px; background: #fff; box-shadow: 0 12px 28px rgba(20,60,110,0.28); overflow: hidden; display: flex; align-items: center; justify-content: center; gap: 26px; }
+      #cta-txt { font-family: var(--head); font-size: 84px; line-height: 1; color: var(--ink); position: relative; display: block; }
+      #cta-arrow { position: relative; width: 70px; height: 70px; border-radius: 35px; background: var(--blue); display: block; }
+      #cta-arrow svg { position: absolute; left: 15px; top: 15px; width: 40px; height: 40px; display: block; }
+      #cta-rip { position: absolute; left: 330px; top: -348px; width: 820px; height: 820px; border-radius: 50%; background: var(--blue); opacity: 0; display: block; }
+      #fine { position: absolute; left: 70px; top: 1228px; width: 940px; font-family: var(--body); font-weight: 400; font-size: 28px; line-height: 1.22; color: #1d2b40; display: block; }
+      #fine .cea { display: block; margin-top: 6px; font-weight: 500; }
+
+      /* captions */
+      .cap { position: absolute; left: 0; top: 1440px; width: 1080px; height: 62px; display: flex; justify-content: center; }
+      .cap .bar { display: flex; align-items: center; gap: 11px; height: 62px; padding: 0 28px; border-radius: 31px; background: rgba(12,20,34,0.86); font-family: var(--body); font-weight: 700; font-size: 34px; color: #fff; white-space: nowrap; }
+      .cap .bar span { display: block; }
+
+      /* whip panels */
+      .wipe { position: absolute; left: 0; top: -140px; width: 1900px; height: 2200px; display: flex; }
+      .wipe i { display: block; height: 2200px; }
+      .wipe .a { width: 60px; background: #0b0b0b; }
+      .wipe .b { width: 1640px; background: var(--blue); }
+      .wipe .c { width: 200px; background: var(--blue-lt); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="15" data-fps="30" data-width="1080" data-height="1920">
+      <!-- shared background: blurred pool + sky-blue gradient (not a clip) -->
+      <div id="bg">
+        <img id="bg-img" src="assets/img/bg-pool.jpg" alt="" />
+        <div id="bg-tint"></div>
+      </div>
+
+      <!-- S1 HOOK 0–1.58 "Singapore homebuyers" -->
+      <section id="s1" class="clip scene" data-start="0" data-duration="1.58" data-track-index="1">
+        <div id="s1-in" class="in">
+          <div id="s1-chip" class="chip" style="left: 315px; top: 330px"><i class="dot"></i>FREE CUSTOM LIST</div>
+          <div id="s1-l1" class="lg abs" style="left: 0; top: 640px; width: 1080px; text-align: center; font-size: 230px; transform-origin: 540px 100px">SINGAPORE</div>
+          <div id="s1-blk" class="blk" style="left: 95px; top: 866px; width: 890px; height: 222px"></div>
+          <div class="mask" style="left: 95px; top: 866px; width: 890px; height: 222px">
+            <div id="s1-l2" class="lg wht abs" style="left: 0; top: 14px; width: 890px; text-align: center; font-size: 220px">HOMEBUYERS</div>
+          </div>
+          <div id="s1-sub" class="abs" style="left: 0; top: 1150px; width: 1080px; text-align: center; font-family: var(--body); font-weight: 700; font-size: 40px; letter-spacing: 4px; color: #1565c0">NEW LAUNCH CONDOS · 1 MINUTE</div>
+        </div>
+      </section>
+
+      <!-- S2 1.58–4.30 "get your [custom list] in just 1 minute" -->
+      <section id="s2" class="clip scene" data-start="1.58" data-duration="2.72" data-track-index="1">
+        <div id="s2-in" class="in">
+          <div id="s2-l1" class="lg abs" style="left: 80px; top: 318px; font-size: 160px">GET YOUR</div>
+          <div id="s2-blk" class="blk" style="left: 70px; top: 470px; width: 900px; height: 200px"></div>
+          <div class="mask" style="left: 70px; top: 470px; width: 900px; height: 200px">
+            <div id="s2-l2" class="lg wht abs" style="left: 22px; top: 12px; font-size: 196px">CUSTOM LIST</div>
+          </div>
+          <div id="s2-l3" class="lg abs" style="left: 80px; top: 690px; font-size: 160px">OF HOMES</div>
+          <div id="s2-in2" class="abs" style="left: 84px; top: 880px; font-family: var(--body); font-weight: 900; font-size: 64px; letter-spacing: 6px; color: var(--eyebrow)">IN JUST</div>
+          <svg id="s2-ring" viewBox="0 0 400 400">
+            <circle cx="200" cy="200" r="182" fill="none" stroke="rgba(30,136,229,0.18)" stroke-width="22" />
+            <circle id="s2-arc" cx="200" cy="200" r="182" fill="none" stroke="#1e88e5" stroke-width="22" stroke-linecap="round" stroke-dasharray="1143.5" stroke-dashoffset="1143.5" transform="rotate(-90 200 200)" />
+          </svg>
+          <div id="s2-one" class="lg abs" style="left: 100px; top: 1040px; width: 400px; text-align: center; font-size: 360px; color: var(--blue); transform-origin: 200px 160px">1</div>
+          <div id="s2-min" class="lg abs" style="left: 540px; top: 1080px; font-size: 190px">MINUTE</div>
+          <div id="s2-chip" class="chip" style="left: 548px; top: 1270px"><i class="dot"></i>3 QUESTIONS</div>
+        </div>
+      </section>
+
+      <!-- S3 4.30–8.13 "our team picks new launch condos for your budget and needs" -->
+      <section id="s3" class="clip scene" data-start="4.3" data-duration="3.83" data-track-index="1">
+        <div id="s3-in" class="in">
+          <div id="s3-k" class="abs" style="left: 84px; top: 330px; font-family: var(--head); font-size: 84px; line-height: 1; color: var(--eyebrow)">OUR TEAM PICKS</div>
+          <div id="s3-ku" class="abs" style="left: 84px; top: 420px; width: 400px; height: 6px; background: var(--eyebrow); transform-origin: left center"></div>
+          <div id="s3-l1" class="lg abs" style="left: 80px; top: 460px; font-size: 210px; transform-origin: left center">NEW LAUNCH</div>
+          <div id="s3-blk" class="blk" style="left: 70px; top: 668px; width: 640px; height: 236px; transform-origin: right center"></div>
+          <div class="mask" style="left: 70px; top: 668px; width: 640px; height: 236px">
+            <div id="s3-l2" class="lg wht abs" style="left: 26px; top: 12px; font-size: 236px">CONDOS</div>
+          </div>
+          <div id="s3-l3" class="abs" style="left: 84px; top: 950px; font-family: var(--body); font-weight: 900; font-size: 60px; letter-spacing: 5px; color: var(--navy)">THAT FIT</div>
+          <div id="s3-c1" class="chip big" style="left: 80px; top: 1050px"><i class="dot" id="s3-d1"></i>YOUR BUDGET</div>
+          <div id="s3-c2" data-layout-allow-overflow class="chip big" style="left: 300px; top: 1180px"><i class="dot" id="s3-d2"></i>YOUR NEEDS</div>
+        </div>
+      </section>
+
+      <!-- S4 8.13–12.05 "from 1 to 4 bedders, 2-bedders start from $1.2M" -->
+      <section id="s4" class="clip scene" data-start="8.13" data-duration="3.92" data-track-index="1">
+        <div id="s4-in" class="in">
+          <div id="s4-top" class="abs" style="left: 0; top: 0; width: 1080px; height: 700px">
+            <div id="s4-k" class="abs" style="left: 84px; top: 300px; font-family: var(--body); font-weight: 900; font-size: 56px; letter-spacing: 5px; color: var(--eyebrow)">FROM 1 TO 4</div>
+            <div id="s4-num" class="abs" style="left: 80px; top: 380px; width: 230px; height: 270px; border-radius: 14px; background: var(--blue); overflow: hidden">
+              <div id="s4-strip" data-layout-allow-overflow class="abs" style="left: 0; top: 0; width: 230px">
+                <div class="lg wht" style="height: 270px; font-size: 280px; line-height: 300px; text-align: center">1</div>
+                <div class="lg wht" style="height: 270px; font-size: 280px; line-height: 300px; text-align: center">2</div>
+                <div class="lg wht" style="height: 270px; font-size: 280px; line-height: 300px; text-align: center">3</div>
+                <div class="lg wht" style="height: 270px; font-size: 280px; line-height: 300px; text-align: center">4</div>
+              </div>
+            </div>
+            <div id="s4-bed" class="lg abs" style="left: 350px; top: 412px; font-size: 230px; transform-origin: left center">BEDDERS</div>
+          </div>
+
+          <div id="c1" class="card" style="left: 55px; top: 772px"><img src="assets/img/card1.jpg" alt="" id="c1-img" /><div class="pill">1-bedder</div></div>
+          <div id="c2" class="card" style="left: 301px; top: 760px"><img src="assets/img/card2.jpg" alt="" id="c2-img" /><div class="pill">2-bedder</div></div>
+          <div id="c3" class="card" style="left: 547px; top: 760px"><img src="assets/img/card3.jpg" alt="" id="c3-img" /><div class="pill">3-bedder</div></div>
+          <div id="c4" class="card" style="left: 793px; top: 772px"><img src="assets/img/card4.jpg" alt="" id="c4-img" /><div class="pill">4-bedder</div></div>
+
+          <div id="s4-k2" class="abs" style="left: 84px; top: 296px; font-family: var(--body); font-weight: 900; font-size: 56px; letter-spacing: 4px; color: var(--navy); white-space: nowrap">
+            <span id="s4-k2a" style="display: inline-block">2-BEDDERS</span>
+            <span id="s4-k2b" style="display: inline-block; color: var(--eyebrow)">START FROM</span>
+          </div>
+          <div id="price-blk">
+            <div id="price-bg"></div>
+            <div id="price-ear"></div>
+            <div id="price-row">
+              <span id="p-dol" class="g">$</span>
+              <span class="col" id="p-colA"><span class="strip" id="p-stripA"><b>0</b><b>1</b></span></span>
+              <span id="p-dot" class="g">.</span>
+              <span class="col" id="p-colB"><span class="strip" id="p-stripB"><b>0</b><b>1</b><b>2</b></span></span>
+              <span id="p-m" class="g">M</span>
+              <span id="p-star" class="g">*</span>
+            </div>
+          </div>
+
+          <div id="plan">
+            <img id="plan-img" src="assets/img/floorplan.png" alt="" />
+            <div class="abs" style="left: 34px; top: 500px; font-family: var(--head); font-size: 76px; line-height: 1; color: var(--ink)">2-BEDDER <span style="color: var(--blue)">LAYOUT</span></div>
+            <div class="abs" style="left: 36px; top: 584px; font-family: var(--body); font-weight: 500; font-size: 28px; color: #2b3646">Illustrative layout only – not an actual unit</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMAGE SAMPLE label while the S4 room photos are on screen -->
+      <div id="note4" class="clip note" data-start="8.41" data-duration="2.14" data-track-index="4" style="top: 1186px"><span>*IMAGE SAMPLE ONLY – not the actual unit</span></div>
+
+      <!-- S5 END CARD 12.05–15.0 -->
+      <section id="s5" class="clip scene" data-start="12.05" data-duration="2.95" data-track-index="1">
+        <div id="s5-in" class="in">
+          <div id="s5-chip" class="chip" style="left: 248px; top: 300px"><i class="dot"></i>3 QUESTIONS · ABOUT 1 MINUTE</div>
+          <div id="s5-l1" class="lg abs" style="left: 0; top: 392px; width: 1080px; text-align: center; font-size: 140px">GET YOUR</div>
+          <div id="s5-blk" class="blk" style="left: 150px; top: 522px; width: 780px; height: 180px; transform-origin: center center"></div>
+          <div class="mask" style="left: 150px; top: 522px; width: 780px; height: 180px">
+            <div id="s5-l2" class="lg wht abs" style="left: 0; top: 10px; width: 780px; text-align: center; font-size: 180px">CUSTOM LIST</div>
+          </div>
+          <div id="m1" class="mini" style="left: 215px; top: 742px"><img src="assets/img/card1.jpg" alt="" /></div>
+          <div id="m2" class="mini" style="left: 365px; top: 728px"><img src="assets/img/card2.jpg" alt="" /></div>
+          <div id="m3" class="mini" style="left: 545px; top: 728px"><img src="assets/img/card3.jpg" alt="" /></div>
+          <div id="m4" class="mini" style="left: 695px; top: 742px"><img src="assets/img/card4.jpg" alt="" /></div>
+          <div id="s5-note" class="note" style="top: 1036px"><span>*IMAGE SAMPLE ONLY – not the actual unit</span></div>
+          <div id="cta">
+            <div id="cta-rip"></div>
+            <div id="cta-txt">GET MY CUSTOM LIST</div>
+            <div id="cta-arrow"><svg viewBox="0 0 40 40"><path d="M8 20 H30 M21 10 L31 20 L21 30" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+          </div>
+          <div id="fine">*Indicative starting price for a 2-bedder new launch unit, based on developer price list as at [DATE]. Subject to availability and change. Excludes stamp duties.<span class="cea">[CEA LICENCE / REGISTRATION LINE — client to confirm if required]</span></div>
+        </div>
+      </section>
+
+      <!-- captions (sound-off), one clip per phrase on track 3 -->
+      <div id="cap0" class="clip cap" data-start="0" data-duration="1.55" data-track-index="3"><div class="bar"><span data-w="0">Singapore</span><span data-w="0.69">homebuyers,</span></div></div>
+      <div id="cap1" class="clip cap" data-start="1.58" data-duration="1.36" data-track-index="3"><div class="bar"><span data-w="1.58">get</span><span data-w="1.84">your</span><span data-w="1.99">custom</span><span data-w="2.44">list</span></div></div>
+      <div id="cap2" class="clip cap" data-start="2.96" data-duration="1.49" data-track-index="3"><div class="bar"><span data-w="2.96">in</span><span data-w="3.09">just</span><span data-w="3.4">1</span><span data-w="3.82">minute.</span></div></div>
+      <div id="cap3" class="clip cap" data-start="4.67" data-duration="0.8" data-track-index="3"><div class="bar"><span data-w="4.67">Our</span><span data-w="4.85">team</span><span data-w="5.15">will</span><span data-w="5.28">pick</span></div></div>
+      <div id="cap4" class="clip cap" data-start="5.49" data-duration="1.05" data-track-index="3"><div class="bar"><span data-w="5.49">new</span><span data-w="5.76">launch</span><span data-w="6.08">condos</span></div></div>
+      <div id="cap5" class="clip cap" data-start="6.56" data-duration="1.56" data-track-index="3"><div class="bar"><span data-w="6.56">for</span><span data-w="6.68">your</span><span data-w="6.98">budget</span><span data-w="7.35">and</span><span data-w="7.6">needs.</span></div></div>
+      <div id="cap6" class="clip cap" data-start="8.17" data-duration="1.7" data-track-index="3"><div class="bar"><span data-w="8.17">From</span><span data-w="8.41">1</span><span data-w="8.69">to</span><span data-w="8.8">4-bedders,</span></div></div>
+      <div id="cap7" class="clip cap" data-start="9.91" data-duration="1.05" data-track-index="3"><div class="bar"><span data-w="9.91">2-bedders</span><span data-w="10.41">start</span><span data-w="10.72">from</span></div></div>
+      <div id="cap8" class="clip cap" data-start="10.98" data-duration="1.36" data-track-index="3"><div class="bar"><span data-w="10.98">$1.2</span><span data-w="11.55">million.*</span></div></div>
+      <div id="cap9" class="clip cap" data-start="12.39" data-duration="1.75" data-track-index="3"><div class="bar"><span data-w="12.39">Tap</span><span data-w="12.61">below</span><span data-w="12.98">to</span><span data-w="13.09">get</span><span data-w="13.28">started.</span></div></div>
+
+      <!-- whip panels (not clips; parked off-screen right) -->
+      <div id="wp1" class="wipe" data-layout-allow-overflow><i class="a"></i><i class="b"></i><i class="c"></i></div>
+      <div id="wp2" class="wipe" data-layout-allow-overflow><i class="a"></i><i class="b"></i><i class="c"></i></div>
+      <div id="wp3" class="wipe" data-layout-allow-overflow><i class="a"></i><i class="b"></i><i class="c"></i></div>
+      <div id="wp4" class="wipe" data-layout-allow-overflow><i class="a"></i><i class="b"></i><i class="c"></i></div>
+
+      <!-- audio: voice + local Pixabay-licensed SFX (assets/sfx/CREDITS.md) -->
+      <audio id="vo" src="assets/voice.mp3" data-start="0" data-duration="13.95" data-track-index="10" data-volume="1"></audio>
+      <audio id="sx-p1" src="assets/sfx/pop.mp3" data-start="8.45" data-duration="0.72" data-track-index="12" data-volume="0.16"></audio>
+      <audio id="sx-p2" src="assets/sfx/pop.mp3" data-start="8.62" data-duration="0.72" data-track-index="13" data-volume="0.16"></audio>
+      <audio id="sx-p3" src="assets/sfx/pop.mp3" data-start="8.78" data-duration="0.72" data-track-index="14" data-volume="0.16"></audio>
+      <audio id="sx-p4" src="assets/sfx/pop.mp3" data-start="8.94" data-duration="0.72" data-track-index="15" data-volume="0.16"></audio>
+      <audio id="sx-imp" src="assets/sfx/impact-bass-1.mp3" data-start="11.55" data-duration="2.1" data-track-index="16" data-volume="0.28"></audio>
+      <audio id="sx-clk" src="assets/sfx/click-soft.mp3" data-start="12.55" data-duration="0.36" data-track-index="17" data-volume="0.5"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      // Word starts (s) on voice-adam.mp3 at 1.0x — same table as the Remotion build.
+      const W = {
+        singapore: 0.0, homebuyers: 0.69, get: 1.58, your: 1.84, dream: 1.99, property: 2.44,
+        in: 2.96, just: 3.09, one: 3.4, minute: 3.82, l1end: 4.28,
+        our: 4.67, team: 4.85, will: 5.15, pick: 5.28, new: 5.49, launch: 5.76, condos: 6.08,
+        for: 6.56, your2: 6.68, budget: 6.98, and: 7.35, needs: 7.6, l2end: 8.04,
+        from: 8.17, one2: 8.41, to: 8.69, four: 8.8, bedders: 9.09, l3end: 9.52,
+        two: 9.91, bedders2: 10.08, start: 10.41, from2: 10.72, one3: 10.98, point: 11.14,
+        two2: 11.39, million: 11.55, l4end: 12.01,
+        tap: 12.39, below: 12.61, to2: 12.98, get2: 13.09, started: 13.28, end: 13.86,
+      };
+      const CUT = [1.58, 4.3, 8.13, 12.05]; // scene boundaries = whip midpoints
+      const CARD_T = [W.one2, 8.58, 8.74, 8.9]; // "1… 2… 3… 4" counted on the cards
+      const tl = gsap.timeline({ paused: true });
+      const P = "power4.out", X = "expo.out", C = "circ.out";
+
+      // ---------- shared background: slow push + parallax nudge on every whip ----------
+      tl.fromTo("#bg-img", { scale: 1.0, x: 0 }, { scale: 1.1, duration: 15, ease: "none" }, 0);
+      CUT.forEach((t, i) => tl.to("#bg-img", { x: -26 * (i + 1), duration: 0.45, ease: "power3.out" }, t - 0.1));
+
+      // ---------- whip panels ----------
+      ["#wp1", "#wp2", "#wp3", "#wp4"].forEach((id, i) => {
+        tl.fromTo(id, { x: 1650, skewX: -14 }, { x: -2300, duration: 0.44, ease: "power2.inOut" }, CUT[i] - 0.22);
+      });
+
+      // ---------- S1 hook (strong from frame 0) ----------
+      tl.fromTo("#s1-l1", { scale: 1.45, opacity: 1 }, { scale: 1, duration: 0.42, ease: P }, 0);
+      tl.fromTo("#s1-chip", { y: -40, scale: 0.6, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.3, ease: "back.out(2)" }, 0.08);
+      tl.fromTo("#s1-blk", { scaleX: 0 }, { scaleX: 1, duration: 0.2, ease: X }, W.homebuyers - 0.05);
+      tl.fromTo("#s1-l2", { y: 230 }, { y: 0, duration: 0.3, ease: P }, W.homebuyers);
+      tl.to("#s1-l1", { y: -18, duration: 0.08, ease: "power2.out" }, W.homebuyers + 0.08); // punched by the block
+      tl.to("#s1-l1", { y: 0, duration: 0.3, ease: "back.out(3)" }, W.homebuyers + 0.16);
+      tl.fromTo("#s1-sub", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: C }, 0.95);
+      tl.fromTo("#s1-in", { scale: 1 }, { scale: 1.06, duration: 1.58, ease: "none" }, 0); // camera creep
+
+      // ---------- S2 custom list in 1 minute ----------
+      tl.fromTo("#s2-l1", { x: 700, opacity: 0 }, { x: 0, opacity: 1, duration: 0.4, ease: X }, W.get);
+      tl.fromTo("#s2-blk", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: X }, W.dream - 0.06);
+      tl.fromTo("#s2-l2", { y: 210 }, { y: 0, duration: 0.32, ease: P }, W.dream);
+      tl.fromTo("#s2-l3", { y: 90, rotation: 5, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.38, ease: C }, W.property);
+      tl.fromTo("#s2-in2", { x: -260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: X }, W.in);
+      tl.fromTo("#s2-ring", { scale: 0.4, rotation: -90, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.4, ease: "back.out(1.6)" }, W.one - 0.08);
+      tl.fromTo("#s2-one", { scale: 2.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.34, ease: P }, W.one);
+      tl.fromTo("#s2-arc", { strokeDashoffset: 1143.5 }, { strokeDashoffset: 0, duration: 0.9, ease: "power2.inOut" }, W.one);
+      tl.fromTo("#s2-min", { scale: 1.7, x: 120, opacity: 0 }, { scale: 1, x: 0, opacity: 1, duration: 0.32, ease: P }, W.minute);
+      tl.fromTo("#s2-in", { scale: 1 }, { scale: 1.035, duration: 0.07, ease: "power2.out" }, W.minute + 0.1); // beat punch
+      tl.to("#s2-in", { scale: 1, duration: 0.3, ease: "back.out(3)" }, W.minute + 0.17);
+      tl.fromTo("#s2-chip", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(2.2)" }, 3.98);
+
+      // ---------- S3 team picks condos for budget & needs ----------
+      tl.fromTo("#s3-k", { x: -500, opacity: 0 }, { x: 0, opacity: 1, duration: 0.4, ease: X }, 4.46);
+      tl.fromTo("#s3-ku", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power3.out" }, W.our);
+      tl.fromTo("#s3-l1", { scale: 1.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.36, ease: P }, W.pick);
+      tl.fromTo("#s3-blk", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: X }, W.condos - 0.06);
+      tl.fromTo("#s3-l2", { y: -250 }, { y: 0, duration: 0.34, ease: "back.out(1.4)" }, W.condos);
+      tl.to("#s3-l1", { y: -14, duration: 0.07 }, W.condos + 0.1);
+      tl.to("#s3-l1", { y: 0, duration: 0.3, ease: "back.out(3)" }, W.condos + 0.17);
+      tl.fromTo("#s3-l3", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: C }, W.for);
+      tl.fromTo("#s3-c1", { x: -800, rotation: -8 }, { x: 0, rotation: 0, duration: 0.42, ease: "back.out(1.5)" }, W.budget);
+      tl.fromTo("#s3-c2", { x: 900, rotation: 8 }, { x: 0, rotation: 0, duration: 0.42, ease: "back.out(1.5)" }, W.needs);
+      [["#s3-d1", W.budget + 0.3], ["#s3-d2", W.needs + 0.3]].forEach(([d, t]) => {
+        tl.fromTo(d, { scale: 1 }, { scale: 1.8, duration: 0.14, ease: "power2.out", yoyo: true, repeat: 1 }, t);
+      });
+      tl.fromTo("#s3-in", { scale: 1 }, { scale: 1.05, duration: 3.83, ease: "none" }, 4.3);
+
+      // ---------- S4 bedders: count 1→4 with cards ----------
+      tl.fromTo("#s4-k", { y: -60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: X }, W.from);
+      tl.fromTo("#s4-num", { scale: 0, rotation: -12 }, { scale: 1, rotation: 0, duration: 0.3, ease: "back.out(2)" }, 8.2);
+      tl.fromTo("#s4-strip", { y: 0 }, { y: -270, duration: 0.12, ease: X }, CARD_T[1]);
+      tl.to("#s4-strip", { y: -540, duration: 0.12, ease: X }, CARD_T[2]);
+      tl.to("#s4-strip", { y: -810, duration: 0.12, ease: X }, CARD_T[3]);
+      tl.fromTo("#s4-bed", { scale: 1.6, x: 200, opacity: 0 }, { scale: 1, x: 0, opacity: 1, duration: 0.32, ease: P }, W.bedders);
+      const CARD_FROM = [
+        { x: -700, y: 120, rotation: -40 },
+        { x: -200, y: 1100, rotation: -15 },
+        { x: 300, y: 1100, rotation: 18 },
+        { x: 700, y: 140, rotation: 40 },
+      ];
+      const CARD_ROT = [-5, -2, 2, 5];
+      ["#c1", "#c2", "#c3", "#c4"].forEach((id, i) => {
+        tl.fromTo(id, { ...CARD_FROM[i], opacity: 1 }, { x: 0, y: 0, rotation: CARD_ROT[i], duration: 0.36, ease: "back.out(1.3)" }, CARD_T[i] - 0.06);
+        tl.fromTo(id + "-img", { scale: 1.25 }, { scale: 1.04, duration: 3.2, ease: "power1.out" }, CARD_T[i]);
+        tl.to(id, { y: -22, duration: 0.08, ease: "power2.out" }, W.bedders + 0.05 + i * 0.04); // beat bounce
+        tl.to(id, { y: 0, duration: 0.28, ease: "back.out(3)" }, W.bedders + 0.13 + i * 0.04);
+      });
+      tl.fromTo("#note4 span", { opacity: 0 }, { opacity: 1, duration: 0.15 }, W.one2);
+
+      // "two-bedders": top block whips out, cards 1/3/4 fly out, card 2 becomes the hero
+      tl.to("#note4", { y: 150, duration: 0.4, ease: X }, W.two);
+      tl.to("#s4-top", { y: -700, duration: 0.3, ease: "power3.in" }, W.two - 0.1);
+      tl.to("#c1", { x: -900, rotation: -35, duration: 0.32, ease: "power3.in" }, W.two - 0.05);
+      tl.to("#c3", { x: 900, rotation: 30, duration: 0.32, ease: "power3.in" }, W.two - 0.05);
+      tl.to("#c4", { x: 900, rotation: 40, duration: 0.32, ease: "power3.in" }, W.two);
+      tl.to("#c2", { x: 123, y: 40, scale: 1.6, rotation: 0, duration: 0.42, ease: X }, W.two);
+      tl.fromTo("#s4-k2a", { x: -500, opacity: 0 }, { x: 0, opacity: 1, duration: 0.32, ease: X }, W.bedders2);
+      tl.fromTo("#s4-k2b", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: C }, W.start);
+      // flip: photo card turns edge-on, floor plan turns in
+      tl.to("#c2", { rotationY: 90, transformPerspective: 1400, duration: 0.16, ease: "power2.in" }, 10.42);
+      tl.to("#c2", { opacity: 0, duration: 0.01 }, 10.58);
+      tl.fromTo("#plan", { rotationY: -90, transformPerspective: 1600, opacity: 0 }, { rotationY: 0, opacity: 1, duration: 0.34, ease: "back.out(1.3)" }, 10.58);
+      tl.fromTo("#plan-img", { scale: 1.0 }, { scale: 1.05, duration: 1.5, ease: "none" }, 10.58);
+      // price build on the spoken words
+      tl.fromTo("#price-blk", { scaleX: 0 }, { scaleX: 1, duration: 0.24, ease: X }, W.from2);
+      tl.fromTo("#p-dol", { y: -160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: P }, W.one3);
+      tl.fromTo("#p-colA", { opacity: 0 }, { opacity: 1, duration: 0.05 }, W.one3);
+      tl.fromTo("#p-stripA", { y: 0 }, { y: -214, duration: 0.22, ease: X }, W.one3 + 0.04);
+      tl.fromTo("#p-dot", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "back.out(3)" }, W.point);
+      tl.fromTo("#p-colB", { opacity: 0 }, { opacity: 1, duration: 0.05 }, W.two2 - 0.06);
+      tl.fromTo("#p-stripB", { y: 0 }, { y: -428, duration: 0.24, ease: X }, W.two2 - 0.04);
+      tl.fromTo("#p-m", { scale: 2.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.22, ease: P }, W.million);
+      tl.fromTo("#p-star", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "back.out(3)" }, W.million + 0.12);
+      // impact shake on "million"
+      [[14, -10], [-12, 8], [9, -6], [-6, 4], [3, -2], [0, 0]].forEach(([x, y], k) => {
+        tl.to("#s4-in", { x, y, duration: 0.035, ease: "none" }, W.million + 0.06 + k * 0.035);
+      });
+      tl.fromTo("#price-blk", { scale: 1 }, { scale: 1.04, duration: 0.08, ease: "power2.out", immediateRender: false }, W.million + 0.05);
+      tl.to("#price-blk", { scale: 1, duration: 0.3, ease: "back.out(3)" }, W.million + 0.13);
+
+      // ---------- S5 end card ----------
+      tl.fromTo("#s5-chip", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(2)" }, 12.12);
+      tl.fromTo("#s5-l1", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.32, ease: P }, 12.14);
+      tl.fromTo("#s5-blk", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: X }, 12.2);
+      tl.fromTo("#s5-l2", { y: 190 }, { y: 0, duration: 0.3, ease: P }, 12.26);
+      const MROT = [-12, -4, 4, 12];
+      ["#m1", "#m2", "#m3", "#m4"].forEach((id, i) => {
+        tl.fromTo(id, { y: 700, rotation: MROT[i] * 3 }, { y: 0, rotation: MROT[i], duration: 0.4, ease: "back.out(1.4)" }, 12.14 + i * 0.05);
+      });
+      tl.fromTo("#s5-note", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 12.14);
+      tl.fromTo("#cta", { y: 260, scale: 0.7, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.34, ease: "back.out(1.6)" }, 12.12);
+      // "tap": press + release spring, ripple
+      tl.to("#cta", { scale: 0.9, duration: 0.1, ease: "power2.in" }, W.tap + 0.08);
+      tl.to("#cta", { scale: 1, duration: 0.4, ease: "back.out(3)" }, W.tap + 0.18);
+      tl.fromTo("#cta-rip", { scale: 0, opacity: 0.35 }, { scale: 1.2, opacity: 0, duration: 0.6, ease: "power2.out" }, W.tap + 0.18);
+      tl.fromTo("#cta-arrow", { x: 0 }, { x: 12, duration: 0.3, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor((15 - 12.7) / 0.3) - 1) }, 12.7);
+      tl.to("#cta", { scale: 1.04, duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor((15 - 13.0) / 0.4) - 1) }, 13.0);
+      tl.fromTo("#fine", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 12.25);
+      tl.fromTo("#s5-in", { scale: 1.0 }, { scale: 1.02, duration: 2.95, ease: "none" }, 12.05);
+
+      // ---------- captions: current word tinted ----------
+      document.querySelectorAll(".cap").forEach((cap) => {
+        const start = parseFloat(cap.dataset.start);
+        tl.fromTo(cap.querySelector(".bar"), { y: 10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.12, ease: "power2.out" }, start);
+        const words = [...cap.querySelectorAll("span[data-w]")];
+        words.forEach((w, i) => {
+          const t = parseFloat(w.dataset.w);
+          tl.fromTo(w, { color: "#ffffff" }, { color: "#8fd0ff", duration: 0.04 }, t);
+          if (words[i + 1]) tl.to(w, { color: "#ffffff", duration: 0.04 }, parseFloat(words[i + 1].dataset.w) + 0.05);
+        });
+      });
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
