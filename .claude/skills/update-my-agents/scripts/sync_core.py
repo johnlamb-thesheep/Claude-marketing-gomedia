@@ -7,7 +7,7 @@ Usage (run from the workspace folder):
   python .claude/skills/update-my-agents/scripts/sync_core.py --source PATH   # use another core folder (remembered)
 
 Only core-managed items are replaced: .claude/agents/*, .claude/skills/*, .claude/commands/*,
-templates/, references/, clients/CLIENT_NAME/, CLAUDE.md, VERSION. Client folders, clients/CLIENTS.md
+templates/, references/, clients/CLIENT_NAME/, CLAUDE.md, VERSION, .claude/core-manifest.json. Client folders, clients/CLIENTS.md
 and anything else this workspace added are never touched. A file you changed locally is copied to
 .core-sync-backup/<time>/ before it is replaced. State lives in .core-sync.json.
 """
@@ -18,16 +18,16 @@ WS = Path.cwd()
 STATE = WS / ".core-sync.json"
 DEFAULT_SOURCE = "../Claude-Marketing-agent-john-lam"
 EACH_CHILD = [".claude/agents", ".claude/skills", ".claude/commands"]   # each child is one item
-WHOLE = ["templates", "references", "clients/CLIENT_NAME", "CLAUDE.md", "VERSION"]
+WHOLE = ["templates", "references", "clients/CLIENT_NAME", "CLAUDE.md", "VERSION", ".claude/core-manifest.json"]
+MANIFEST = ".claude/core-manifest.json"   # file list + hashes of one core version (baseline for a first update)
 SEED_IF_MISSING = ["clients/CLIENTS.md", ".claude/settings.json", ".gitignore"]
 SKIP_NAMES = {"__pycache__", ".DS_Store", "node_modules"}
 
 
 def sha(p):
-    h = hashlib.sha256()
-    with open(p, "rb") as f:
-        for b in iter(lambda: f.read(1 << 20), b""): h.update(b)
-    return h.hexdigest()
+    # line endings are normalised so a Windows (CRLF) checkout and a ZIP (LF) of the same file match
+    with open(p, "rb") as f: data = f.read()
+    return hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
 
 
 def files_under(root, rel):
@@ -67,7 +67,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--zip"); ap.add_argument("--source"); ap.add_argument("--check", action="store_true")
     ap.add_argument("--no-pull", action="store_true")
+    ap.add_argument("--build-manifest", action="store_true", help="maintainer: write .claude/core-manifest.json for this folder")
     a = ap.parse_args()
+
+    if a.build_manifest:
+        files = {rel: sha(WS / rel) for rel in managed_files(WS) if rel != MANIFEST}
+        version = (WS / "VERSION").read_text(encoding="utf-8").strip() if (WS / "VERSION").exists() else "?"
+        (WS / MANIFEST).write_text(json.dumps({"version": version, "files": files}, indent=0, sort_keys=True), encoding="utf-8")
+        print(f"Manifest written: {len(files)} files, version {version}")
+        return
 
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
     tmp = None
@@ -89,7 +97,10 @@ def main():
 
     new_files = managed_files(src)
     old_hashes = state.get("files", {})
-    # first run (no state): nothing is removed; workspace-only items are never touched
+    if not old_hashes and (WS / MANIFEST).is_file():
+        # first update of an unzipped copy: the version it came with is the baseline
+        old_hashes = json.loads((WS / MANIFEST).read_text(encoding="utf-8")).get("files", {})
+    # without state or manifest nothing is removed; workspace-only items are never touched
     old_files = set(old_hashes)
 
     changed, added, removed, backups = [], [], [], []
@@ -97,6 +108,7 @@ def main():
     bdir = WS / ".core-sync-backup" / stamp
 
     def backup_if_local_edit(rel):
+        if rel == MANIFEST: return   # the file list itself is never a user edit
         cur = WS / rel
         if not cur.exists(): return
         recorded = old_hashes.get(rel)
@@ -147,6 +159,13 @@ def main():
         print(f"Local edits {'would be' if a.check else 'were'} backed up first ({len(backups)} files) to {bdir.relative_to(WS) if not a.check else '.core-sync-backup/<time>/'}:")
         for b in backups[:30]: print("  -", b)
     if tmp: shutil.rmtree(tmp, ignore_errors=True)
+
+    # if this update replaced the update tool itself, run the new version once so nothing is missed
+    me = ".claude/skills/update-my-agents/scripts/sync_core.py"
+    if not a.check and me in changed + added and not os.environ.get("CORE_SYNC_REEXEC"):
+        print("\nThe update tool itself was updated; running the new version once more:")
+        env = dict(os.environ, CORE_SYNC_REEXEC="1")
+        subprocess.run([sys.executable, str(WS / me)] + sys.argv[1:] + (["--no-pull"] if "--no-pull" not in sys.argv else []), env=env)
 
 
 if __name__ == "__main__":
