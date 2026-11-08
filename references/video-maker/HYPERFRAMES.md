@@ -2,7 +2,7 @@
 
 HyperFrames renders video from an HTML page. Timing comes from `data-*` attributes, and motion comes from one paused GSAP timeline that the renderer seeks frame by frame. The skills are in `.claude/skills/hyperframes*`, `motion-graphics` and `remotion-to-hyperframes`. Start with `hyperframes/SKILL.md`, then read `hyperframes-core`, `hyperframes-animation` (`rules-index.md`, `rules/kinetic-beat-slam.md`, `blueprints/kinetic-type-beats.md`) and `hyperframes-cli`.
 
-**Our rules win.** Where the HF skills disagree with this repo, follow this repo: CLAUDE.md (approval, cost, image rights, asking for materials), `GUIDELINES.md`, the recipes, the gomedia-homes static-ad rules and the brand files.
+**Our rules win.** Where the HF skills disagree with this repo, follow this repo: CLAUDE.md (approval, cost, image rights, asking for materials), `GUIDELINES.md`, the client's playbook (`clients/<client>/playbook/`) and brand files.
 
 - Never run `hyperframes publish` (it uploads the project and makes a public URL).
 - Never run `lambda` (AWS spend).
@@ -12,7 +12,7 @@ HyperFrames renders video from an HTML page. Timing comes from `data-*` attribut
 
 | Job | Tool |
 |---|---|
-| ~15 s reel or ad driven by kinetic type, chips, cards and price builds (property reel, LeadX ad, Custom List) | **HyperFrames**, the new default for type-led motion. It's fast and CSS layout is easy. |
+| ~15 s reel or ad driven by kinetic type, chips, cards and price builds (property reel, offer ad, listing ad) | **HyperFrames**, the new default for type-led motion. It's fast and CSS layout is easy. |
 | An existing Remotion job that only needs small edits, or a job with characters/rigs (`Agent.jsx`, `StandAgent.jsx`) | **Remotion** (`TECH.md`). Don't port it unless the user asks. |
 | Flythrough footage with heavy crop/pan maths already solved in Remotion | Remotion. HF also works: put `<video>` at root level, muted, and animate a wrapper. |
 | 30–90 s explainers, screen demos, talking-head edits, clip batches, dubs, "make one like this Reel" | **OpenMontage** (`OPENMONTAGE.md`) |
@@ -35,7 +35,7 @@ clients/<client>/campaigns/<YYYY-MM-name>/hyperframes/
   out/<name>.mp4, out/<name>_contact-sheet.png
 ```
 
-Scaffold with `HYPERFRAMES_SKIP_SKILLS=1 npx -y hyperframes@0.9.19 init hyperframes --example blank --resolution portrait --non-interactive`. The env var stops `init` from rewriting `.claude/skills` from GitHub. Working example: `clients/gomedia-homes/campaigns/2026-11-custom-list-overseas-formats/hyperframes/`.
+Scaffold with `HYPERFRAMES_SKIP_SKILLS=1 npx -y hyperframes@0.9.19 init hyperframes --example blank --resolution portrait --non-interactive`. The env var stops `init` from rewriting `.claude/skills` from GitHub.
 
 ## This PC: FFmpeg, RAM
 
@@ -55,7 +55,7 @@ Scaffold with `HYPERFRAMES_SKIP_SKILLS=1 npx -y hyperframes@0.9.19 init hyperfra
 ## Voiceover workflow (same rules as `GUIDELINES.md` §2)
 
 1. Use the user's ElevenLabs file. MD5-check every "new" upload against the last one.
-2. Speed with `ffmpeg -filter:a atempo=1.2` (1.2x for property, 1.3x for LeadX, 1.1x if 1.2x drops below ~14 s; aim for ~15 s), or keep 1.0x if it already lands at ~14–15 s. Tell the client which speed you used.
+2. Speed with `ffmpeg -filter:a atempo=1.2` (1.2x default or the client's playbook speed, 1.1x if 1.2x drops below ~14 s; aim for ~15 s), or keep 1.0x if it already lands at ~14–15 s. Tell the client which speed you used.
 3. Word timings: pocketsphinx (`TECH.md`), or `npx hyperframes transcribe` if whisper is installed (local, free). Write one table at the top of the script: `const W = {word: seconds}`. **Every cue reads from W**: entrances, block wipes, card counts, SFX `data-start`, caption word tints. If the speed changes, scale W once.
 4. Never build a final without the voice. Without it, the result is a labelled timing draft.
 
@@ -78,11 +78,13 @@ Scaffold with `HYPERFRAMES_SKIP_SKILLS=1 npx -y hyperframes@0.9.19 init hyperfra
 - Captions follow the VO, except that a misleading VO claim gets the approved softer wording on screen. Flag that to the user.
 - `tools/sheet.py` draws the 270/1535 guide lines on every contact-sheet frame.
 
-## Compliance overlays (gomedia-homes)
+## Compliance overlays
 
-- `*IMAGE SAMPLE ONLY – not the actual unit` (≥23 px) while room photos are on screen. Developer renders get `IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY`. Generic floor plans get `Illustrative layout only – not an actual unit` (≥23 px).
-- The price asterisk links to the end-card fine print (≥24 px, on screen ≥2.5 s), e.g. `*Indicative starting price … as at [DATE] … Excludes stamp duties.`, plus the CEA line. Leave placeholders as placeholders and flag them; never invent dates or licence numbers.
-- No third-party logos or watermarks (crop them out in Pillow before they reach `assets/img/`). No project names in blind ads, no unit counts, no % sold, no district codes, no returns claims, never "shortlist". The full list is in `.claude/agents/video-designer.md` and `clients/gomedia-homes/playbook/static-ads.md`.
+Labels, fine print and banned words come from the client's playbook (`clients/<client>/playbook/video.md` and its copy rules). Typical for property:
+
+- Image-sample labels on renders and room photos (≥23 px), "illustrative" labels on redrawn maps and floor plans.
+- The price asterisk links to end-card fine print (≥24 px, on screen ≥2.5 s). Leave placeholders as placeholders and flag them; never invent dates or licence numbers.
+- No third-party logos or watermarks (crop them out in Pillow before they reach `assets/img/`).
 
 ## SFX
 

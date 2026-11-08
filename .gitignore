@@ -48,3 +48,7 @@ dashboards/netlify/clients.mjs
 dashboards/agent-links.csv
 dashboards/account-review.csv
 dashboards/netlify/alerts-page.mjs
+
+# Core update tool: per-computer backups
+.core-sync-backup/
+.core-sync.json

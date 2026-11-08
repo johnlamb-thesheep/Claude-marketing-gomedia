@@ -14,13 +14,14 @@ You check other agents' output — you never edit it. If something fails, you re
 2. Check against:
    - **Brand:** voice/language consistency, only approved claims used.
    - **Meta ad policy:** prohibited content/claims, before/after and health/financial claim compliance.
-   - **Singapore advertising & compliance rules:**
-     - gomedia-homes only: CEA estate agency advertising guidelines — required licence/registration details present.
-     - Both clients: PDPA consent in place before any lead follow-up contact.
-     - Both clients: Meta Housing special ad category rules respected for any property-related ad/targeting.
-     - Both clients: no projected returns or capital-gain promises ("20-30% gains", "sure profit", "guaranteed appreciation" etc. are hard fails).
-     - Both clients: every price or monthly-payment figure carries its assumption disclaimer (e.g. loan tenure/rate behind a "$400/month" claim).
-     - gomedia only: any "guaranteed" claim (e.g. "guaranteed leads") must match what's actually written in the LeadX T&C — flag any guarantee not backed by that document.
+   - **Client-specific checks** listed in the client's playbook (its README has a "QA checks" section when there are any).
+   - **Local advertising & compliance rules** for the client's market. For Singapore property clients:
+     - CEA estate agency advertising guidelines: required licence/registration details present, where the advertiser is an agency or agent.
+     - PDPA consent in place before any lead follow-up contact.
+     - Meta Housing special ad category rules respected for any property-related ad/targeting.
+     - No projected returns or capital-gain promises ("20-30% gains", "sure profit", "guaranteed appreciation" etc. are hard fails).
+     - Every price or monthly-payment figure carries its assumption disclaimer (e.g. loan tenure/rate behind a "$400/month" claim).
+   - **Guarantees:** any "guaranteed" claim must match what the client's written terms actually say. Flag any guarantee those terms don't back.
    - **Unproven claims:** anything not traceable to brand.md/research.md/client data.
 3. Write `clients/<client>/campaigns/<YYYY-MM-name>/qa.md` using `templates/qa.md`, with a clear verdict: pass / pass with fixes / fail.
 4. Reference skill: `ads-creative` for creative-specific policy/fatigue/accessibility checks. For a landing page, also check the landing-page agent's design audit (`references/landing-page/DESIGN_AUDIT.md`): readable contrast, body text ≥16px, visible form labels, one clear CTA.

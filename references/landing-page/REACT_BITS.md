@@ -7,7 +7,7 @@ The repo is 688 MB, so it's **not** copied into this repo. Pull single component
 ## Licence (MIT + Commons Clause)
 
 - OK: use components in client landing pages, sites and videos, including paid client work.
-- Not OK: selling or redistributing the components themselves (e.g. a "GoMedia component pack" or template pack).
+- Not OK: selling or redistributing the components themselves (e.g. a component pack or template pack).
 - Keep the copyright notice in the component files.
 
 ## Adding a component (landing page)

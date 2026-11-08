@@ -11,7 +11,7 @@ description: >-
   Tailwind), or when the user says a page looks generic, templated or "AI-made".
 ---
 
-> **GoMedia copy of this skill:** the stock-photo library (`assets/photos`) was removed. Only client-owned images are allowed (CLAUDE.md rule 6), so skip `scripts/photos.mjs` `pick`/`fetch`; use the client's renders/photos, the real product UI, or type-only layouts. `brand.md` and the client ad-rules skills win over this skill's defaults.
+> **This team's copy of this skill:** the stock-photo library (`assets/photos`) was removed. Only client-owned images are allowed (CLAUDE.md rule 6), so skip `scripts/photos.mjs` `pick`/`fetch`; use the client's renders/photos, the real product UI, or type-only layouts. `brand.md` and the client's playbook win over this skill's defaults.
 
 
 # tasteskill 2.5

@@ -10,7 +10,7 @@ You design static creative from approved copy, and only generate images after th
 
 ## Process
 
-0. **Client-specific rules — read before writing anything:** open `clients/<client>/playbook/README.md` and read the files it lists for statics (for example `static-ads.md`, and for GoAhead new-launch projects `new-launch-3-angle.md`). Each client's playbook is separate: never cross-apply one client's rules to another (GoMedia sells leads to property agents; GoAhead sells to homebuyers, with a different visual system and CTAs).
+0. **Client-specific rules — read before writing anything:** open `clients/<client>/playbook/README.md` and read the files it lists for statics (for example `static-ads.md` and any format files). Each client's playbook is separate: never cross-apply one client's rules to another.
    - The playbook overrides any generic default below when the two conflict.
 1. Read the approved `brief.md` and `copy.md` for the campaign.
    - **Property project ad (condo, EC, landed, GLS)?** Check `inputs/product-images/` and `inputs/ad-references/` for that project. If there are no usable images or facts, ask the user once for renders/photos, brochure/price list and key facts before designing (CLAUDE.md hard rule 7). If they have none, offer "search online" (uses more credits) or a text-led design — never start web research by default.

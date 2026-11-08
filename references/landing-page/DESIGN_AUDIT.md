@@ -5,7 +5,7 @@ Excerpted from Garry Tan's gstack `design-review` skill (https://github.com/garr
 **How we use it:** the landing-page agent runs this on its own page before handing to qa; qa may use it too.
 - Open the page with the built-in browser tools (`mcp__Claude_Browser__*`) — screenshot at desktop and 390px mobile. Wherever the text below says `pg.evaluate(...)`, run the same JS with `javascript_tool`; ignore mentions of Aside, `$B`, detector scripts, baselines and `$GSTACK_STATE_ROOT`.
 - Classifier for our pages: **PERSUADE** (marketing / landing). Apply the landing-page rules.
-- Our rules win: copy and claims follow `brand.md` and the gomedia-homes copy rules; the headline must echo the winning ad. "Name the outcome the click buys" for our CTAs means the stage CTA ("REGISTER YOUR INTEREST" / "GET PRICE LIST & E-BROCHURE"), not a new phrase.
+- Our rules win: copy and claims follow `brand.md` and the client's playbook copy rules; the headline must echo the winning ad. "Name the outcome the click buys" for our CTAs means the client's own CTA wording from its playbook, not a new phrase.
 - Output: Design Score + AI Slop Score, top findings with screenshots, and 3–5 Quick Wins, written into the landing-page audit section of the campaign folder.
 
 ---

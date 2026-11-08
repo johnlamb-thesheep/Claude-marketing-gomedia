@@ -1,6 +1,6 @@
 # Video maker guidelines
 
-These rules come from building about ten ad videos with one client (property agents in Singapore, plus their lead-gen product LeadX). Each rule exists because something went wrong without it, or the client asked for it directly.
+These rules come from building about ten ad videos with one real client (Singapore property: condo reels plus a lead-gen offer for agents). Each rule exists because something went wrong without it, or the client asked for it directly.
 
 ## 1. Format and length
 
@@ -10,8 +10,8 @@ These rules come from building about ten ad videos with one client (property age
 
 ## 2. Voiceover
 
-- The client generates the voice in ElevenLabs (voice "Adam – Compelling") using emotion tags like `[excited]`, `[confident]`, `[warm]`.
-- **Speed it up with ffmpeg `atempo`.** Use 1.2x for property reels by default and 1.3x for LeadX ads. Use 1.1x if 1.2x would drop below ~14s. Pick the speed that lands closest to 15s and tell the client which one you used.
+- The client generated the voice in ElevenLabs using emotion tags like `[excited]`, `[confident]`, `[warm]`.
+- **Speed it up with ffmpeg `atempo`.** Use 1.2x by default (1.3x worked for fast offer ads); the client's playbook can set its own. Use 1.1x if 1.2x would drop below ~14s. Pick the speed that lands closest to 15s and tell the client which one you used.
 - **Always extract word timings** and anchor every cut, headline, pop and sound effect to the spoken word. Guessed timings needed a full redo once the real voice arrived.
 - **Check uploads before using them.** Compare MD5 hashes when a "new" voice file arrives. Once, a re-uploaded file was byte-identical to the old one, and the new lines weren't in it.
 - If the script has a grammar error (e.g. "it also have"), mention it once. On-screen text can be correct even when the audio isn't.
@@ -32,9 +32,7 @@ These rules come from building about ten ad videos with one client (property age
   - **Small kicker line** above each headline ("WITHIN", "CHECK OUT", "INSTEAD OF").
 - **Text sits in the middle of the screen, never as plain subtitles.** It reads as a graphic: a header plus a highlighted keyword.
 - **Small captions at the bottom** (dark pill, ~34–38 px) for sound-off viewing. Move them up during the CTA so they don't cover the character or button.
-- **Brand colours:** the client asked for **red** instead of the earlier yellow/orange highlights.
-  - Property reels use red blocks with white text.
-  - LeadX red: "Lead" is white and the **X is red**, CTA buttons are red, and the logo sits on a dark background.
+- **Brand colours** come from the client's playbook and brand.md. (That client asked for red highlight blocks with white text instead of yellow/orange.)
 - **Sound: minimal.** Voice plus at most 2–3 small effects (notification ding, a thud, a pop). No music unless asked.
 
 ## 5. What did NOT work (avoid)
@@ -99,7 +97,7 @@ These rules come from building about ten ad videos with one client (property age
 4. **Fix, re-check, then render the full video.**
 5. **Deliver a short summary:** scene list, what changed, and a short "please check" list. Keep earlier versions (`_v2`, `_v3`) rather than overwriting.
 
-## 11. Working with this client
+## 11. Working with clients (what that client liked)
 
 - **Short, fast messages** ("go go"). Act on clear requests without long confirmation rounds.
 - **Ask at most one question, with tappable options when possible.** Good uses: which character style, which format.

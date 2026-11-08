@@ -55,3 +55,27 @@
 - Use a **real map** for walking distance: OSM tiles from `tile.openstreetmap.de` (zoom 17 for a neighbourhood), positions from `photon.komoot.io`, route drawn as a line + live counter ("437 m · 5 MIN*"), MRT icon in line colour (NEL #9E28B5, DTL #005EC4, EWL #009645, CCL #FA9E0D, NSL #D42E12). Credit "© OpenStreetMap contributors". Distances the user gives win — use the closest figure.
 - Each new ad should look different from the previous one (palette, type, transition style).
 - Captions word-highlighted; key words in the accent colour.
+
+## House rules for GoAhead videos (moved from the shared video-designer agent and HyperFrames guide, 2026-11-08)
+
+These beat `references/video-maker/GUIDELINES.md` where they differ.
+
+- **On-screen text and claims** follow the "Client copy rules" in `static-ads.md`:
+  - no unit counts (when GUIDELINES says "verify the unit count", that's a fact check only, never on screen)
+  - no "% sold"
+  - no district codes (area names only)
+  - full MRT station names
+  - "rare freehold condo" for freehold projects
+  - the entry-price cut-off before any price appears
+  - walk minutes only when a source gives them
+  - the Cross Island Line always hedged as "target 2030"
+  - EC compliance lines
+- **CTA wording** follows the project's stage: "REGISTER YOUR INTEREST" for pre-launch with no price list, "GET PRICE LIST & E-BROCHURE" once a real price list exists.
+- **Image labels.** Crop out labels baked into source images (portal watermarks, other logos, phone numbers, the source's own "Artist's Impression" text), then add our own:
+  - "IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY" on official developer renders.
+  - "IMAGE SAMPLE ONLY – not the actual development" on generic or stock visuals; `*IMAGE SAMPLE ONLY – not the actual unit` (≥23 px) while room photos are on screen.
+  - "Illustrative map, not to scale" on redrawn maps; `Illustrative layout only – not an actual unit` (≥23 px) on generic floor plans.
+- **Price fine print:** the price asterisk links to end-card fine print (≥24 px, on screen ≥2.5 s), e.g. `*Indicative starting price … as at [DATE] … Excludes stamp duties.`, plus the CEA line. Leave placeholders as placeholders and flag them; never invent dates or licence numbers.
+- No project names in blind ads, no returns claims, never "shortlist".
+
+- **HyperFrames working example:** `clients/gomedia-homes/campaigns/2026-11-custom-list-overseas-formats/hyperframes/`.

@@ -33,8 +33,8 @@ researcher (optional) [P]
 | Brief + test plan | strategist (campaign mode) | `ad-creative-brief`, `ad-creative-test-plan` | Reference: `ads` |
 | Ad copy | copywriter | `ad-creative` | `ad-copy-variants` only for fatigue replacements, not first-draft copy. Plain-copy check: `design-taste-frontend/references/copy.md`; LP/form microcopy: `impeccable` clarify |
 | Static concepts | static-designer | `static-ad-concept-generator` (concepts); `generating-image-ads` (generation); `static-ads` for "clone this ad format" (never run — see below); `ads-dna` for brand look; `ui-ux-pro-max` + `frontend-design` for fonts/colour/layout when client rules leave it open; `impeccable` (typeset/colorize/critique) on still renders; React Bits for text/background ideas | |
-| Video | video-designer | `ugc-ad-scripts` + `ad-hook-analyzer`; frameworks from `video-ad-generator`; motion timing from `animation-vocabulary`, `choreograph`, `animate` | Production (local Remotion render of reels / LeadX ads): `references/video-maker/`. Bigger jobs (explainers, screen demos, talking-head, clip batches, dubs): OpenMontage in `vendor/openmontage` via `references/video-maker/OPENMONTAGE.md`. Viral-reel clone + many variants: `hypit` via `references/video-maker/HYPIT.md`. Kinetic typography / high-energy motion ads: HyperFrames (`hyperframes`, `hyperframes-animation`, `motion-graphics` skills) via `references/video-maker/HYPERFRAMES.md`. Our approval/cost rules override both |
-| Landing page | landing-page | Build: `design-taste-frontend` + `impeccable` + `frontend-design` + `ui-ux-pro-max` (design system) · Animated pieces: React Bits (`references/landing-page/REACT_BITS.md`) · Polish: `emil-design-eng`, `animate`, `choreograph`, `mobile-native` · Copy: `copywriting` + `cro` · Audit own output: `ads-landing` + `references/landing-page/DESIGN_AUDIT.md` (gstack checklist) + `impeccable audit` + `break-ui` | brand.md and client ad rules beat design-skill suggestions |
+| Video | video-designer | `ugc-ad-scripts` + `ad-hook-analyzer`; frameworks from `video-ad-generator`; motion timing from `animation-vocabulary`, `choreograph`, `animate` | Production (local Remotion render of reels / offer ads): `references/video-maker/`. Bigger jobs (explainers, screen demos, talking-head, clip batches, dubs): OpenMontage in `vendor/openmontage` via `references/video-maker/OPENMONTAGE.md`. Viral-reel clone + many variants: `hypit` via `references/video-maker/HYPIT.md`. Kinetic typography / high-energy motion ads: HyperFrames (`hyperframes`, `hyperframes-animation`, `motion-graphics` skills) via `references/video-maker/HYPERFRAMES.md`. Our approval/cost rules override both |
+| Landing page | landing-page | Build: `design-taste-frontend` + `impeccable` + `frontend-design` + `ui-ux-pro-max` (design system) · Animated pieces: React Bits (`references/landing-page/REACT_BITS.md`) · Polish: `emil-design-eng`, `animate`, `choreograph`, `mobile-native` · Copy: `copywriting` + `cro` · Audit own output: `ads-landing` + `references/landing-page/DESIGN_AUDIT.md` (gstack checklist) + `impeccable audit` + `break-ui` | brand.md and the client's playbook beat design-skill suggestions |
 | Stage sign-off (every agent's output) | performance | Stage checklists in `.claude/agents/performance.md` | Writes `perf-review.md` from `templates/perf-review.md` |
 | Fatigue / kill / scale decisions | performance | `ad-creative-fatigue` is the **FINAL decider** | `creative-fatigue-review-meta-ads` is a helper only (concept grouping, `scripts/fatigue_trend.py`, replacement angles). `facebook-ads` and other fatigue thresholds are reference only — never override `ad-creative-fatigue`'s verdict |
 | Account audit | performance | `account-health-check-meta-ads` (entry), `meta-ads-auditor` (deep audit) | Root causes -> `ad-account-diagnostic` |
@@ -43,9 +43,6 @@ researcher (optional) [P]
 | Why ads won/lost, comments | performance | `offer-angle-extraction-meta-ads`, `comment-objection-mining-meta-ads` | Feeds strategist + copywriter via learnings.md |
 | Weekly readout | performance | `weekly-performance-readout-meta-ads` | `scripts/wow_delta.py` for the arithmetic |
 | Pixel / CAPI / lead quality | tracking | `pixel-capi-signal-quality-audit-meta-ads`, manual checks | `facebook-ads` and `click-to-session-gap-meta-ads` as reference |
-| New-launch 3-angle statics (Direct / Floor plan / Price + MRT) with real Google images, free ChatGPT→Gemini via Chrome, filed in Notion | lead + copywriter + static-designer + performance | `new-launch-image-run` | One project at a time in `clients/gomedia-homes/projects/<slug>/`. Angles, layouts and copy rules: `clients/gomedia-homes/playbook/new-launch-3-angle.md`. Also covers rewriting pasted primary text for a project |
-| Client ads dashboards (Netlify) | dashboard | `client-ads-dashboard` | Outside the campaign pipeline. Never handles tokens; link lists stay out of git |
-| Slack ad alerts (opportunity / fatigue / low CTR) | dashboard | `dashboards/netlify/alerts.config.mjs` + `lib/alerts.mjs` | Rule-based, runs on Netlify (no Claude tokens). Targets: trade marketing $30, GoAhead buyer $25. Weekly judgement calls stay with performance (`ad-creative-fatigue`) |
 | Brand + policy check | qa | brand-review (manual, vs `brand.md`), `ads-creative` | |
 
 ## Hard rules
@@ -61,24 +58,29 @@ researcher (optional) [P]
 
 ## New users and setup
 
-- Many users are not technical. If someone pastes the GitHub link or says "set this up", "download it", "continue setup" or "I'm stuck", follow `setup-marketing-team` and its plain-language rules.
-- If the user says hi, seems new, or asks "what can you do", answer in 3 short lines (who you are: GoMedia Marketing Assistance; what you do; that you ask before anything goes live or costs money), then give 3–5 copy-ready example prompts in code blocks, e.g. ad copy for LeadX, a new launch video, last 7 days results for an agent. Point to the Notion page *Gomedia Marketing Assistance* for more.
+- Many users are not technical. If someone says "set this up", "get started", "continue setup" or "I'm stuck", follow the `get-started` skill and its plain-language rules.
+- If the user says hi, seems new, or asks "what can you do", answer in 3 short lines (who you are: their Marketing Agent Team; what you do; that you ask before anything goes live or costs money), then give 3–5 copy-ready example prompts in code blocks, e.g. ad copy for a client, a 15-second video ad, last 7 days results. (A workspace's `clients/CLIENTS.md` may give the team a different name and examples; follow it.)
+
+## Updates: what is shared and what is this workspace's own
+
+- The agents (`.claude/agents/`), skills (`.claude/skills/`), commands (`.claude/commands/`), `templates/`, `references/`, `clients/CLIENT_NAME/` and this `CLAUDE.md` come from the core **Marketing Agent Team** and are replaced when the user says **"update my agents"** (the `update-my-agents` skill). Don't edit them for one client: put client rules in that client's playbook (rule 8).
+- Everything else is this workspace's own and is never touched by an update: `clients/` (except the template), `clients/CLIENTS.md`, any extra skills or agents this workspace added, and other folders.
+- If a `maintainer/` folder exists, this is the core (product) repo itself: read `maintainer/README.md` before changing anything.
 
 ## Clients
 
-- **gomedia** — B2B, Singapore. Audience: property agents. Products: LeadX buyer leads, LeadX seller leads, telemarketer/ISA system, CRM. Ad data: Meta ad account `903306407477320`, campaigns whose name contains "trade marketing".
-- **gomedia-homes** — B2C, Singapore. Brand name used in ads: "GoAhead". Audience: new launch condo/EC buyers. Ad data: same Meta ad account `903306407477320`, campaigns whose name contains "buyer" AND does NOT contain "r&f", "sky", "jess", or "gomedia".
-
-Both clients share one Meta ad account. Every performance or tracking read against this account MUST apply the campaign-name filter above before attributing spend, leads, or results to either client — pulling the account's full campaign list without that filter will mix the two clients' data.
+The clients of this workspace, their ad accounts and campaign filters are in `clients/CLIENTS.md` (loaded below). When several clients share one ad account, every performance or tracking read MUST apply that client's campaign-name filter before attributing spend, leads or results.
 
 Each client lives in `clients/<client_name>/`:
 - `brand.md` — positioning, ICP, offer, voice, proof, must/must-not (maintained by strategist, foundation mode)
 - `learnings.md` — append-only log of what worked/didn't (maintained by performance)
-- `playbook/` — the client's own rulebook: `README.md` (index + always-true rules), `static-ads.md` (copy rules, ad formats, layouts, palette), `video.md`, `targets.md` (CPL target, campaign filter, alerts), `workflow.md`, plus any format files (e.g. gomedia-homes `new-launch-3-angle.md`). New client: copy `clients/CLIENT_NAME/` and fill it in.
+- `playbook/` — the client's own rulebook: `README.md` (index + always-true rules + QA checks), `static-ads.md` (copy rules, ad formats, layouts, palette), `video.md`, `targets.md` (CPL target, campaign filter, alerts), `workflow.md`, plus any format files. New client: copy `clients/CLIENT_NAME/` to `clients/<client_name>/`, fill it in, and add the client to `clients/CLIENTS.md`.
 - `campaigns/<YYYY-MM-name>/` — one folder per campaign, filled from `templates/` in pipeline order
-- `projects/<project>/` (gomedia-homes new-launch project ads) — one folder per condo/EC: `research.md`, `ad-library-<date>.md`, `copy-brief.md`, `design-prompts.md`, `perf-review.md`, `images/`. Handoff for project ads goes through these files.
+- `projects/<project>/` (optional) — one folder per product or project when a client runs many (e.g. one per condo launch). Handoff goes through the files in that folder.
 - `inputs/` — raw material: `reviews/`, `winning-ads/`, `comments/`, `competitors/`, `product-images/`, `ad-references/`
 
 ## Agents
 
-See `.claude/agents/` — one file per role: `researcher`, `strategist`, `copywriter`, `static-designer`, `video-designer`, `landing-page`, `qa`, `performance`, `tracking`, `dashboard` (client ads dashboards, outside the campaign pipeline).
+See `.claude/agents/` — one file per role: `researcher`, `strategist`, `copywriter`, `static-designer`, `video-designer`, `landing-page`, `qa`, `performance`, `tracking`.
+
+@clients/CLIENTS.md
