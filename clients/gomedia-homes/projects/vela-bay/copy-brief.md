@@ -172,3 +172,29 @@ Draft written 2026-11-07, copywriter. Format follows `projects/coastal-cabana/co
 
 ## Re-review request
 VB1 and VB2 are applied in this file, and VB3 is reflected in the V3 plan-title row (the designer applies it in `design-prompts.md`). Ready for performance re-review. Nothing is generated, uploaded or spent.
+
+---
+
+## Revision 2 (2026-11-07): 3-angle image run (new-launch-image-run, built in Canva)
+
+Strings taken from the Approved 5-angle copy above. Changes: exact price `$1.466M*` (skill rule: never rounded), and the floor-plan ad uses the real 1BR+Study (A) plan, the entry unit type, instead of the 3BR Premium.
+
+| Ad | Headline | Subhead / lines | Image |
+|---|---|---|---|
+| A Direct (named) | `Vela Bay: 1-Bedroom + Study From $1.466M*` | `Next to Bayshore MRT, near East Coast Park & East Coast Lagoon Food Village.` · label `ARTIST'S IMPRESSION ONLY` | Developer facade render |
+| B Floor plan (blind) | `See How 1-Bedroom + Study Fits in 484 sqft` | `Separate study nook, balcony and open kitchen. Next to Bayshore MRT, near East Coast Park.` · caption `Floor plan for illustration only. Not to scale.` | Real plan, Type 1BR+S(A), 484 sqft |
+| C Price + MRT (blind) | `1-BEDROOM + STUDY FROM $1.466M*` | `Next to Bayshore MRT` · `Near East Coast Park & East Coast Lagoon Food Village` · label `ARTIST'S IMPRESSION ONLY` | Developer aerial render, sea view |
+
+All: eyebrow `SINGAPORE HOMEBUYER`, CTA `GET PRICE LIST & E-BROCHURE`. A and C fine print: `*Based on developer price list as at [DATE]. Subject to availability and change. Excludes stamp duties.` "Next to" Bayshore MRT is sourced (developer, Stacked, OneMap ~40m); no walk minutes.
+
+---
+
+## Revision 3 (2026-11-08): locked 3-layout set
+
+User locked the 3 layouts (see `.claude/skills/new-launch-image-run/SKILL.md`). B and C now use the **2BR Premium, 689 sqft** (user: 2-bedroom is usually best; never lead with 4BR). The 2BR Premium is from $1,890,000, above the ~$1.6M cap, so B and C carry no price. Full on-image strings are in `design-prompts.md`.
+
+- **A Direct:** callout `VELA BAY` · headline `1-Bedroom + Study` / `From $1.466M*` · boxes `Next to / BAYSHORE MRT`, `Short walk / TO EAST COAST PARK`, `Sea views / FROM SELECTED UNITS` · body `Thomson-East Coast Line at your doorstep, near East Coast Lagoon Food Village. 99-year leasehold.`
+- **B Floor plan:** headline `2-Bedroom Premium` · boxes `689 SQFT`, `NEXT TO BAYSHORE MRT`, `SHORT WALK TO EAST COAST PARK` · body `Both bedrooms with their own bathroom, plus a balcony. Near East Coast Lagoon Food Village, on the Thomson-East Coast Line.`
+- **C Price + MRT:** headline `2-Bedroom Premium, 689 sqft, Next to Bayshore MRT` · subhead `Short walk to East Coast Park. Near East Coast Lagoon Food Village.` · table BEDROOMS 2 / SIZE 689 sqft / TENURE 99-year leasehold / MRT Next to Bayshore MRT / NEARBY East Coast Park, East Coast Lagoon Food Village.
+
+Sources: 2BR Premium 689 sqft, $1,890,000, 7 left [NL] 06-Nov; plan with master bath + bath 2 + balcony (Stacked floor plan); "sea views from selected units" [DEV]/[SHR] (no % given).

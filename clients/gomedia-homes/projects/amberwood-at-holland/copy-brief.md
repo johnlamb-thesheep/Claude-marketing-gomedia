@@ -188,3 +188,15 @@ Copywriter, 2026-11-07. Input: `research.md` and `ad-library-2026-11-07.md` in t
 7. **CEA authorisation.** If GoAhead isn't authorised to market Amberwood at Holland, A1 is Blocked.
 8. **Rights.** Official renders and plans (A1, A3). Confirm GoAhead can send the developer's e-brochure.
 9. **Objections for sales, not ads:** the columbarium across the road, years of nearby construction, the precinct's future supply, small common bedrooms.
+
+---
+
+## Revision 2 (2026-11-08): locked 3-layout set (new-launch-image-run)
+
+Strings come from the Approved copy and research. No price anywhere: entry is the 3BR at $2,542,000, far over the cap, and there's no 2BR (the project is 3–5BR only, so B and C use the smallest type, the 3BR). The MRT is about 1km away (OneMap straight-line ~0.99–1.01km, NL ~990m), so the ads say "about 1km", never walk minutes. Every ad that names the school carries the MOE line.
+
+- **A Direct:** callout `AMBERWOOD AT HOLLAND` · headline `Low-Rise Family Homes` / `Beside the Rail Corridor` · boxes `3 to 5 / BEDROOMS, 872–1,572 SQFT`, `3.18m / HIGH CEILINGS`, `50m / HILLTOP LAP POOL` · body `Near Methodist Girls' School (Primary) and Bukit Timah Nature Reserve. 99-year leasehold.` · fine print `School admission subject to MOE regulations.`
+- **B Floor plan:** headline `3-Bedroom` · boxes `872 SQFT`, `ABOUT 1KM TO KING ALBERT PARK MRT`, `3.18M HIGH CEILINGS` · body `Three bedrooms and two bathrooms, plus a yard. Low-rise blocks beside the Rail Corridor, near Methodist Girls' School (Primary).` · fine print MOE line.
+- **C Listing card:** headline `3-Bedroom, 872 sqft, Low-Rise Living in Holland` · subhead `About 1km to King Albert Park MRT. Beside the Rail Corridor.` · table BEDROOMS 3 / SIZE 872 sqft / TENURE 99-year leasehold / MRT About 1km to King Albert Park MRT / NEARBY Methodist Girls' School (Primary), Bukit Timah Nature Reserve · fine print MOE line.
+
+Sources: unit mix and sizes, 3.18m ceilings, 50m Hilltop lap pool, Rail Corridor and nature reserve [SH-REV]; MGS ~770–780m [SH-REV], [NL]; 3BR $2,542,000, 5 of 8 left [NL] 07-Nov; 3BR Type C1 plan (Stacked).
