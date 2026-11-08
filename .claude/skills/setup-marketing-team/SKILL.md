@@ -1,6 +1,6 @@
 ---
 name: setup-marketing-team
-description: "One-time setup of GoMedia Marketing Assistance (the claude-marketing repo) on a new computer, written for non-technical users. Gets the files into Documents/claude-marketing (git or plain download, no git needed), checks the few tools that matter, shows which connections are on or missing, tells the user how to open the folder, and ends with ready-to-copy first prompts. Use when the user pastes the github.com/johnlamb-thesheep/claude-marketing link, or says 'set this up', 'download it', 'get it', 'install this', 'first time setup', 'continue setup', or 'I'm stuck with setup'."
+description: "One-time setup of GoMedia Marketing Assistance (the Claude-marketing-gomedia repo) on a new computer, written for non-technical users. Gets the files into Documents/Claude-marketing-gomedia (git or plain download, no git needed), checks the few tools that matter, shows which connections are on or missing, tells the user how to open the folder, and ends with ready-to-copy first prompts. Use when the user pastes the github.com/johnlamb-thesheep/Claude-marketing-gomedia link, or says 'set this up', 'download it', 'get it', 'install this', 'first time setup', 'continue setup', or 'I'm stuck with setup'."
 license: MIT
 metadata:
   author: setup-marketing-team
@@ -23,23 +23,23 @@ The person running this is usually **not technical**. They pasted the GitHub lin
 
 ## Step 1 of 4 — Download the files
 
-Target folder: `Documents/claude-marketing` (on Windows: `C:\Users\<name>\Documents\claude-marketing`).
+Target folder: `Documents/Claude-marketing-gomedia` (on Windows: `C:\Users\<name>\Documents\Claude-marketing-gomedia`).
 
 Pick the first route that works, silently:
 
 1. **Already here?** If the current folder (or a parent) has `CLAUDE.md` and `.claude/agents/`, use it. If it's a git copy, update it (`git pull --rebase origin main`); if not, just use it as is.
-2. **Already downloaded somewhere?** If `Documents/claude-marketing` exists:
+2. **Already downloaded somewhere?** If `Documents/Claude-marketing-gomedia` exists:
    - git copy of this project → update it.
    - a plain copy of this project (has `CLAUDE.md`) → keep it.
    - anything else → **stop and ask** before touching it. Never overwrite or delete a folder.
-   - Also check `Downloads/claude-marketing-main` (a ZIP someone unpacked) → offer to move it to `Documents/claude-marketing`.
-3. **git available** → `git clone https://github.com/johnlamb-thesheep/claude-marketing.git "<Documents>/claude-marketing"`.
+   - Also check `Downloads/Claude-marketing-gomedia-main` (a ZIP someone unpacked) → offer to move it to `Documents/Claude-marketing-gomedia`.
+3. **git available** → `git clone https://github.com/johnlamb-thesheep/Claude-marketing-gomedia.git "<Documents>/Claude-marketing-gomedia"`.
 4. **No git** → download the ZIP and unpack it, no install needed:
-   - Windows PowerShell: `Invoke-WebRequest https://github.com/johnlamb-thesheep/claude-marketing/archive/refs/heads/main.zip -OutFile $env:TEMP\cm.zip; Expand-Archive $env:TEMP\cm.zip $env:TEMP\cm -Force; Move-Item $env:TEMP\cm\claude-marketing-main "$HOME\Documents\claude-marketing"`
-   - Mac: `curl -L -o /tmp/cm.zip https://github.com/johnlamb-thesheep/claude-marketing/archive/refs/heads/main.zip && unzip -q /tmp/cm.zip -d /tmp/cm && mv /tmp/cm/claude-marketing-main ~/Documents/claude-marketing`
+   - Windows PowerShell: `Invoke-WebRequest https://github.com/johnlamb-thesheep/Claude-marketing-gomedia/archive/refs/heads/main.zip -OutFile $env:TEMP\cm.zip; Expand-Archive $env:TEMP\cm.zip $env:TEMP\cm -Force; Move-Item $env:TEMP\cm\Claude-marketing-gomedia-main "$HOME\Documents\Claude-marketing-gomedia"`
+   - Mac: `curl -L -o /tmp/cm.zip https://github.com/johnlamb-thesheep/Claude-marketing-gomedia/archive/refs/heads/main.zip && unzip -q /tmp/cm.zip -d /tmp/cm && mv /tmp/cm/Claude-marketing-gomedia-main ~/Documents/Claude-marketing-gomedia`
    - Tell them: "This copy won't update itself. Later, just say 'update GoMedia Marketing Assistance' and I'll download the newest version."
 
-Say: "✓ Step 1 done — the files are in Documents › claude-marketing."
+Say: "✓ Step 1 done — the files are in Documents › Claude-marketing-gomedia."
 
 ## Step 2 of 4 — Quick check
 
@@ -75,7 +75,7 @@ This chat is **not** inside the folder yet, so GoMedia's rules and agents aren't
 
 > **Last step:** start a new session in the folder.
 > 1. Click **+ New session** (or the folder name at the top).
-> 2. Choose **Documents › claude-marketing**.
+> 2. Choose **Documents › Claude-marketing-gomedia**.
 > 3. Paste one of the prompts below.
 >
 > From now on, always open this folder — that's what turns Claude into GoMedia Marketing Assistance.
@@ -103,7 +103,7 @@ The user can say **"continue setup"** at any time — re-run from the first unfi
 | What they see / say | What you do |
 |---|---|
 | A command was blocked or they clicked Deny | "No problem. I'll ask again — click **Allow** this time, it only [downloads / checks …]." Retry once, then offer the ZIP route. |
-| Download fails (network, company laptop) | Give them the manual way: open github.com/johnlamb-thesheep/claude-marketing → green **Code** button → **Download ZIP** → unzip into Documents → rename to `claude-marketing`. Then say "tell me when it's there". |
+| Download fails (network, company laptop) | Give them the manual way: open github.com/johnlamb-thesheep/Claude-marketing-gomedia → green **Code** button → **Download ZIP** → unzip into Documents → rename to `Claude-marketing-gomedia`. Then say "tell me when it's there". |
 | "It answers like a normal chatbot / doesn't know GoMedia" | They're not in the folder. Repeat Step 4. |
 | A connection won't connect | Try signing out/in of that connection; it's account-specific. Skip it and continue — only Meta Ads matters for ad results. |
 | Anything else after 2 tries | Stop retrying. Summarise in one line what's done and what isn't, and say: "Send this message to John Lam and he'll sort it out." |

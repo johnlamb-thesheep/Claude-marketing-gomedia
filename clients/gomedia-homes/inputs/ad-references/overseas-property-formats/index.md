@@ -13,5 +13,5 @@ Added 2026-11-07 by the user (screenshots of ads seen in-feed, Vietnam-targeted 
 
 ## Notes for GoAhead (Singapore) use
 - ref-04/05/06 match our **New Launch Custom List of Home** offer (multi-project shortlist by budget/bedroom). See `../new-launch-custom-list/index.md`.
-- ref-01/02/03 are single-project formats — they fit **Direct new-launch project** ads (only Direct may name the condo; see `gomedia-homes-static-ad-rules`).
+- ref-01/02/03 are single-project formats — they fit **Direct new-launch project** ads (only Direct may name the condo; see `clients/gomedia-homes/playbook/static-ads.md`).
 - Claims seen here that are **not usable in SG / banned in brand.md**: rental guarantees, rental income figures, "strong investment potential", unsourced savings. Developer incentives (early-bird discount, stamp-duty-type savings) only if a real, sourced offer exists for that project.

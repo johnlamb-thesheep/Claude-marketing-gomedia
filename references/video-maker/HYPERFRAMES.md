@@ -82,7 +82,7 @@ Scaffold with `HYPERFRAMES_SKIP_SKILLS=1 npx -y hyperframes@0.9.19 init hyperfra
 
 - `*IMAGE SAMPLE ONLY – not the actual unit` (≥23 px) while room photos are on screen. Developer renders get `IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY`. Generic floor plans get `Illustrative layout only – not an actual unit` (≥23 px).
 - The price asterisk links to the end-card fine print (≥24 px, on screen ≥2.5 s), e.g. `*Indicative starting price … as at [DATE] … Excludes stamp duties.`, plus the CEA line. Leave placeholders as placeholders and flag them; never invent dates or licence numbers.
-- No third-party logos or watermarks (crop them out in Pillow before they reach `assets/img/`). No project names in blind ads, no unit counts, no % sold, no district codes, no returns claims, never "shortlist". The full list is in `.claude/agents/video-designer.md` and `.claude/skills/gomedia-homes-static-ad-rules/SKILL.md`.
+- No third-party logos or watermarks (crop them out in Pillow before they reach `assets/img/`). No project names in blind ads, no unit counts, no % sold, no district codes, no returns claims, never "shortlist". The full list is in `.claude/agents/video-designer.md` and `clients/gomedia-homes/playbook/static-ads.md`.
 
 ## SFX
 

@@ -35,7 +35,7 @@ You never call a paid video-generation API without separate approval.
 Read these before starting any render job, in this order:
 
 1. `references/video-maker/GUIDELINES.md`: rules that came out of real client feedback. Follow them over your own defaults.
-2. The recipe for the job: `references/video-maker/PROPERTY_REEL.md` for condo reels, or `references/video-maker/LEADX_AD.md` for LeadX ads and LeadX static posts.
+2. The client's playbook: `clients/<client>/playbook/README.md`, then its `video.md` (the recipe for that client's videos: `clients/gomedia-homes/playbook/video.md` for condo reels, `clients/gomedia/playbook/video.md` for LeadX ads and LeadX static posts).
 3. `references/video-maker/TECH.md` before writing code or rendering.
 
 Working loop for every job:
@@ -68,7 +68,7 @@ Read `references/video-maker/OPENMONTAGE.md` first, then work inside `vendor/ope
 
 The video guidelines were written from one client's feedback. Where they differ from the team's rules below, the team's rules win:
 
-- **gomedia-homes on-screen text and claims** follow the "Client copy rules" in `.claude/skills/gomedia-homes-static-ad-rules/SKILL.md`. That means:
+- **gomedia-homes on-screen text and claims** follow the "Client copy rules" in `clients/gomedia-homes/playbook/static-ads.md`. That means:
   - no unit counts
   - no "% sold"
   - no district codes (area names only)
@@ -80,10 +80,10 @@ The video guidelines were written from one client's feedback. Where they differ 
   - EC compliance lines
 
   When GUIDELINES.md says to "verify the unit count", that's a fact check only. Never put the unit count on screen.
-- **CTA wording** follows the project's stage, per the same skill:
+- **CTA wording** follows the project's stage, per the same playbook file:
   - "REGISTER YOUR INTEREST" for pre-launch with no price list.
   - "GET PRICE LIST & E-BROCHURE" once a real price list exists.
-- **Image labels.** Crop out labels baked into source images (portal watermarks, other logos, phone numbers, the source's own "Artist's Impression" text). Then add the team's own label on screen, per the skill's label refinement:
+- **Image labels.** Crop out labels baked into source images (portal watermarks, other logos, phone numbers, the source's own "Artist's Impression" text). Then add the team's own label on screen, per that file's label refinement:
   - "IMAGE SAMPLE / ARTIST'S IMPRESSION ONLY" on official developer renders.
   - "IMAGE SAMPLE ONLY – not the actual development" on generic or stock visuals.
   - "Illustrative map, not to scale" on redrawn maps.

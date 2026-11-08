@@ -54,7 +54,7 @@ files["10-how-to-use"] = page(
     ".b{background:var(--surface);border:1px solid var(--line);border-radius:16px 16px 16px 4px;padding:10px 14px;font-size:14px}" + LBL,
     '<h1>How to use it</h1><p class="lede">Talk to it like a colleague. It does the work, then waits for your OK.</p>'
     '<div class="steps">'
-    + card("APP", "Open Claude", "Claude desktop app → Code tab → open the <b>claude-marketing</b> folder", num=1) + ARROW
+    + card("APP", "Open Claude", "Claude desktop app → Code tab → open the <b>Claude-marketing-gomedia</b> folder", num=1) + ARROW
     + card("CHAT", "Ask in plain words", "Say the client, the project or agent, and what you need", num=2) + ARROW
     + card("OK", "Check and approve", "It shows the result and asks before anything goes live or costs money", " o", num=3)
     + '</div><p class="lbl">Things you can say</p><div class="say">'

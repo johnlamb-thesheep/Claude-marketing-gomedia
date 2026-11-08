@@ -2,7 +2,7 @@
 
 Added 2026-11-04 from the client's own Instagram-sourced ad set (New Launch Custom list of home). These are kept **local only, not pushed to GitHub** — see the repo README's "Where GoMedia's data comes from" section and `.gitignore` for why (public repo, binary bloat). This index is the portable part; it travels through git. The actual image files stay on whichever computer put them here until Google Drive is connected (planned), at which point they should move there and this index should switch to Drive links.
 
-Distilled rules extracted from this set live in `.claude/skills/gomedia-homes-static-ad-rules/SKILL.md` — read that first before building new creative, not just this index.
+Distilled rules extracted from this set live in `clients/gomedia-homes/playbook/static-ads.md` — read that first before building new creative, not just this index.
 
 | File | Format | Notes |
 |---|---|---|

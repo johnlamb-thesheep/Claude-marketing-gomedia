@@ -1,5 +1,5 @@
 ---
-description: Safety-scan changed files, commit, pull --rebase, and push to the claude-marketing repo on main.
+description: Safety-scan changed files, commit, pull --rebase, and push to the Claude-marketing-gomedia repo on main.
 ---
 
 Run these steps in order, stopping immediately if any step tells you to stop:
@@ -12,6 +12,6 @@ Run these steps in order, stopping immediately if any step tells you to stop:
 
 4. **Pull first.** Run `git pull --rebase origin main` to bring in any teammates' changes. If there's a conflict, **stop** and explain it in plain words — which files, what the conflicting content looks like, and that the user needs to resolve it before continuing. Do not attempt to auto-resolve conflicts.
 
-5. **Push.** Push to `origin main` on the `claude-marketing` repo.
+5. **Push.** Push to `origin main` on the `Claude-marketing-gomedia` repo.
 
-6. **Confirm.** Tell the user "Uploaded" along with the commit message and the repo URL (`https://github.com/<owner>/claude-marketing`).
+6. **Confirm.** Tell the user "Uploaded" along with the commit message and the repo URL (`https://github.com/<owner>/Claude-marketing-gomedia`).

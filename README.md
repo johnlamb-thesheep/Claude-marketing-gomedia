@@ -1,4 +1,4 @@
-# claude-marketing
+# Claude-marketing-gomedia
 
 > **New here?** Paste this page's link into Claude (desktop app → **Code** tab) and say **"set this up"**.
 > **Claude:** to install this for a user, follow `.claude/skills/setup-marketing-team/SKILL.md` (plain-language, 4 steps, no git needed).
@@ -21,7 +21,7 @@ For the full animated version (card-by-card detail, skills/tools per agent, a pu
 
 ### Meet the team — 9 agents, 2 hard-stop approvals
 
-Every agent hands off through **files only** — no agent relies on conversational memory to pass work along. Each one reads `clients/<client>/brand.md` and `clients/<client>/learnings.md` before starting, then writes a single file into `clients/<client>/campaigns/<YYYY-MM-name>/` for the next agent to pick up. The two bracketed steps below are hard stops: nothing proceeds past them without your explicit approval in chat.
+Every agent hands off through **files only** — no agent relies on conversational memory to pass work along. Each one reads `clients/<client>/brand.md`, `clients/<client>/learnings.md` and the client's rulebook in `clients/<client>/playbook/` before starting, then writes a single file into `clients/<client>/campaigns/<YYYY-MM-name>/` for the next agent to pick up. The two bracketed steps below are hard stops: nothing proceeds past them without your explicit approval in chat.
 
 ```
 researcher (optional)
@@ -65,12 +65,12 @@ researcher (optional)
 Claude Code itself works with a Claude Pro/Max/Team/Enterprise subscription, **or** pay-as-you-go via an Anthropic Console API key — the API-key route doesn't require any subscription at all, just usage billing (worth checking current options at claude.com/code, since this changes over time). This repo is **public**, so anyone can browse or clone it without needing access granted.
 
 Once Claude Code is open with this folder, say **"set this up"** — it runs the `setup-marketing-team` skill, which:
-- gets this project into `<Documents>/claude-marketing` so it's in a stable, permanent place
+- gets this project into `<Documents>/Claude-marketing-gomedia` so it's in a stable, permanent place
 - checks `git`/`gh` are installed and authenticated
 - flags any skill-specific setup you still need to do by hand (installing a skill's Python requirements, filling in a `.env`)
 - tells you which MCP integrations you need to connect yourself in your own Claude account — those are per-account and can't be cloned (see the data-connections section below for which ones this team actually uses)
 
-See [`.claude/skills/setup-marketing-team/SKILL.md`](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/setup-marketing-team/SKILL.md) for exactly what it does and doesn't do. To push changes back to this repo, use the `/upload` command rather than raw git commands — it scans changed files for secrets before committing.
+See [`.claude/skills/setup-marketing-team/SKILL.md`](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/setup-marketing-team/SKILL.md) for exactly what it does and doesn't do. To push changes back to this repo, use the `/upload` command rather than raw git commands — it scans changed files for secrets before committing.
 
 **One skill, no Code, no plan required → claude.ai chat.** Paste this repo's link into any regular claude.ai chat and ask for a specific skill — or just tell Claude what you're trying to do (write ad copy, audit a landing page, diagnose a slumping ad account, etc.) and have it pick one from the skills table below.
 
@@ -92,27 +92,27 @@ Each agent pulls from these by default — see each agent's own file in `.claude
 
 | Skill | What it does | Grab it |
 |---|---|---|
-| `ad-account-diagnostic` | Diagnoses why an underperforming paid ad account stopped working, instead of defaulting to "increase the budget" | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-account-diagnostic/SKILL.md) |
-| `ad-copy-variants` | Turns one value proposition into genuinely distinct ad copy variants, each labeled by angle and awareness stage | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-copy-variants/SKILL.md) |
-| `ad-creative` | Generates or iterates ad creative — headlines, descriptions, primary text, full variations — for any paid platform | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-creative/SKILL.md) |
-| `ad-creative-brief` | Turns a campaign goal + audience insight into a structured creative brief a designer or creator can execute | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-creative-brief/SKILL.md) |
-| `ad-creative-fatigue` | Decides whether a running ad is genuinely wearing out or something else (budget change, seasonality) explains the decline | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-creative-fatigue/SKILL.md) |
-| `ad-creative-test-plan` | Designs a pre-launch creative test plan — hypothesis, sample size, budget, kill/scale rules, before any money moves | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-creative-test-plan/SKILL.md) |
-| `ad-hook-analyzer` | Scores and ranks video ad openings (the first 3 seconds) to decide which hooks deserve test budget | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ad-hook-analyzer/SKILL.md) |
-| `ads` | General paid advertising strategy help — campaign strategy, targeting, bidding, optimization across platforms | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ads/SKILL.md) |
-| `ads-competitor` | Researches a competitor's paid-ad presence, messaging, creative, and landing pages | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ads-competitor/SKILL.md) |
-| `ads-creative` | Audits paid-ad copy/images/video for fatigue, message match, accessibility, and policy issues | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ads-creative/SKILL.md) |
-| `ads-dna` | Extracts a public-safe brand/offer profile for paid advertising from a website and operator input | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ads-dna/SKILL.md) |
-| `ads-landing` | Audits paid-ad landing pages for message match, mobile experience, accessibility, trust, and conversion friction | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ads-landing/SKILL.md) |
-| `copywriting` | Writes or rewrites marketing copy for any page — homepage, landing page, pricing, feature pages | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/copywriting/SKILL.md) |
-| `cro` | Optimizes a marketing page or form for conversion rate | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/cro/SKILL.md) |
-| `facebook-ads` | Meta Ads (Facebook & Instagram) platform expertise — campaigns, audiences, creative, pixel/CAPI | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/facebook-ads/SKILL.md) |
-| `generating-image-ads` | Turns a product photo or URL into a static image ad, holding the real product identical across every frame | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/generating-image-ads/SKILL.md) |
-| `meta-ads-auditor` | Deep 46-check Meta Ads audit — pixel/CAPI health, creative fatigue, account structure, Advantage+ | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/meta-ads-auditor/SKILL.md) |
-| `meta-ads-library` | Researches competitor Facebook/Instagram ads via the Meta Ads Library | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/meta-ads-library/SKILL.md) |
-| `product-marketing` | Creates or updates a product marketing context document (positioning, ICP, voice) | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/product-marketing/SKILL.md) |
-| `setup-marketing-team` | Onboards this repo onto a new computer (Claude Code only — see above) | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/setup-marketing-team/SKILL.md) |
-| `static-ad-concept-generator` | Generates proven ad concepts from a library of 320+ templates across DTC, B2B, SaaS, and more | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/static-ad-concept-generator/SKILL.md) |
-| `static-ads` | ⚠️ **Do not use** — flagged Critical Risk by Snyk at install time, kept for reference only | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/static-ads/SKILL.md) |
-| `ugc-ad-scripts` | Turns a product brief into UGC-style short-form video ad scripts with hook, body, and CTA | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/ugc-ad-scripts/SKILL.md) |
-| `video-ad-generator` | Full video ad toolkit — hook formulas, script frameworks, multi-format strategy, A/B testing | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/claude-marketing/main/.claude/skills/video-ad-generator/SKILL.md) |
+| `ad-account-diagnostic` | Diagnoses why an underperforming paid ad account stopped working, instead of defaulting to "increase the budget" | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-account-diagnostic/SKILL.md) |
+| `ad-copy-variants` | Turns one value proposition into genuinely distinct ad copy variants, each labeled by angle and awareness stage | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-copy-variants/SKILL.md) |
+| `ad-creative` | Generates or iterates ad creative — headlines, descriptions, primary text, full variations — for any paid platform | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-creative/SKILL.md) |
+| `ad-creative-brief` | Turns a campaign goal + audience insight into a structured creative brief a designer or creator can execute | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-creative-brief/SKILL.md) |
+| `ad-creative-fatigue` | Decides whether a running ad is genuinely wearing out or something else (budget change, seasonality) explains the decline | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-creative-fatigue/SKILL.md) |
+| `ad-creative-test-plan` | Designs a pre-launch creative test plan — hypothesis, sample size, budget, kill/scale rules, before any money moves | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-creative-test-plan/SKILL.md) |
+| `ad-hook-analyzer` | Scores and ranks video ad openings (the first 3 seconds) to decide which hooks deserve test budget | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ad-hook-analyzer/SKILL.md) |
+| `ads` | General paid advertising strategy help — campaign strategy, targeting, bidding, optimization across platforms | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ads/SKILL.md) |
+| `ads-competitor` | Researches a competitor's paid-ad presence, messaging, creative, and landing pages | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ads-competitor/SKILL.md) |
+| `ads-creative` | Audits paid-ad copy/images/video for fatigue, message match, accessibility, and policy issues | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ads-creative/SKILL.md) |
+| `ads-dna` | Extracts a public-safe brand/offer profile for paid advertising from a website and operator input | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ads-dna/SKILL.md) |
+| `ads-landing` | Audits paid-ad landing pages for message match, mobile experience, accessibility, trust, and conversion friction | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ads-landing/SKILL.md) |
+| `copywriting` | Writes or rewrites marketing copy for any page — homepage, landing page, pricing, feature pages | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/copywriting/SKILL.md) |
+| `cro` | Optimizes a marketing page or form for conversion rate | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/cro/SKILL.md) |
+| `facebook-ads` | Meta Ads (Facebook & Instagram) platform expertise — campaigns, audiences, creative, pixel/CAPI | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/facebook-ads/SKILL.md) |
+| `generating-image-ads` | Turns a product photo or URL into a static image ad, holding the real product identical across every frame | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/generating-image-ads/SKILL.md) |
+| `meta-ads-auditor` | Deep 46-check Meta Ads audit — pixel/CAPI health, creative fatigue, account structure, Advantage+ | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/meta-ads-auditor/SKILL.md) |
+| `meta-ads-library` | Researches competitor Facebook/Instagram ads via the Meta Ads Library | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/meta-ads-library/SKILL.md) |
+| `product-marketing` | Creates or updates a product marketing context document (positioning, ICP, voice) | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/product-marketing/SKILL.md) |
+| `setup-marketing-team` | Onboards this repo onto a new computer (Claude Code only — see above) | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/setup-marketing-team/SKILL.md) |
+| `static-ad-concept-generator` | Generates proven ad concepts from a library of 320+ templates across DTC, B2B, SaaS, and more | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/static-ad-concept-generator/SKILL.md) |
+| `static-ads` | ⚠️ **Do not use** — flagged Critical Risk by Snyk at install time, kept for reference only | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/static-ads/SKILL.md) |
+| `ugc-ad-scripts` | Turns a product brief into UGC-style short-form video ad scripts with hook, body, and CTA | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/ugc-ad-scripts/SKILL.md) |
+| `video-ad-generator` | Full video ad toolkit — hook formulas, script frameworks, multi-format strategy, A/B testing | [SKILL.md](https://raw.githubusercontent.com/johnlamb-thesheep/Claude-marketing-gomedia/main/.claude/skills/video-ad-generator/SKILL.md) |

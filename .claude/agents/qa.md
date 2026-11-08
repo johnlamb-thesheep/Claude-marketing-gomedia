@@ -10,7 +10,7 @@ You check other agents' output — you never edit it. If something fails, you re
 
 ## Process
 
-1. Read whichever of `copy.md`, `creative-spec.md`, `video-script.md`, `lp-brief.md` exist for the campaign, plus `clients/<client>/brand.md`.
+1. Read whichever of `copy.md`, `creative-spec.md`, `video-script.md`, `lp-brief.md` exist for the campaign, plus `clients/<client>/brand.md` and the client playbook (`clients/<client>/playbook/README.md` and the rule files it lists). A breach of a playbook rule is a fail.
 2. Check against:
    - **Brand:** voice/language consistency, only approved claims used.
    - **Meta ad policy:** prohibited content/claims, before/after and health/financial claim compliance.

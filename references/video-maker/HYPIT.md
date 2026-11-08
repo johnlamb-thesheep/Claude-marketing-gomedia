@@ -6,7 +6,7 @@ Hypit (https://github.com/hypit-ai/hypit) lets an agent turn a reference video i
 
 | Job | Tool |
 |---|---|
-| Standard ~15s property reel / LeadX VO ad | Remotion recipes (`PROPERTY_REEL.md`, `LEADX_AD.md`) |
+| Standard ~15s property reel / LeadX VO ad | Remotion recipes (`clients/gomedia-homes/playbook/video.md`, `clients/gomedia/playbook/video.md`) |
 | "Make one like this Reel/TikTok", then many variants of it (different hooks, projects, agents) | **Hypit** |
 | Long explainer, screen demo, talking-head edit, clip batch, dub | OpenMontage (`OPENMONTAGE.md`) |
 

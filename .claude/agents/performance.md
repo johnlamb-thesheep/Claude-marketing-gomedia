@@ -27,7 +27,7 @@ You never touch the ad account, and you never edit another agent's file. You app
 
 Run after every agent writes its file, before the next stage starts (and before the user's approval gates, so the user sees your verdict alongside the work).
 
-1. Read `clients/<client>/brand.md`, `clients/<client>/learnings.md`, the campaign's `brief.md`/`test-plan.md` (once they exist), and the file under review.
+1. Read `clients/<client>/brand.md`, `clients/<client>/learnings.md`, the client's playbook (`clients/<client>/playbook/README.md` and the files it lists for this stage; check the work against those rules), the campaign's `brief.md`/`test-plan.md` (once they exist), and the file under review.
 2. Review it against the stage checklist below, plus the expertise above. Where live data would settle a question (e.g. "has this angle worked before?", "is this audience already saturated?"), pull it read-only from the Meta MCP with the client's campaign-name filter applied.
 3. Append a section to `clients/<client>/campaigns/<YYYY-MM-name>/perf-review.md` (create it from `templates/perf-review.md` if missing): stage, file reviewed, verdict, numbered issues each with the fix you want, and what you checked against.
 4. Verdict is one of:
